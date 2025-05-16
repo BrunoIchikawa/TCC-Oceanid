@@ -1,0 +1,65 @@
+﻿.alinhamento {
+    padding: 15px;
+    vertical-align: top;
+}
+
+.produto-item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.img-wrap img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.info-wrap {
+    flex: 1;
+}
+
+}
+
+.imgAjuste img {
+    width: 10px;
+    height: 250px;
+}
+
+
+.swal-icon-rosa .swal2-icon.swal2-warning {
+    border-color: #e91e63; /* rosa */
+    color: #e91e63; /* rosa */
+}
+
+
+
+
+
+
+
+.btn-continuar-comprando {
+    background-color: #EFC6D8;
+    border: none;
+    outline: none;
+    color: #1C364E;
+    padding: 10px 15px;
+    border-radius: 15px;
+    width: 80%;
+    margin: 5%;
+}
+
+    .btn-continuar-comprando:hover {
+        background-color: #1C364E;
+        color: #EFC6D8;
+    }
+
+.logoCar img {
+    width: 60px;
+    height: 50px;
+}
+
+.logoCar a {
+    text-decoration: none;
+}

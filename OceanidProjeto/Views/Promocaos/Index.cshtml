@@ -1,0 +1,89 @@
+﻿@model IEnumerable<OceanidProjeto.Models.Promocoes>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoDesconto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ValorDesconto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecoPromocional)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataFim)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LimitePorCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.produto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoria)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoDesconto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorDesconto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecoPromocional)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataInicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataFim)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LimitePorCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.produto.descricaoProd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.categoria.nomeCategoria)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idPromocoes">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idPromocoes">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idPromocoes">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
