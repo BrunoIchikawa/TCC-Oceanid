@@ -2,9 +2,9 @@
 using OceanidProjeto.Models;
 using MySql.Data.MySqlClient;
 using OceanidProjeto.Data;
-using prototipo1204.Repositorios.Interface;
+using OceanidProjeto.Repositorios.Interface;
 
-namespace prototipo1204.Repositorios
+namespace OceanidProjeto.Repositorios
 {
     public class LoginRepositorio : ILoginRepositorio
     {

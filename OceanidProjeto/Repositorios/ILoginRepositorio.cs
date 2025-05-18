@@ -1,6 +1,6 @@
 ﻿using OceanidProjeto.Models;
 
-namespace prototipo1204.Repositorios.Interface
+namespace OceanidProjeto.Repositorios.Interface
 {
     public interface ILoginRepositorio
     {

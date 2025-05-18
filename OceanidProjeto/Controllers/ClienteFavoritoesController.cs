@@ -5,7 +5,7 @@ using OceanidProjeto.Models;
 using OceanidProjeto.Data;
 
 
-namespace prototipo1204.Controllers
+namespace OceanidProjeto.Controllers 
 {
     public class ClienteFavoritoesController : Controller
     {

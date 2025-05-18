@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\OceanidProjeto.props" />
-</Project>

@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -100,11 +99,11 @@
         </div>
 
         <div class="header2">
-            <a href="#">Maquiagem</a>
-            <a href="#">Skincare</a>
-            <a href="#">Cabelo</a>
-            <a href="#">Perfume</a>
-            <a href="#">Ofertas</a>
+            <a asp-action="Maquiagem" asp-controller="Produtoes">Maquiagem</a>
+            <a asp-action="Skincare" asp-controller="Produtoes">Skincare</a>
+            <a asp-action="Cabelo" asp-controller="Produtoes">Cabelo</a>
+            <a asp-action="Perfume" asp-controller="Produtoes">Perfume</a>
+            <a asp-action="Ofertas" asp-controller="Produtoes">Ofertas</a>
         </div>
     </header>
     <div class="container">
@@ -115,32 +114,32 @@
 
     <footer>
         <!-- Formulário de login -->
-        <section class="cadastro">
+        <!--<section class="cadastro">
             <h2>Login</h2>
 
-            <form class="menu-login" id="menu-login" asp-controller="Logins" asp-action="Login" method="post">
-                <div asp-validation-summary="ModelOnly"></div>
-                <div class="cad-text">
-                    <p>Login</p>
-                    <img src="~/img/fechar-icon.png" alt="Fechar" onclick="menuLogin()" class="icon-menu">
-                </div>
+           <form class="menu-login" id="menu-login" asp-controller="Logins" asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="cad-text">
+            <p>Login</p>
+            <img src="~/img/fechar-icon.png" alt="Fechar" onclick="menuLogin()" class="icon-menu">
+        </div>
 
-                <div class="menu" id="menu">
-                    <div class="input-holders">
-                        <input type="email" name="email" id="email" class="inputUser" required>
-                        <label class="label-input" for="email">E-mail</label>
-                    </div>
+        <div class="menu" id="menu">
+            <div class="input-holders">
+                <input  type="email" name="email" id="email" class="inputUser" required>
+                <label class="label-input" for="email">E-mail</label>
+            </div>
 
-                    <div class="input-holders" style="position: relative;">
-                        <input type="password" name="senha" id="senha" class="inputUser senhaCliente" required>
-                        <label class="label-input" for="senha">Senha</label>
-                        <img src="~/img/eye-icon.png" alt="Mostrar senha" class="toggle-eye" onclick="toggleSenha()" />
-                    </div>
-                    <div class="links-log">
-                        <a href="#">Esqueceu sua senha?</a>
-                        <a href="#" onclick=" abrirCadastro()">Faça já o seu cadastro!</a>
-                    </div>
-                </div>
+            <div class="input-holders" style="position: relative;">
+                <input type="password" name="senha" id="senha" class="inputUser senhaCliente" required>
+                <label class="label-input" for="senha">Senha</label>
+                <img src="~/img/eye-icon.png" alt="Mostrar senha" class="toggle-eye" onclick="toggleSenha()" />
+            </div>
+            <div class="links-log">
+            <a href="#">Esqueceu sua senha?</a>
+                <a href="#" onclick=" abrirCadastro()">Faça já o seu cadastro!</a>
+            </div>
+        </div>
                 <div class="cad-text2">
                     <input type="submit" value="Entrar">
                     <div class="logout">
@@ -153,7 +152,7 @@
 
                     </div>
             </form>
-        </section>
+        </section>-->
 
         <div class="footer-links">
             <div class="link-column">

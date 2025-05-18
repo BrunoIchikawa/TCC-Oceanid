@@ -44,6 +44,10 @@ namespace OceanidProjeto.Models
         [Column("idCategoria")]
         public int idCategoria { get; set; }
 
+        [NotMapped]
+        public string imagemUrl { get; set; }
+
+
         [ForeignKey("idCategoria")]
         public Categoria categoria { get; set; }
 

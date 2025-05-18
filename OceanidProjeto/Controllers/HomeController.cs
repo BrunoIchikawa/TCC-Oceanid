@@ -4,7 +4,7 @@ using OceanidProjeto.Models;
 using OceanidProjeto.Data;
 using System.Diagnostics;
 
-namespace prototipo1204.Controllers
+namespace OceanidProjeto.Controllers
 {
     public class HomeController : Controller
     {

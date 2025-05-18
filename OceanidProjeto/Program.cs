@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using OceanidProjeto.Data;
-using prototipo1204.Repositorios.Interface;
-using prototipo1204.Repositorios;
+using OceanidProjeto.Repositorios.Interface;
+using OceanidProjeto.Repositorios;
 using System;
 var builder = WebApplication.CreateBuilder(args);
 

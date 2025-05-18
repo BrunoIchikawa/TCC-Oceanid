@@ -1,10 +1,9 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using OceanidProjeto.Data;
 using OceanidProjeto.Models;
-using prototipo1204.Repositorios.Interface;
+using OceanidProjeto.Repositorios.Interface;
 
 namespace OceanidProjeto.Controllers
 {
@@ -13,9 +12,10 @@ namespace OceanidProjeto.Controllers
         private readonly AppDbContext _context;
         private readonly ILoginRepositorio _loginRepositorio;
 
-        public LoginsController(AppDbContext context)
+        public LoginsController(AppDbContext context, ILoginRepositorio loginRepositorio)
         {
             _context = context;
+            _loginRepositorio = loginRepositorio;
         }   
 
         // GET: Logins
