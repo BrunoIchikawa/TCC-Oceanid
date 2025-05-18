@@ -21,6 +21,462 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\bg-footer.png",
+      "PackagePath": "staticwebassets\\img\\bg-footer.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\boleto-oceanid.png",
+      "PackagePath": "staticwebassets\\img\\boleto-oceanid.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\1.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\2.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\4.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\cartao.png",
+      "PackagePath": "staticwebassets\\img\\cartao.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\darkmode.png",
+      "PackagePath": "staticwebassets\\img\\darkmode.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\dinheiro.png",
+      "PackagePath": "staticwebassets\\img\\dinheiro.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\eye-icon.png",
+      "PackagePath": "staticwebassets\\img\\eye-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\favs-icon.png",
+      "PackagePath": "staticwebassets\\img\\favs-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\favsP-icon.png",
+      "PackagePath": "staticwebassets\\img\\favsP-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\fechar-icon.png",
+      "PackagePath": "staticwebassets\\img\\fechar-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icon-shopping-prod.png",
+      "PackagePath": "staticwebassets\\img\\icon-shopping-prod.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-escova-de-cabelo-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-escova-de-cabelo-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-garrafa-de-creme-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-garrafa-de-creme-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-instagram-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-instagram-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-lixo-48.png",
+      "PackagePath": "staticwebassets\\img\\icons8-lixo-48.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-maquiagem-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-maquiagem-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-novo-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-novo-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-perfume-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-perfume-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-skin-care-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-skin-care-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-tiktok-30.png",
+      "PackagePath": "staticwebassets\\img\\icons8-tiktok-30.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-twitter-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-twitter-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\img1.jpg",
+      "PackagePath": "staticwebassets\\img\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\img2.jpg",
+      "PackagePath": "staticwebassets\\img\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\img3.jpg",
+      "PackagePath": "staticwebassets\\img\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\kit-maquiagem.png",
+      "PackagePath": "staticwebassets\\img\\kit-maquiagem.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\login-icon.png",
+      "PackagePath": "staticwebassets\\img\\login-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\menuBurguer-img.png",
+      "PackagePath": "staticwebassets\\img\\menuBurguer-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\oceanid_logo.png",
+      "PackagePath": "staticwebassets\\img\\oceanid_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\oceanid_logo_menor.png",
+      "PackagePath": "staticwebassets\\img\\oceanid_logo_menor.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\pesq-icon.png",
+      "PackagePath": "staticwebassets\\img\\pesq-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\dior.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\dior.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\fenty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\fenty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\franciny.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\franciny.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\marimaria.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\marimaria.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\melu.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\melu.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\nars.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\nars.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom liquido\\rarebeauty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom liquido\\rarebeauty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom\\avon.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom\\avon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom\\fenty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom\\fenty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom\\givanchy.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom\\givanchy.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom\\nars.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom\\nars.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom\\quemdisseberenice.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom\\quemdisseberenice.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\batom\\rarebeauty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\batom\\rarebeauty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\fenty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\fenty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\fran.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\fran.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\fran2.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\fran2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\mari2.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\mari2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\marimaria.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\marimaria.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\melu.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\melu.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\nars.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\nars.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\gloss\\rarebeauty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\gloss\\rarebeauty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lapis de boca\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lapis de boca\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lapis de boca\\givanchy.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lapis de boca\\givanchy.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lapis de boca\\mac.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lapis de boca\\mac.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lapis de boca\\nars.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lapis de boca\\nars.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lapis de boca\\natura.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lapis de boca\\natura.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lip balm\\balm.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lip balm\\balm.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lip balm\\fran.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lip balm\\fran.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\labios\\lip balm\\rarebeauty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\labios\\lip balm\\rarebeauty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\cilios postiço\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\cilios postiço\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\cilios postiço\\anastacia.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\cilios postiço\\anastacia.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\cilios postiço\\ciliosthat.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\cilios postiço\\ciliosthat.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\cilios postiço\\marimaria.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\cilios postiço\\marimaria.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\cilios postiço\\preco].txt",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\cilios postiço\\preco].txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\coloridomelu.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\coloridomelu.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\fentypreto.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\fentypreto.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\franpreto.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\franpreto.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\melupreto.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\melupreto.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\narspreto.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\narspreto.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\pratafenty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\pratafenty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\preco.txt",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\preco.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\rarepreto.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\rarepreto.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\delineador\\rosamelu.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\delineador\\rosamelu.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\azulnars.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\azulnars.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\brancomelu.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\brancomelu.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\fentylapis.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\fentylapis.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\franlapis.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\franlapis.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\lapisrare.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\lapisrare.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\marromnars.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\marromnars.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\lapis de olho\\preco.txt",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\lapis de olho\\preco.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\fentycilios.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\fentycilios.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\fentycilios2.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\fentycilios2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\francilios.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\francilios.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\marimaria.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\marimaria.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\melu.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\melu.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\melu2.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\melu2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\narscilios.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\narscilios.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\preco.txt",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\preco.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\mascara de cilios\\rarebeauty.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\mascara de cilios\\rarebeauty.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\primer\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\primer\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\primer\\nars.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\primer\\nars.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\primer\\preco.txt",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\primer\\preco.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\primer\\primerrare.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\primer\\primerrare.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\primer\\primertoofaced.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\primer\\primertoofaced.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\fenty1.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\fenty1.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\fenty2.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\fenty2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\meluroxo.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\meluroxo.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\narsombra.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\narsombra.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\sombrajellymari.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\sombrajellymari.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\sombraliqrare.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\sombraliqrare.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\sombranars2.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\sombranars2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\olhos\\sombra\\sombraspreco.txt",
+      "PackagePath": "staticwebassets\\img\\produtos\\olhos\\sombra\\sombraspreco.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\shopping-icon.png",
+      "PackagePath": "staticwebassets\\img\\shopping-icon.png"
+    },
+    {
       "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

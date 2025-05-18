@@ -246,3 +246,4 @@ C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.pdb
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.genruntimeconfig.cache
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\ref\OceanidProjeto.dll
+C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.sourcelink.json

@@ -1,11 +1,11 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using OceanidProjeto.Data;
 using OceanidProjeto.Models;
+using OceanidProjeto.Data;
 
-namespace OceanidProjeto.Controllers
+
+namespace prototipo1204.Controllers
 {
     public class ClienteFavoritoesController : Controller
     {
@@ -19,13 +19,32 @@ namespace OceanidProjeto.Controllers
         // GET: ClienteFavoritoes
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.ClienteFavoritos.Include(c => c.cliente).Include(c => c.produto);
-            return View(await appDbContext.ToListAsync());
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
+
+            var idClienteStr = HttpContext.Session.GetString("idCliente");
+            if (string.IsNullOrEmpty(idClienteStr))
+            {
+                return RedirectToAction("Logins", "Login");
+            }
+
+            int idCliente = int.Parse(idClienteStr);
+
+            var favoritos = await _context.ClienteFavoritos
+                .Include(cl => cl.produto)
+                .Where(cl => cl.idCliente == idCliente && cl.ativo)
+                .ToListAsync();
+
+            return View(favoritos);
         }
+
+
 
         // GET: ClienteFavoritoes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
             if (id == null)
             {
                 return NotFound();
@@ -46,8 +65,10 @@ namespace OceanidProjeto.Controllers
         // GET: ClienteFavoritoes/Create
         public IActionResult Create()
         {
-            ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "emailCliente");
-            ViewData["idProd"] = new SelectList(_context.Produtos, "idProd", "descricaoProd");
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
+            ViewData["IdCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente");
+            ViewData["IdProd"] = new SelectList(_context.Produtos, "idProd", "idProd");
             return View();
         }
 
@@ -56,22 +77,26 @@ namespace OceanidProjeto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("idClienteFav,idCliente,idProd,ativo")] ClienteFavorito clienteFavorito)
+        public async Task<IActionResult> Create([Bind("IdClienteFav,IdCliente,IdProd,Ativo")] ClienteFavorito clienteFavorito)
         {
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
             if (ModelState.IsValid)
             {
                 _context.Add(clienteFavorito);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "emailCliente", clienteFavorito.idCliente);
-            ViewData["idProd"] = new SelectList(_context.Produtos, "idProd", "descricaoProd", clienteFavorito.idProd);
+            ViewData["IdCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente", clienteFavorito.idCliente);
+            ViewData["IdProd"] = new SelectList(_context.Produtos, "idProd", "idProd", clienteFavorito.idProd);
             return View(clienteFavorito);
         }
 
         // GET: ClienteFavoritoes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
             if (id == null)
             {
                 return NotFound();
@@ -82,8 +107,8 @@ namespace OceanidProjeto.Controllers
             {
                 return NotFound();
             }
-            ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "emailCliente", clienteFavorito.idCliente);
-            ViewData["idProd"] = new SelectList(_context.Produtos, "idProd", "descricaoProd", clienteFavorito.idProd);
+            ViewData["IdCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente", clienteFavorito.idCliente);
+            ViewData["IdProd"] = new SelectList(_context.Produtos, "idProd", "idProd", clienteFavorito.idProd);
             return View(clienteFavorito);
         }
 
@@ -92,8 +117,10 @@ namespace OceanidProjeto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("idClienteFav,idCliente,idProd,ativo")] ClienteFavorito clienteFavorito)
+        public async Task<IActionResult> Edit(int id, [Bind("IdClienteFav,IdCliente,IdProd,Ativo")] ClienteFavorito clienteFavorito)
         {
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
             if (id != clienteFavorito.idClienteFav)
             {
                 return NotFound();
@@ -119,14 +146,16 @@ namespace OceanidProjeto.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "emailCliente", clienteFavorito.idCliente);
-            ViewData["idProd"] = new SelectList(_context.Produtos, "idProd", "descricaoProd", clienteFavorito.idProd);
+            ViewData["IdCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente", clienteFavorito.idCliente);
+            ViewData["IdProd"] = new SelectList(_context.Produtos, "idProd", "idProd", clienteFavorito.idProd);
             return View(clienteFavorito);
         }
 
         // GET: ClienteFavoritoes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
             if (id == null)
             {
                 return NotFound();
@@ -149,6 +178,8 @@ namespace OceanidProjeto.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
+            ViewBag.ClienteFavoritos = clienteFavoritos;
             var clienteFavorito = await _context.ClienteFavoritos.FindAsync(id);
             if (clienteFavorito != null)
             {
@@ -163,5 +194,115 @@ namespace OceanidProjeto.Controllers
         {
             return _context.ClienteFavoritos.Any(e => e.idClienteFav == id);
         }
+
+
+        //FAVORITOS
+
+        [HttpGet]
+        public IActionResult Favoritar()
+        {
+            var idCliente = HttpContext.Session.GetInt32("idCliente");
+
+            if (idCliente == null)
+            {
+                TempData["Login"] = "Primeiro faça o login";
+                return RedirectToAction("Index", "Home");
+            }
+
+            var clienteFavoritos = _context.ClienteFavoritos
+       .Include(cf => cf.produto)
+       .Where(cf => cf.idCliente == idCliente.Value)
+       .ToList();
+
+            ViewBag.ClienteFavoritos = clienteFavoritos;
+
+
+
+
+            // Recuperar idCliente da sessão
+
+            return View();
+
+        }
+
+
+        [HttpPost]
+        public IActionResult Favoritar(int idProd)
+        {
+            // Recuperar idCliente da sessão corretamente
+            int? idCliente = HttpContext.Session.GetInt32("idCliente");
+
+            if (!idCliente.HasValue)
+            {
+                TempData["Login"] = "Primeiro faça o login";
+                return RedirectToAction("Index", "Home");
+            }
+
+            // Verifica se já existe esse produto nos favoritos do cliente
+            var favoritoExistente = _context.ClienteFavoritos
+                .FirstOrDefault(f => f.idCliente == idCliente.Value && f.idProd == idProd);
+
+            if (favoritoExistente != null)
+            {
+                // Se já estiver favoritado, remove
+                _context.ClienteFavoritos.Remove(favoritoExistente);
+                _context.SaveChanges();
+            }
+            else
+            {
+                // Caso contrário, adiciona aos favoritos
+                var produto = _context.Produtos.FirstOrDefault(p => p.idProd == idProd);
+                var cliente = _context.Clientes.FirstOrDefault(c => c.idCliente == idCliente.Value);
+
+                if (produto == null || cliente == null)
+                {
+                    TempData["Error"] = "Produto ou cliente não encontrado.";
+                    return RedirectToAction("Index", "Home");
+                }
+
+                var novoFavorito = new ClienteFavorito
+                {
+                    idCliente = idCliente.Value,
+                    idProd = idProd,
+                    cliente = cliente,
+                    produto = produto
+                };
+                _context.ClienteFavoritos.Add(novoFavorito);
+            }
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
+        }
+        [HttpPost]
+        public IActionResult Desfavoritar(int idProd)
+        {
+
+            // Recuperar idCliente da sessão corretamente
+            int? idCliente = HttpContext.Session.GetInt32("idCliente");
+
+            if (!idCliente.HasValue)
+            {
+                TempData["Login"] = "Primeiro faça o login";
+                return RedirectToAction("Index", "Home");
+            }
+
+
+            // Verifica se já existe esse produto nos favoritos do cliente
+            var favoritoExistente = _context.ClienteFavoritos
+                .FirstOrDefault(f => f.idCliente == idCliente.Value && f.idProd == idProd);
+
+
+            if (favoritoExistente != null)
+            {
+                // Se já estiver favoritado, remove
+                _context.ClienteFavoritos.Remove(favoritoExistente);
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("Favoritar", "ClienteFavoritoes");
+
+        }
+
     }
 }

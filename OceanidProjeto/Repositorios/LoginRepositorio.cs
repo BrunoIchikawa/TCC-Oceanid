@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OceanidProjeto.Models;
 using MySql.Data.MySqlClient;
-using prototipo1204.Repositorios.Interface;
 using OceanidProjeto.Data;
+using prototipo1204.Repositorios.Interface;
 
 namespace prototipo1204.Repositorios
 {
