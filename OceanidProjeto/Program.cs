@@ -56,7 +56,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthentication();   // Autenticação
-app.UseSession();          // Ativando a sessão
+app.UseSession();          // ativando a sessão
 app.UseAuthorization();    // Autorização
 
 app.MapControllerRoute(

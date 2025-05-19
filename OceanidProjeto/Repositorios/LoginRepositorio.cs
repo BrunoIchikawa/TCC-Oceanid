@@ -54,7 +54,7 @@ namespace OceanidProjeto.Repositorios
                         var adm = new Adm
                         {
                             idAdm = Convert.ToInt32(dr["idAdm"]),
-                            nomeAdm = dr["nomeAdm"].ToString(),
+                            nomePromocaoAdm = dr["nomePromocaoAdm"].ToString(),
                             emailAdm = dr["emailAdm"].ToString(),
                             senhaAdm = dr["senhaAdm"].ToString()
                         };
@@ -65,7 +65,7 @@ namespace OceanidProjeto.Repositorios
                 return null;
             }
         }
-    
+
     }
 
 }

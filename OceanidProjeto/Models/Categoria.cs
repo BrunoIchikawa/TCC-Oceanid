@@ -12,11 +12,11 @@ namespace OceanidProjeto.Models
         public int idCategoria { get; set; }
 
         [Column("nomeCategoria")]
-        [Required(ErrorMessage = "O nome da categoria é obrigatório")]
-        [StringLength(100, ErrorMessage = "O nome não pode exceder 100 caracteres")]
+        [Required(ErrorMessage = "O nomePromocao da categoria é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nomePromocao não pode exceder 100 caracteres")]
         public string nomeCategoria { get; set; }
 
         public virtual ICollection<Produto> Produtos { get; set; }
-        public virtual ICollection<Promocoes> Promocoes { get; set; }
+        public virtual ICollection<Promocao> Promocao { get; set; }
     }
 }

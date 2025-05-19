@@ -1,4 +1,4 @@
-﻿@model OceanidProjeto.Models.Promocoes
+﻿@model OceanidProjeto.Models.Promocao
 
 @{
     ViewData["Title"] = "Details";
@@ -7,56 +7,56 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Promocoes</h4>
+    <h4>Promocao</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nome)
+            @Html.DisplayNameFor(model => model.nomePromocao)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nome)
+            @Html.DisplayFor(model => model.nomePromocao)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TipoDesconto)
+            @Html.DisplayNameFor(model => model.tipoDesconto)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TipoDesconto)
+            @Html.DisplayFor(model => model.tipoDesconto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ValorDesconto)
+            @Html.DisplayNameFor(model => model.valorDesconto)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ValorDesconto)
+            @Html.DisplayFor(model => model.valorDesconto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PrecoPromocional)
+            @Html.DisplayNameFor(model => model.precoPromocional)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PrecoPromocional)
+            @Html.DisplayFor(model => model.precoPromocional)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataInicio)
+            @Html.DisplayNameFor(model => model.dataInicio)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataInicio)
+            @Html.DisplayFor(model => model.dataInicio)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataFim)
+            @Html.DisplayNameFor(model => model.dataFim)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataFim)
+            @Html.DisplayFor(model => model.dataFim)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Ativa)
+            @Html.DisplayNameFor(model => model.ativa)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Ativa)
+            @Html.DisplayFor(model => model.ativa)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LimitePorCliente)
+            @Html.DisplayNameFor(model => model.limitePorCliente)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LimitePorCliente)
+            @Html.DisplayFor(model => model.limitePorCliente)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.produto)
@@ -73,6 +73,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.idPromocoes">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.idPromocao">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>

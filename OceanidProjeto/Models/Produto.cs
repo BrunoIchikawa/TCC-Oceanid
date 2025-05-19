@@ -16,8 +16,8 @@ namespace OceanidProjeto.Models
         public string codBar { get; set; }
 
         [Column("nomeProd")]
-        [Required(ErrorMessage = "O nome do produto é obrigatório")]
-        [StringLength(200, ErrorMessage = "O nome não pode exceder 200 caracteres")]
+        [Required(ErrorMessage = "O nomePromocao do produto é obrigatório")]
+        [StringLength(200, ErrorMessage = "O nomePromocao não pode exceder 200 caracteres")]
         public string nomeProd { get; set; }
 
         [Column("precoProd")]
@@ -44,15 +44,27 @@ namespace OceanidProjeto.Models
         [Column("idCategoria")]
         public int idCategoria { get; set; }
 
-        [NotMapped]
-        public string imagemUrl { get; set; }
-
-
         [ForeignKey("idCategoria")]
         public Categoria categoria { get; set; }
 
-        public ICollection<Promocoes> Promocoes { get; set; } = new HashSet<Promocoes>();
+        public ICollection<Promocao> Promocao { get; set; } = new HashSet<Promocao>();
         public ICollection<ClienteFavorito> ClienteFavoritos { get; set; } = new HashSet<ClienteFavorito>();
         public ICollection<ItemPedido> ItensPedidos { get; set; } = new HashSet<ItemPedido>();
+
+        [NotMapped]
+        public string imagemUrl
+        {
+            get
+            {
+                var imagePath = $"/img/produtos/img{idProd}.png";
+                // Verifica se a imagem existe fisicamente (opcional, requer System.IO)
+                // var webRootPath = _hostingEnvironment.WebRootPath; // Se quiser verificar fisicamente
+                // var fullPath = Path.Combine(webRootPath, "img", "produtos", $"img{idProd}.png");
+                // return File.Exists(fullPath) ? imagePath : "/img/produtos/sem-imagem.png";
+
+                // Ou simplesmente:
+                return imagePath;
+            }
+        }
     }
 }

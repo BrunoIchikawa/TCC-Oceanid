@@ -241,18 +241,11 @@ namespace OceanidProjeto.Controllers
             return Json(new { success = true });
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult SalvarCarrinho()
         {
             TempData["Login"] = "Compra finalizada com sucesso!";
             return RedirectToAction("Index", "Home");
         }
-
-
-
-
-
-
     }
 }
-

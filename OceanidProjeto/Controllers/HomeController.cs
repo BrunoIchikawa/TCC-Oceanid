@@ -19,8 +19,13 @@ namespace OceanidProjeto.Controllers
 
         public IActionResult Index()
         {
-            // Carrega os produtos do banco de dados
-            List<Produto> produtosDoBanco = _context.Produtos.ToList();
+            // Carrega os produtos do banco de dados incluindo as promoções ativas e categorias
+            var produtosDoBanco = _context.Produtos
+                .Include(p => p.Promocao.Where(promo => promo.ativa && promo.dataInicio <= DateTime.Now && promo.dataFim >= DateTime.Now))
+                .Include(p => p.categoria)
+                .Where(p => p.qtdProd > 0) // Apenas produtos com estoque disponível
+                .ToList();
+
             ViewBag.ProdutosDoBanco = produtosDoBanco;
             return View();
         }

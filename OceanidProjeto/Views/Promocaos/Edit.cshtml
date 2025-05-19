@@ -1,4 +1,4 @@
-﻿@model OceanidProjeto.Models.Promocoes
+﻿@model OceanidProjeto.Models.Promocao
 
 @{
     ViewData["Title"] = "Edit";
@@ -6,57 +6,57 @@
 
 <h1>Edit</h1>
 
-<h4>Promocoes</h4>
+<h4>Promocao</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="idPromocoes" />
+            <input type="hidden" asp-for="idPromocao" />
             <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
+                <label asp-for="nomePromocao" class="control-label"></label>
+                <input asp-for="nomePromocao" class="form-control" />
+                <span asp-validation-for="nomePromocao" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TipoDesconto" class="control-label"></label>
-                <input asp-for="TipoDesconto" class="form-control" />
-                <span asp-validation-for="TipoDesconto" class="text-danger"></span>
+                <label asp-for="tipoDesconto" class="control-label"></label>
+                <input asp-for="tipoDesconto" class="form-control" />
+                <span asp-validation-for="tipoDesconto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ValorDesconto" class="control-label"></label>
-                <input asp-for="ValorDesconto" class="form-control" />
-                <span asp-validation-for="ValorDesconto" class="text-danger"></span>
+                <label asp-for="valorDesconto" class="control-label"></label>
+                <input asp-for="valorDesconto" class="form-control" />
+                <span asp-validation-for="valorDesconto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PrecoPromocional" class="control-label"></label>
-                <input asp-for="PrecoPromocional" class="form-control" />
-                <span asp-validation-for="PrecoPromocional" class="text-danger"></span>
+                <label asp-for="precoPromocional" class="control-label"></label>
+                <input asp-for="precoPromocional" class="form-control" />
+                <span asp-validation-for="precoPromocional" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DataInicio" class="control-label"></label>
-                <input asp-for="DataInicio" class="form-control" />
-                <span asp-validation-for="DataInicio" class="text-danger"></span>
+                <label asp-for="dataInicio" class="control-label"></label>
+                <input asp-for="dataInicio" class="form-control" />
+                <span asp-validation-for="dataInicio" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DataFim" class="control-label"></label>
-                <input asp-for="DataFim" class="form-control" />
-                <span asp-validation-for="DataFim" class="text-danger"></span>
+                <label asp-for="dataFim" class="control-label"></label>
+                <input asp-for="dataFim" class="form-control" />
+                <span asp-validation-for="dataFim" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Ativa" /> @Html.DisplayNameFor(model => model.Ativa)
+                    <input class="form-check-input" asp-for="ativa" /> @Html.DisplayNameFor(model => model.ativa)
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="LimitePorCliente" class="control-label"></label>
-                <input asp-for="LimitePorCliente" class="form-control" />
-                <span asp-validation-for="LimitePorCliente" class="text-danger"></span>
+                <label asp-for="limitePorCliente" class="control-label"></label>
+                <input asp-for="limitePorCliente" class="form-control" />
+                <span asp-validation-for="limitePorCliente" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="idPromocoes" class="control-label"></label>
-                <select asp-for="idPromocoes" class="form-control" asp-items="ViewBag.idPromocoes"></select>
-                <span asp-validation-for="idPromocoes" class="text-danger"></span>
+                <label asp-for="idPromocao" class="control-label"></label>
+                <select asp-for="idPromocao" class="form-control" asp-items="ViewBag.idPromocao"></select>
+                <span asp-validation-for="idPromocao" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="idCategoria" class="control-label"></label>

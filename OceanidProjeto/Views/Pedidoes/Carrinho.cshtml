@@ -44,10 +44,10 @@
                                     <td class="alinhamento">
                                         <div class="produto-item">
                                             <div class="img-wrap">
-                                                <img alt="Imagem" src="~/img/produtos/olhos/delineador/fentypreto.png" class="img-fluid">
+                                                <img src="@Url.Content(item.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@item.nomeProd" />
                                             </div>
-                                            <div class="info-wrap nome">
-                                                <h6 class="nome-produto" style="font-weight: 600;
+                                            <div class="info-wrap nomePromocao">
+                                                <h6 class="nomePromocao-produto" style="font-weight: 600;
                                                                             font-size: 16px;
                                                                             color: #1C364E;
                                                                             margin-bottom: 8px;">

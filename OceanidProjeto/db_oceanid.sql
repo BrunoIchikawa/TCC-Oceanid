@@ -15,7 +15,7 @@ create table tbEndereco(
 
 create table tbAdm(
     idAdm int primary key auto_increment,
-	nomeAdm varchar(70) not null,
+	nomePromocaoAdm varchar(70) not null,
     senhaAdm varchar(30) not null unique,
     emailAdm enum ('adm1@gmail.com','adm2@gmail.com','adm3@gmail.com','adm4@gmail.com','adm5@gmail.com') unique not null
 );

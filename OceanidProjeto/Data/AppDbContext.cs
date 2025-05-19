@@ -16,7 +16,7 @@ namespace OceanidProjeto.Data
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
-        public DbSet<Promocoes> Promocoes { get; set; }
+        public DbSet<Promocao> Promocao { get; set; }
         public DbSet<ClienteFavorito> ClienteFavoritos { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<Pagamento> Pagamentos { get; set; }
@@ -24,14 +24,14 @@ namespace OceanidProjeto.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configuração dos nomes das tabelas no banco de dados
+            // Configuração dos nomePromocaos das tabelas no banco de dados
             modelBuilder.Entity<Endereco>().ToTable("tbEndereco");
             modelBuilder.Entity<Adm>().ToTable("tbAdm");
             modelBuilder.Entity<Cliente>().ToTable("tbCliente");
             modelBuilder.Entity<Login>().ToTable("tbLogin");
             modelBuilder.Entity<Produto>().ToTable("tbProduto");
             modelBuilder.Entity<Categoria>().ToTable("tbCategoria");
-            modelBuilder.Entity<Promocoes>().ToTable("tbPromocoes");
+            modelBuilder.Entity<Promocao>().ToTable("tbPromocao");
             modelBuilder.Entity<ClienteFavorito>().ToTable("tbClienteFavoritos");
             modelBuilder.Entity<Pedido>().ToTable("tbPedido");
             modelBuilder.Entity<ItemPedido>().ToTable("tbItemPedido");
@@ -44,7 +44,7 @@ namespace OceanidProjeto.Data
             modelBuilder.Entity<Login>().HasKey(l => l.idLogin);
             modelBuilder.Entity<Produto>().HasKey(p => p.idProd);
             modelBuilder.Entity<Categoria>().HasKey(c => c.idCategoria);
-            modelBuilder.Entity<Promocoes>().HasKey(p => p.idPromocoes);
+            modelBuilder.Entity<Promocao>().HasKey(p => p.idPromocao);
             modelBuilder.Entity<ClienteFavorito>().HasKey(cf => cf.idClienteFav);
             modelBuilder.Entity<Pedido>().HasKey(p => p.idPed);
             modelBuilder.Entity<ItemPedido>().HasKey(ip => ip.idItemPedido);
@@ -80,9 +80,9 @@ namespace OceanidProjeto.Data
                - Uma promoção pode estar vinculada a uma categoria (optional)
                - Uma categoria pode ter várias promoções
             */
-            modelBuilder.Entity<Promocoes>()
+            modelBuilder.Entity<Promocao>()
                 .HasOne(p => p.categoria)
-                .WithMany(c => c.Promocoes)
+                .WithMany(c => c.Promocao)
                 .HasForeignKey(p => p.idCategoria)
                 .OnDelete(DeleteBehavior.Restrict);
 
@@ -92,9 +92,9 @@ namespace OceanidProjeto.Data
                - Um produto pode ter várias promoções
                - Validação customizada garante que ou produto ou categoria está preenchido
             */
-            modelBuilder.Entity<Promocoes>()
+            modelBuilder.Entity<Promocao>()
                 .HasOne(p => p.produto)
-                .WithMany(pr => pr.Promocoes)
+                .WithMany(pr => pr.Promocao)
                 .HasForeignKey(p => p.idProd)
                 .OnDelete(DeleteBehavior.Restrict);
 

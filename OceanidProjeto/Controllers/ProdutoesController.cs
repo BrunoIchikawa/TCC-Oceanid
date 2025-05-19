@@ -171,5 +171,93 @@ namespace OceanidProjeto.Controllers
             return View(produtos);
         }
 
+        /* VIEWS */
+
+        //CATEGORIAS
+        public IActionResult Maquiagem()
+        {
+            var categoria = _context.Categorias.FirstOrDefault(c => c.idCategoria == 1);
+
+            if (categoria != null)
+            {
+                categoria.Produtos = _context.Produtos
+                    .Where(p => p.idCategoria == categoria.idCategoria)
+                    .ToList();
+
+                ViewBag.CategoriaProdutos = new List<Categoria> { categoria };
+            }
+            else
+            {
+                ViewBag.CategoriaProdutos = new List<Categoria>();
+            }
+
+            return View();
+        }
+
+
+        public IActionResult Skincare()
+        {
+            var categoria = _context.Categorias.FirstOrDefault(c => c.idCategoria == 2);
+
+            if (categoria != null)
+            {
+                categoria.Produtos = _context.Produtos
+                    .Where(p => p.idCategoria == categoria.idCategoria)
+                    .ToList();
+
+                ViewBag.CategoriaProdutos = new List<Categoria> { categoria };
+            }
+            else
+            {
+                ViewBag.CategoriaProdutos = new List<Categoria>();
+            }
+
+            return View();
+        }
+
+
+        public IActionResult Cabelo()
+        {
+            var categoria = _context.Categorias
+                .Where(c => c.idCategoria == 3)
+                .FirstOrDefault();
+
+            if (categoria != null)
+            {
+                categoria.Produtos = _context.Produtos
+                    .Where(p => p.idCategoria == categoria.idCategoria)
+                    .ToList();
+
+                ViewBag.CategoriaProdutos = new List<Categoria> { categoria };
+            }
+            else
+            {
+                ViewBag.CategoriaProdutos = new List<Categoria>();
+            }
+
+            return View();
+        }
+
+
+        public IActionResult Perfume()
+        {
+            var categoria = _context.Categorias.FirstOrDefault(c => c.idCategoria == 4);
+
+            if (categoria != null)
+            {
+                categoria.Produtos = _context.Produtos
+                    .Where(p => p.idCategoria == categoria.idCategoria)
+                    .ToList();
+
+                ViewBag.CategoriaProdutos = new List<Categoria> { categoria };
+            }
+            else
+            {
+                ViewBag.CategoriaProdutos = new List<Categoria>();
+            }
+
+            return View();
+        }
+
     }
 }

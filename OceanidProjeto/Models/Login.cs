@@ -11,8 +11,8 @@ namespace OceanidProjeto.Models
         [Column("idLogin")]
         public int idLogin { get; set; }
 
-        [Required(ErrorMessage = "O nome da categoria é obrigatório")]
-        [StringLength(100, ErrorMessage = "O nome não pode exceder 100 caracteres")]
+        [Required(ErrorMessage = "O nomePromocao da categoria é obrigatório")]
+        [StringLength(100, ErrorMessage = "O nomePromocao não pode exceder 100 caracteres")]
 
         [Column("idCliente")]
         public int idCliente { get; set; }

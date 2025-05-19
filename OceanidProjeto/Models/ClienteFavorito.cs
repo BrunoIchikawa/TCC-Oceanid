@@ -24,7 +24,7 @@ namespace OceanidProjeto.Models
         [ForeignKey("idCliente")]
         public required Cliente cliente { get; set; }
 
-        [ForeignKey("idPromocoes")]
+        [ForeignKey("idProd")]
         public required Produto produto { get; set; }
     }
 }

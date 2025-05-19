@@ -6,23 +6,23 @@ using OceanidProjeto.Models;
 
 namespace OceanidProjeto.Controllers
 {
-    public class PromocoessController : Controller
+    public class PromocaosController : Controller
     {
         private readonly AppDbContext _context;
 
-        public PromocoessController(AppDbContext context)
+        public PromocaosController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Promocoess
+        // GET: Promocaos
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Promocoes.Include(p => p.categoria).Include(p => p.produto);
+            var appDbContext = _context.Promocao.Include(p => p.categoria).Include(p => p.produto);
             return View(await appDbContext.ToListAsync());
         }
 
-        // GET: Promocoess/Details/5
+        // GET: Promocaos/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -30,56 +30,56 @@ namespace OceanidProjeto.Controllers
                 return NotFound();
             }
 
-            var Promocoes = await _context.Promocoes
+            var Promocao = await _context.Promocao
                 .Include(p => p.categoria)
                 .Include(p => p.produto)
-                .FirstOrDefaultAsync(m => m.idPromocoes == id);
-            if (Promocoes == null)
+                .FirstOrDefaultAsync(m => m.idPromocao == id);
+            if (Promocao == null)
             {
                 return NotFound();
             }
 
-            return View(Promocoes);
+            return View(Promocao);
         }
 
-        // GET: Promocoess/Create
+        // GET: Promocaos/Create
         public IActionResult Create()
         {
-            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "NomeCategoria");
-            ViewData["idPromocoes"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd");
+            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria");
+            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd");
             return View();
         }
 
-        // POST: Promocoess/Create
+        // POST: Promocaos/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,DescontoPercentual,PrecoPromocional,DataInicio,DataFim,Ativa,idPromocoes,idCategoria")] Promocoes Promocoes)
+        public async Task<IActionResult> Create([Bind("Id,nomePromocao,DescontoPercentual,precoPromocional,dataInicio,dataFim,ativa,idPromocao,idCategoria")] Promocao Promocao)
         {
-            // Validação para garantir que ou idPromocoes ou idCategoria está preenchido, mas não ambos
-            if (Promocoes.idProd == null && Promocoes.idCategoria == null)
+            // Validação para garantir que ou idPromocao ou idCategoria está preenchido, mas não ambos
+            if (Promocao.idProd == null && Promocao.idCategoria == null)
             {
                 ModelState.AddModelError(string.Empty, "Você deve selecionar um produto OU uma categoria para a promoção.");
             }
-            else if (Promocoes.idProd != null && Promocoes.idCategoria!= null)
+            else if (Promocao.idProd != null && Promocao.idCategoria!= null)
             {
                 ModelState.AddModelError(string.Empty, "Selecione apenas um produto OU uma categoria, não ambos.");
             }
 
             if (ModelState.IsValid)
             {
-                _context.Add(Promocoes);
+                _context.Add(Promocao);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "NomeCategoria", Promocoes.idCategoria);
-            ViewData["idPromocoes"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd", Promocoes.idPromocoes);
-            return View(Promocoes);
+            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria", Promocao.idCategoria);
+            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd", Promocao.idPromocao);
+            return View(Promocao);
         }
 
-        // GET: Promocoess/Edit/5
+        // GET: Promocaos/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -87,24 +87,24 @@ namespace OceanidProjeto.Controllers
                 return NotFound();
             }
 
-            var Promocoes = await _context.Promocoes.FindAsync(id);
-            if (Promocoes == null)
+            var Promocao = await _context.Promocao.FindAsync(id);
+            if (Promocao == null)
             {
                 return NotFound();
             }
-            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "NomeCategoria", Promocoes.idCategoria);
-            ViewData["idPromocoes"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd", Promocoes.idProd);
-            return View(Promocoes);
+            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria", Promocao.idCategoria);
+            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd", Promocao.idProd);
+            return View(Promocao);
         }
 
-        // POST: Promocoess/Edit/5
+        // POST: Promocaos/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,DescontoPercentual,PrecoPromocional,DataInicio,DataFim,Ativa,idPromocoes,idCategoria")] Promocoes Promocoes)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,nomePromocao,DescontoPercentual,precoPromocional,dataInicio,dataFim,ativa,idPromocao,idCategoria")] Promocao Promocao)
         {
-            if (id != Promocoes.idPromocoes)
+            if (id != Promocao.idPromocao)
             {
                 return NotFound();
             }
@@ -112,12 +112,12 @@ namespace OceanidProjeto.Controllers
 
             try
             {
-                _context.Update(Promocoes);
+                _context.Update(Promocao);
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!PromocoesExists(Promocoes.idPromocoes))
+                if (!PromocaoExists(Promocao.idPromocao))
                 {
                     return NotFound();
                 }
@@ -128,12 +128,12 @@ namespace OceanidProjeto.Controllers
             }
             return RedirectToAction(nameof(Index));
 
-            ViewData["idCategoriaPromocoes"] = new SelectList(_context.Categorias, "idPromocoesCategoria", "NomeCategoria", Promocoes.categoria);
-            ViewData["idPromocoesPromocoes"] = new SelectList(_context.Produtos, "idPromocoesProd", "DescricaoProd", Promocoes.idPromocoes);
-            return View(Promocoes);
+            ViewData["idCategoriaPromocao"] = new SelectList(_context.Categorias, "idPromocaoCategoria", "nomeCategoria", Promocao.categoria);
+            ViewData["idPromocaoPromocao"] = new SelectList(_context.Produtos, "idPromocaoProd", "DescricaoProd", Promocao.idPromocao);
+            return View(Promocao);
         }
 
-        // GET: Promocoess/Delete/5
+        // GET: Promocaos/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -141,49 +141,49 @@ namespace OceanidProjeto.Controllers
                 return NotFound();
             }
 
-            var Promocoes = await _context.Promocoes
+            var Promocao = await _context.Promocao
                 .Include(p => p.idCategoria)
                 .Include(p => p.produto)
-                .FirstOrDefaultAsync(m => m.idPromocoes == id);
-            if (Promocoes == null)
+                .FirstOrDefaultAsync(m => m.idPromocao == id);
+            if (Promocao == null)
             {
                 return NotFound();
             }
 
-            return View(Promocoes);
+            return View(Promocao);
         }
 
-        // POST: Promocoess/Delete/5
+        // POST: Promocaos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var Promocoes = await _context.Promocoes.FindAsync(id);
-            if (Promocoes != null)
+            var Promocao = await _context.Promocao.FindAsync(id);
+            if (Promocao != null)
             {
-                _context.Promocoes.Remove(Promocoes);
+                _context.Promocao.Remove(Promocao);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PromocoesExists(int id)
+        private bool PromocaoExists(int id)
         {
-            return _context.Promocoes.Any(e => e.idPromocoes == id);
+            return _context.Promocao.Any(e => e.idPromocao == id);
         }
 
         [HttpPost]
-        public async Task<IActionResult> ToggleAtiva(int id, bool ativa)
+        public async Task<IActionResult> Toggleativa(int id, bool ativa)
         {
-            var Promocoes = await _context.Promocoes.FindAsync(id);
-            if (Promocoes == null)
+            var Promocao = await _context.Promocao.FindAsync(id);
+            if (Promocao == null)
             {
                 return NotFound();
             }
 
-            Promocoes.Ativa = ativa;
-            _context.Update(Promocoes);
+            Promocao.ativa = ativa;
+            _context.Update(Promocao);
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));

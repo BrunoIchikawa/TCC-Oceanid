@@ -58,7 +58,7 @@ namespace OceanidProjeto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("idCliente,Cpf,NomeCompleto,Senha,Email,DataNascimento,endereco")] Cliente cliente)
+        public async Task<IActionResult> Create([Bind("idCliente,Cpf,nomeCompleto,Senha,Email,DataNascimento,endereco")] Cliente cliente)
         {
             if (ModelState.IsValid)
             {
@@ -92,7 +92,7 @@ namespace OceanidProjeto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("idCliente,Cpf,NomeCompleto,Senha,Email,DataNascimento,endereco")] Cliente cliente)
+        public async Task<IActionResult> Edit(int id, [Bind("idCliente,Cpf,nomeCompleto,Senha,Email,DataNascimento,endereco")] Cliente cliente)
         {
             if (id != cliente.idCliente)
             {

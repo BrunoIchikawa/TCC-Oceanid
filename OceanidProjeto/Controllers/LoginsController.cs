@@ -16,7 +16,7 @@ namespace OceanidProjeto.Controllers
         {
             _context = context;
             _loginRepositorio = loginRepositorio;
-        }   
+        }
 
         // GET: Logins
         public async Task<IActionResult> Index()

@@ -228,6 +228,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bruno/OneDrive/Documentos/DS-MODULAR/TCM/OceanidProjeto/OceanidProjeto/Views/Produtoes/Cabelo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b2VzXENhYmVsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bruno/OneDrive/Documentos/DS-MODULAR/TCM/OceanidProjeto/OceanidProjeto/Views/Produtoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -248,8 +252,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bruno/OneDrive/Documentos/DS-MODULAR/TCM/OceanidProjeto/OceanidProjeto/Views/Produtoes/Maquiagem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b2VzXE1hcXVpYWdlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bruno/OneDrive/Documentos/DS-MODULAR/TCM/OceanidProjeto/OceanidProjeto/Views/Produtoes/Perfume.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b2VzXFBlcmZ1bWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bruno/OneDrive/Documentos/DS-MODULAR/TCM/OceanidProjeto/OceanidProjeto/Views/Produtoes/Pesquisar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b2VzXFBlc3F1aXNhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bruno/OneDrive/Documentos/DS-MODULAR/TCM/OceanidProjeto/OceanidProjeto/Views/Produtoes/Skincare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b2VzXFNraW5jYXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bruno/OneDrive/Documentos/DS-MODULAR/TCM/OceanidProjeto/OceanidProjeto/Views/Promocaos/Create.cshtml]

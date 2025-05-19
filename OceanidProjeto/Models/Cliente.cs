@@ -18,8 +18,8 @@ namespace OceanidProjeto.Models
         public string cpf { get; set; }
 
         [Column("nomeCompleto")]
-        [Required(ErrorMessage = "Nome completo é obrigatório")]
-        [StringLength(200, ErrorMessage = "O nome não pode exceder 200 caracteres")]
+        [Required(ErrorMessage = "nomeCompleto é obrigatório")]
+        [StringLength(200, ErrorMessage = "O nomePromocao não pode exceder 200 caracteres")]
         public string nomeCompleto { get; set; }
 
         [Column("senhaCliente")]

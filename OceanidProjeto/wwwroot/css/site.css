@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 :root,
 [data-bs-theme="light"] {
     --bs-body-bg: #fff;
@@ -27,7 +27,6 @@ html {
     }
 }
 
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -134,7 +133,6 @@ header {
 
 
 
-/* Top Bar */
 .top-bar {
     display: flex;
     justify-content: space-between;
@@ -161,7 +159,6 @@ header {
     font-size: 20px;
 }
 
-/* Banner Principal */
 .banner-principal {
     background-color: #F0E4E4;
     text-align: center;
@@ -174,7 +171,6 @@ header {
     color: #888;
 }
 
-/*------------- MODAL DOSSS PROSUTOSS------------------- */
 .icon-fav-modal {
     height: 20px;
     width: 20px;
@@ -190,8 +186,8 @@ header {
 }
 
 .modal-dialog {
-    max-width: 600px; /* Largura do modal */
-    max-height: 80%; /* Altura do modal */
+    max-width: 600px; 
+    max-height: 80%;
 }
 
 .modal-content h5 {
@@ -236,33 +232,28 @@ header {
 
 
 
-/* Destaques de Produtos */
 .destaques {
     padding: 20px;
     background-color: #FFFBFB;
 }
 
-/* Grid responsivo */
 .grid-produtos {
     display: grid;
     gap: 20px;
 }
 
-/* Celulares - 2 colunas */
 @media (max-width: 600px) {
     .grid-produtos {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Tablets - 3 colunas */
 @media (min-width: 601px) and (max-width: 992px) {
     .grid-produtos {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-/* Desktops - 4 colunas */
 @media (min-width: 993px) {
     .grid-produtos {
         grid-template-columns: repeat(4, 1fr);
@@ -349,7 +340,6 @@ header {
             background-color: #EFC6D8;
         }
 
-/* Banner Promocional */
 .banner-promo {
     background-color: #D8D8F8;
     text-align: center;
@@ -362,7 +352,6 @@ header {
     color: #555;
 }
 
-/* Banner Animado */
 .banner-avancado {
     text-align: center;
     margin: 20px 0;
@@ -374,7 +363,6 @@ header {
     cursor: pointer;
 }
 
-/* Produtos Extras */
 .produtos-extras {
     display: flex;
     justify-content: space-around;
@@ -392,7 +380,6 @@ header {
     font-size: 12px;
 }
 
-/* Formul�rio de Cadastro */
 
 
 .menu-login {
@@ -449,7 +436,6 @@ header {
             background-color: #5bb3b0;
         }
 
-/*MENDAGEEEEM*/
 #popupCad, #popupLogin {
     background-color: #ABDDDE;
     color: #054154;
@@ -485,7 +471,6 @@ header {
 
 
 
-/* -------------------- MENU DE LOGINNNN -------------------- */
 
 .menu-login {
     position: fixed;
@@ -513,7 +498,6 @@ header {
 
 
 
-/* -------------------- INPUTS E LABELS -------------------- */
 
 .input-holders {
     position: relative;
@@ -545,7 +529,6 @@ header {
     color: #054154;
 }
 
-/* Efeito flutuante da label */
 .inputUser:focus ~ .label-input,
 .inputUser:valid ~ .label-input {
     top: -10px;
@@ -584,7 +567,6 @@ header {
         letter-spacing: 1.5px;
         color: #054154);
     }
-/* -------------------- TOPO DO MENU -------------------- */
 .cad-text {
     display: flex;
     padding: 15px;
@@ -624,7 +606,6 @@ header {
     height: 20px;
 }
 
-/* -------------------- RODAPÉ DO MENU -------------------- */
 
 .cad-text2 {
     display: flex;
@@ -660,8 +641,6 @@ header {
 
 
 
-/*------------POPUP CADASTROOOOOO--------------*/
-/* Fundo escurecido */
 .overlay-cad {
     position: fixed;
     top: 0;
@@ -673,7 +652,6 @@ header {
     z-index: 999;
 }
 
-/* Pop-up central */
 .menu-cad {
     position: fixed;
     top: 50%;
@@ -741,12 +719,11 @@ header {
     }
 
 
-/*----------------------INNNDEEEEXX ADM---------------------------*/
 
 .chart-container {
     position: relative;
     width: 100%;
-    height: 300px; /* ou ajuste conforme necessário */
+    height: 300px; 
 }
 
 
@@ -756,7 +733,6 @@ header {
     margin: 5% 0;
 }
 
-/* Menu lateral */
 .sidebarOce {
     width: 250px;
     background-color: #5FAEB0;
@@ -800,13 +776,7 @@ header {
     color: #054154;
     text-align: center;
 }
-/* Conteúdo principal */
-/* Responsividade */
 
-
-
-
-/* Footer */
 footer {
     background: linear-gradient(to right, #8EE2E8, #4C82B4, #1C364E);
     color: #054154;
@@ -880,13 +850,12 @@ footer {
 #lupa-mobile {
     display: none;
 }
-/*RESPONSIVIDADEEE DO HEAADERR*/
+
 body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
 
-/* Alinhamento de input de pesquisa */
 .pesq-holder {
     display: flex;
     justify-content: start;
@@ -908,13 +877,13 @@ body {
     }
 
         .modal-body::-webkit-scrollbar {
-            width: 8px; /* Largura da barra de rolagem */
+            width: 8px; 
         }
 
         .modal-body::-webkit-scrollbar-thumb {
-            background-color: #054154; /* Cor da parte que se move */
+            background-color: #054154; 
             border-radius: 10px;
-            border: 2px solid #D9EDEE; /* Espaço ao redor do thumb */
+            border: 2px solid #D9EDEE; 
         }
 
         .modal-body img {
@@ -924,13 +893,13 @@ body {
         }
 
         .modal-body p {
-            font-size: 14px; /* Ajuste no tamanho da fonte em telas pequenas */
+            font-size: 14px; 
         }
 
     .modal-footer {
         margin-top: 15px;
         display: flex;
-        justify-content: center; /* Centraliza os botões na tela */
+        justify-content: center; 
     }
 
         .modal-footer button {
@@ -964,10 +933,9 @@ body {
     }
 }
 
-/* Estilos específicos para telas menores */
 @media (max-width: 768px) {
-    .icon-holders a:nth-child(2), /* sacola */
-    .icon-holders a:nth-child(3) { /* login */
+    .icon-holders a:nth-child(2), 
+    .icon-holders a:nth-child(3) { 
         display: none;
     }
 
@@ -980,7 +948,6 @@ body {
     }
 }
 
-/* Menu lateral mobile */
 .mobile-slide-menu {
     position: fixed;
     top: 0;
@@ -1032,7 +999,6 @@ body {
             max-height: 24px;
         }
 
-/* Controle de visibilidade para mobile e desktop */
 .mobile-only {
     display: inline-block;
 }
@@ -1060,7 +1026,6 @@ body {
     }
 }
 
-/* Correção dos seletores: .icons-header e .icon-holders com .mobile-only */
 .icons-header.mobile-only {
     display: flex;
     align-items: center;
@@ -1074,7 +1039,6 @@ body {
     gap: 10px;
 }
 
-/* Grid de produtos e placeholders */
 .products-grid {
     display: flex;
     justify-content: space-between;
@@ -1090,4 +1054,123 @@ body {
 .product-placeholder {
     flex: 1 1 calc(50% - 10px);
 }
+
+/* Estilos para os cards de produtos */
+.product-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+    }
+
+.product-image {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f8f8f8;
+}
+
+    .product-image img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+.product-info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.product-brand {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    margin-top: auto;
+}
+
+.final-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #054154;
+}
+
+.original-price {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 5px;
+}
+
+.discount-type {
+    font-size: 12px;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 15px;
+    align-items: center;
+}
+
+.btn-details {
+    font-size: 12px;
+    color: #054154;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-add-to-cart {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+    .btn-add-to-cart img {
+        width: 24px;
+        height: 24px;
+    }
+
+/* Ajuste do grid para espaçamento uniforme */
+.grid-produtos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.img-wrap {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+    .img-wrap img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
