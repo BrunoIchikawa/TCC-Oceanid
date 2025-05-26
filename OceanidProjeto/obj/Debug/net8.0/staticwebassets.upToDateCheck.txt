@@ -1,4 +1,5 @@
 wwwroot\css\carrinho.css
+wwwroot\css\Painel.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\logo.png

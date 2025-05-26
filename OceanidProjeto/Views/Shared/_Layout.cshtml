@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OceanidProjeto.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -30,13 +31,33 @@
             <a asp-controller="Home" asp-action="index"> <img class="logo-header" src="~/img/oceanid_logo_menor.png" alt="logo oceanid"></a>
 
             <div class="icon-holders">
-                <a asp-controller="ClienteFavoritoes" asp-action="Favoritar"><img class="icons-header" src="~/img/favs-icon.png" alt="favoritos"></a>
+                <!-- Ícone de Favoritos -->
+                <a asp-controller="ClienteFavoritoes" asp-action="Favoritar">
+                    <i class="bi bi-heart "></i> <!-- Usando ícone de coração -->
+                </a>
 
-                <a asp-controller="Pedidoes" asp-action="Carrinho"><img class="icons-header" src="~/img/shopping-icon.png" alt="carrinho" onclick="abrirSacola()"></a>
-                <a href="#"><img class="icons-header" src="~/img/login-icon.png" alt="login" onclick="menuLogin()"></a>
+                <!-- Ícone de Carrinho -->
+                <a asp-controller="Pedidoes" asp-action="Carrinho" onclick="abrirSacola()">
+                    <i class="bi bi-cart"></i> <!-- Usando ícone de carrinho -->
+                </a>
+
+                <!-- Painel de Cliente -->
+
+                <a asp-controller="Clientes" asp-action="Painel">
+                    <i class="bi bi-house-door"></i> <!-- Usando ícone de casa -->
+                </a>
+
+
+
+
+                <!-- Ícone de Login -->
+                <a href="#" onclick="menuLogin()">
+                    <i class="bi bi-person"></i> <!-- Usando ícone de login -->
+                </a>
+
+                <!-- (Modo Claro/Escuro) -->
                 <a href="#" onclick="toggleTheme()" id="themeToggle">
-                    <img src="~/img/darkmode.png" class="bi bi-moon" id="themeIcon" alt="dark mode" />
-
+                    <i class="bi bi-moon"></i> <!-- Ícone de lua (modo escuro) -->
                 </a>
             </div>
         </div>

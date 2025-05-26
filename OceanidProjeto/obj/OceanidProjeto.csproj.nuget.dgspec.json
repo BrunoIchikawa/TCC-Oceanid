@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj": {}
+    "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj": {
+    "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj",
+        "projectUniqueName": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj",
         "projectName": "OceanidProjeto",
-        "projectPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj",
-        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\obj\\",
+        "projectPath": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj",
+        "packagesPath": "C:\\Users\\3mod\\.nuget\\packages\\",
+        "outputPath": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\3mod\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -193,5 +193,36 @@ namespace OceanidProjeto.Controllers
 
 
         }
+
+        
+
+        // -------------- PPAAAAAIIINEELLL  -----------------------
+        public async Task<IActionResult> Painel()
+        {
+            var idCliente = HttpContext.Session.GetInt32("idCliente");
+
+            if (!idCliente.HasValue)
+            {
+                TempData["Login"] = "É necessário estar logado para acessar a tela.";
+                return RedirectToAction("Login", "Logins");
+            }
+
+            // Trazendo as informações do cliente logado
+            var cliente = await _context.Clientes
+       .Include(c => c.enderecoCli)
+       .FirstOrDefaultAsync(c => c.idCliente == idCliente);
+
+
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
+            return View(cliente);
+        }
+
+
+
+
     }
 }
