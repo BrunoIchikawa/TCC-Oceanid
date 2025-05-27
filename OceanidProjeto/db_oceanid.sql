@@ -2,6 +2,7 @@ DROP DATABASE IF EXISTS db_oceanid;
 create database db_oceanid;
 use db_oceanid;
 
+
 create table tbEndereco(
 	idEnd int primary key auto_increment,
 	cepEnd varchar(10) not null,

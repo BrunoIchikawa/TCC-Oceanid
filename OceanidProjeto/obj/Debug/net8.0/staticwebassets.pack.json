@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OceanidProjeto.bundle.scp.css",
-      "PackagePath": "staticwebassets\\OceanidProjeto.dvk97rqfmr.bundle.scp.css"
+      "PackagePath": "staticwebassets\\OceanidProjeto.bundle.scp.css"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Painel.css",
@@ -23,6 +23,10 @@
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Banner.png",
+      "PackagePath": "staticwebassets\\img\\Banner.png"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Thumbs.db",
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\bruno-linkedin.png",
       "PackagePath": "staticwebassets\\img\\bruno-linkedin.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo-categoria.png",
+      "PackagePath": "staticwebassets\\img\\cabelo-categoria.png"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carol-linkedin.jpeg",
@@ -213,6 +221,10 @@
       "PackagePath": "staticwebassets\\img\\logout.png"
     },
     {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem-categoria.png",
+      "PackagePath": "staticwebassets\\img\\maquiagem-categoria.png"
+    },
+    {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\menuBurguer-img.png",
       "PackagePath": "staticwebassets\\img\\menuBurguer-img.png"
     },
@@ -235,6 +247,14 @@
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oceanid_logo_menor.png",
       "PackagePath": "staticwebassets\\img\\oceanid_logo_menor.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oferta-categoria.png",
+      "PackagePath": "staticwebassets\\img\\oferta-categoria.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume-categoria.png",
+      "PackagePath": "staticwebassets\\img\\perfume-categoria.png"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\pesq-icon.png",
@@ -513,6 +533,10 @@
       "PackagePath": "staticwebassets\\img\\shopping-icon.png"
     },
     {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare-categoria.png",
+      "PackagePath": "staticwebassets\\img\\skincare-categoria.png"
+    },
+    {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\voltdrive.png",
       "PackagePath": "staticwebassets\\img\\voltdrive.png"
     },
@@ -747,10 +771,6 @@
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssets.props",

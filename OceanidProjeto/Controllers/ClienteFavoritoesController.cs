@@ -271,6 +271,7 @@ namespace OceanidProjeto.Controllers
             }
 
             _context.SaveChanges();
+            TempData["FavoritoMsg"] = "Produto adicionado aos favoritos!";
 
             return RedirectToAction("Index", "Home");
         }

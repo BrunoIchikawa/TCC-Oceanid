@@ -250,7 +250,6 @@ C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\appsettings.Development.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\appsettings.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\OceanidProjeto.staticwebassets.runtime.json
-C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\OceanidProjeto.staticwebassets.endpoints.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\OceanidProjeto.exe
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\OceanidProjeto.deps.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\OceanidProjeto.runtimeconfig.json
@@ -482,17 +481,15 @@ C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\scopedcss\bundle\OceanidProje
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\scopedcss\projectbundle\OceanidProjeto.bundle.scp.css
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets.build.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets.development.json
-C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssets.props
-C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets\msbuild.build.OceanidProjeto.props
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OceanidProjeto.props
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OceanidProjeto.props
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets.pack.json
-C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\OceanidP.FD1408C3.Up2Date
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.dll
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\refint\OceanidProjeto.dll
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.pdb
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.genruntimeconfig.cache
 C:\TCM\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\ref\OceanidProjeto.dll
+C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\System.Formats.Asn1.dll

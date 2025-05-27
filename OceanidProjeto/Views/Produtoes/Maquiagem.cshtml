@@ -11,8 +11,10 @@
         @foreach (var produto in categoria.Produtos)
         {
             <!-- Produto -->
-            <div class="product-placeholder">
-                <div class="itens-favoritados">
+            <div class="product-card">
+
+
+                <div class="product-header">
                     <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
                         <input type="hidden" name="idProd" value="@produto.idProd" />
                         <button type="submit" class="btn-favoritar">
@@ -20,22 +22,27 @@
                         </button>
                     </form>
                 </div>
-                <div class="img-produtos">
-                    <img class="img-prod-fav" src="~/img/produtos/labios/lapis de boca/mac.png" alt="Imagem do Produto" />
-                    <!-- FAZER UM JSONN -->
-                    <!--    <img src="Url.Content(produto.imagemUrl)" alt="produto.nomeProd" /> -->
+
+                <div class="product-image">
+                    <img src="@Url.Content(produto.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@produto.nomeProd" />
                 </div>
-                <div class="btn-prod">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#productModal-@produto.idProd">Ver mais</a>
+
+                <div class="product-info">
+                    <h3 class="product-name">@produto.nomeProd</h3>
+                    <p class="product-brand">@produto.marcaProd</p>
+
+
+                </div>
+
+                <div class="product-actions">
+                    <a asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd"> Ver mais </a>
                     <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
                         <input type="hidden" name="id" value="@produto.idProd" />
                         <input type="hidden" name="quantidade" value="1" />
-                        <button type="submit">
-                            <img class="icons-prod" src="~/img/icon-shopping-prod.png" alt="">
+                        <button type="submit" class="btn-add-to-cart">
+                            <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho">
                         </button>
                     </form>
-
-
                 </div>
             </div>
 

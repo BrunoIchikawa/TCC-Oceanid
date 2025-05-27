@@ -1,12 +1,39 @@
-﻿﻿@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
 
 @model OceanidProjeto.Models.ItemPedido;
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+@if (TempData["FavoritoMsg"] != null)
+{
+    <div id="popupFavorito" class="alert alert-success text-center shadow rounded-pill position-fixed top-0 start-50 translate-middle-x mt-3 px-5 py-3" style="z-index: 9999; color:#054154; background-color:#ABDDDE;">
+        @TempData["FavoritoMsg"]
+    </div>
+}
 
 <body>
+    <style>
+        .favorite {
+            font-size: 2rem;
+            cursor: pointer;
+            transition: color 0.3s;
+            border: none;
+        }
 
+        .favorited {
+            color: red;
+        }
 
+        #mensagem {
+            margin-top: 10px;
+            color: #ABDDDE;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+
+    <!-- Carrossel -->
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -32,6 +59,7 @@
         </button>
     </div>
 
+    <!-- Formulário de login -->
     <form class="menu-login" id="menu-login" asp-controller="Logins" asp-action="Login" method="post">
         <div asp-validation-summary="ModelOnly"></div>
         <div class="cad-text">
@@ -50,9 +78,10 @@
                 <label class="label-input" for="senha">Senha</label>
                 <img src="~/img/eye-icon.png" alt="Mostrar senha" class="toggle-eye" onclick="toggleSenha()" />
             </div>
+
             <div class="links-log">
-                <a href="#">Esqueceu sua senha?</a>
-                <a href="#" onclick=" abrirCadastro()">Faça já o seu cadastro!</a>
+         
+                <a href="#" onclick="abrirCadastro()">Faça já o seu cadastro!</a>
             </div>
         </div>
 
@@ -65,11 +94,9 @@
                         <p>LogOut</p>
                     </div>
                 </a>
-
             </div>
-
             <p>
-                Ao assinar a Oceanid  Skin Beauty, você concorda com nossos Termos de Uso e Política de Privacidade e consente em receber um número variável de mensagens de marketing por e-mail e texto.
+                Ao assinar a Oceanid Skin Beauty, você concorda com nossos Termos de Uso e Política de Privacidade e consente em receber um número variável de mensagens de marketing por e-mail e texto.
                 O consentimento não é uma condição para nenhuma compra. Podem ser aplicadas taxas de mensagem e dados. Responda AJUDA para obter ajuda ou PARE para cancelar.
                 Residentes da Califórnia: consulte também nossos Termos de Incentivo Financeiro.
             </p>
@@ -83,41 +110,39 @@
         </div>
     }
 
-
     <div class="tudo-cad" id="overlay-cad" onclick="fecharCadastro()"></div>
 
-    <!-- Formulário de cadastro (popup) -->
+    <!-- Formulário de cadastro -->
     <form class="menu-cad" id="menu-cad" asp-controller="Clientes" asp-action="Cadastro" method="post">
-
         <div class="cad-holder">
             <div class="cad-text">
                 <p>Cadastre-se</p>
                 <img src="~/img/fechar-icon.png" alt="Fechar" onclick="fecharCadastro()" class="icon-menu">
             </div>
+
             <div class="inputCad-holder">
                 <div class="input-holders">
                     <input type="text" name="cpf" class="inputUser" required>
-                    <label class="label-input">Cpf</label>
+                    <label class="label-input">CPF</label>
                 </div>
 
                 <div class="input-holders">
                     <input type="text" name="nomeCompleto" class="inputUser" required>
-                    <label class="label-input">nomePromocao completo</label>
+                    <label class="label-input">Nome completo</label>
                 </div>
 
                 <div class="input-holders">
                     <input type="text" name="endereco" class="inputUser" required>
-                    <label class="label-input">endereco completo</label>
+                    <label class="label-input">Endereço completo</label>
                 </div>
 
                 <div class="input-holders">
                     <input type="date" name="dataNasc" class="inputUser" required>
-
                 </div>
 
                 <div class="input-holders">
                     <input type="email" name="emailCliente" class="inputUser" required>
-                    <label class="label-input">e-mail</label>
+                    <label class="label-input">E-mail</label>
                 </div>
 
                 <div class="input-holders" style="position: relative;">
@@ -126,12 +151,12 @@
                     <img src="~/img/eye-icon.png" alt="Mostrar senha" class="toggle-eye" onclick="toggleSenha2()" />
                 </div>
             </div>
+
             <div class="btn-cad">
                 <input type="submit" value="Cadastre-se" />
             </div>
         </div>
     </form>
-
 
     @if (TempData["popupCad"] != null)
     {
@@ -140,17 +165,15 @@
         </div>
     }
 
-    <!-- Overlay (fundo escuro) -->
+    <!-- Overlay Sacola -->
     <div class="overlay-sacola" id="sacola-overlay" onclick="fecharSacola()"></div>
 
-
-    <!-- Destaques de produtos -->
+    <!-- Produtos -->
     <section class="destaques">
         <h2 class="section-title">Nossos Produtos</h2>
         <div class="grid-produtos">
             @foreach (var produto in ViewBag.ProdutosDoBanco as List<Produto>)
             {
-                <!-- Verificar se há promoção para este produto -->
                 var promocaoativa = produto.Promocao?.FirstOrDefault(p => p.ativa && p.dataInicio <= DateTime.Now && p.dataFim >= DateTime.Now);
                 decimal precoFinal = produto.precoProd;
                 decimal? valorDesconto = null;
@@ -171,7 +194,7 @@
                         tipoDesconto = $"R$ {valorDesconto.Value.ToString("N2")} OFF";
                     }
                 }
-                <!-- Produto -->
+
                 <div class="product-card">
                     @if (promocaoativa != null)
                     {
@@ -181,8 +204,8 @@
                     <div class="product-header">
                         <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
                             <input type="hidden" name="idProd" value="@produto.idProd" />
-                            <button type="submit" class="btn-favoritar">
-                                <img class="icons-prod" src="~/img/favs-icon.png" alt="favoritos">
+                            <button type="submit" class="btn-favoritar" style="font-size:25px; border:none; background-color:transparent;">
+                                <i class="bi bi-heart favorite" data-prod-id="@produto.idProd" style="font-size:25px; border:none; background-color:transparent;"></i>
                             </button>
                         </form>
                     </div>
@@ -194,7 +217,6 @@
                     <div class="product-info">
                         <h3 class="product-name">@produto.nomeProd</h3>
                         <p class="product-brand">@produto.marcaProd</p>
-
                         <div class="product-price">
                             @if (promocaoativa != null)
                             {
@@ -209,9 +231,7 @@
                     </div>
 
                     <div class="product-actions">
-                        <a href="#" class="btn-details" data-bs-toggle="modal" data-bs-target="#productModal-@produto.idProd">
-                            Ver detalhes
-                        </a>
+                        <a asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd">Ver mais</a>
                         <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
                             <input type="hidden" name="id" value="@produto.idProd" />
                             <input type="hidden" name="quantidade" value="1" />
@@ -221,73 +241,23 @@
                         </form>
                     </div>
                 </div>
-                <!-- Modal para cada produto -->
-                <div class="modal fade" id="productModal-@produto.idProd" tabindex="-1" aria-labelledby="productModalLabel-@produto.idProd" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="productModalLabel-@produto.idProd">@produto.nomeProd</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img src="@Url.Content(produto.imagemUrl ?? "~/img/produtos/sem-imagem.jpg")" alt="@produto.nomeProd" />
-                                    </div>  
-                                    <div class="col-md-6">
-                                        <h4>@produto.nomeProd</h4>
-                                        <p class="text-muted">@produto.marcaProd</p>
-
-                                        <div class="price-section">
-                                            @if (promocaoativa != null)
-                                            {
-                                                <span class="original-price">R$ @produto.precoProd.ToString("N2")</span>
-                                                <span class="discount-badge">@tipoDesconto</span>
-                                            }
-                                            <h3 class="current-price">R$ @precoFinal.ToString("N2")</h3>
-                                        </div>
-
-                                        <p class="product-description">@produto.descricaoProd</p>
-
-                                        <div class="stock-info">
-                                            @if (produto.qtdProd > 0)
-                                            {
-                                                <span class="in-stock">Em estoque: @produto.qtdProd unidades</span>
-                                            }
-                                            else
-                                            {
-                                                <span class="out-of-stock">Produto esgotado</span>
-                                            }
-                                        </div>
-
-                                        <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem" class="mt-4">
-                                            <input type="hidden" name="id" value="@produto.idProd" />
-                                            <div class="quantity-selector mb-3">
-                                                <label for="quantity-@produto.idProd">Quantidade:</label>
-                                                <input type="number" name="quantidade" id="quantity-@produto.idProd"
-                                                       value="1" min="1" max="@produto.qtdProd" class="form-control">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary btn-add-to-cart-modal">
-                                                <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho">
-                                                Adicionar ao carrinho
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             }
         </div>
     </section>
 
-
-
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const popupFavorito = document.getElementById('popupFavorito');
+            if (popupFavorito) {
+                popupFavorito.style.display = 'block';
+                setTimeout(() => {
+                    popupFavorito.style.display = 'none';
+                }, 3000);
+            }
+        });
+    </script>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
 </body>

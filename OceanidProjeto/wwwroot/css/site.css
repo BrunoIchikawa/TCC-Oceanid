@@ -1041,6 +1041,10 @@ body {
     gap: 10px;
 }
 
+.icon-holders i{
+    font-size:20px;
+}
+
 .products-grid {
     display: flex;
     justify-content: space-between;

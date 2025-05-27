@@ -259,5 +259,20 @@ namespace OceanidProjeto.Controllers
             return View();
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Detalhes(int idProd)
+        {
+            var produto = await _context.Produtos
+                .Include(p => p.Promocao)
+                .FirstOrDefaultAsync(p => p.idProd == idProd);
+
+            if (produto == null)
+            {
+                return NotFound();
+            }
+
+            return View(produto);
+        }
+
     }
 }

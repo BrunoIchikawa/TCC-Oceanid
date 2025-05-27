@@ -178,12 +178,27 @@ namespace OceanidProjeto.Controllers
         [HttpGet]
         public IActionResult Carrinho()
         {
+            var idCliente = HttpContext.Session.GetInt32("idCliente");
+
+            if (idCliente == null)
+            {
+                TempData["Login"] = "Primeiro faça o login";
+                return RedirectToAction("Index", "Home");
+            }
             return View(_cookieCarrinhoCompra.Consultar()); // EXIBE os itens salvos
         }
 
         [HttpPost]
         public IActionResult AdicionarItem(Int32 id)
         {
+            var idCliente = HttpContext.Session.GetInt32("idCliente");
+
+            if (idCliente == null)
+            {
+                TempData["Login"] = "Primeiro faça o login";
+                return RedirectToAction("Index", "Home");
+            }
+
 
 
             Produto produto = _context.Produtos.Find(id);
