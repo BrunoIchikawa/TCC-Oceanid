@@ -114,3 +114,42 @@ function abrirMenuLogin(event) {
     menuLogin();            // exibe o menu de login
 }
 
+
+// ------------- CARREGARR PRODUUUTO
+
+
+function carregarProduto() {
+
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('produto')
+
+
+    const produto = produtos[id];
+    if (!produto) return;
+
+
+    document.getElementById("nome").innerText = produto.nome;
+    document.getElementById("preco").innerText = produto.preco;
+    document.getElementById("imagem").src = produto.imagem;
+    document.getElementById("descricao").innerText = produto.descricao;
+
+    const tamanhoSelect = document.getElementById("tamanhos");
+    tamanhoSelect.innerHTML = "";
+    produto.tamanhos.forEach(tamanho => {
+        const option = document.createElement("option");
+        option.value = tamanho;
+        option.textContent = tamanho;
+        tamanhoSelect.appendChild(option);
+    });
+
+    const corSelect = document.getElementById("cores");
+    corSelect.innerHTML = "";
+    produto.cores.forEach(cor => {
+        const option = document.createElement("option");
+        option.value = cor;
+        option.textContent = cor;
+        corSelect.appendChild(option);
+    });
+}
+
+carregarProduto();

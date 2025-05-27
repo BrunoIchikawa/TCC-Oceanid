@@ -19,8 +19,8 @@ namespace OceanidProjeto.Models
 
         [Required(ErrorMessage = "Número é obrigatório")]
         [Column("numeroEnd")]
-        [Range(1, uint.MaxValue, ErrorMessage = "Número inválido")]
-        public uint Numero { get; set; }
+        [Range(1, int.MaxValue, ErrorMessage = "Número inválido")]
+        public int Numero { get; set; }
 
         [Required(ErrorMessage = "Logradouro é obrigatório")]
         [Column("logradouro")]

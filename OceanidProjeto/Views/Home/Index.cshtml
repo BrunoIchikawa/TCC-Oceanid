@@ -229,9 +229,11 @@
                             }
                         </div>
                     </div>
-
+                   
                     <div class="product-actions">
-                        <a asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd">Ver mais</a>
+                      <a asp-controller="Home" asp-action="Produto" asp-route-id="@produto.idProd">Ver mais</a>
+                       
+                      
                         <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
                             <input type="hidden" name="id" value="@produto.idProd" />
                             <input type="hidden" name="quantidade" value="1" />
@@ -244,6 +246,8 @@
             }
         </div>
     </section>
+
+ 
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {

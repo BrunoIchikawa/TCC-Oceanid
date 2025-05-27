@@ -221,8 +221,118 @@ namespace OceanidProjeto.Controllers
             return View(cliente);
         }
 
+        [HttpPost]
+        //Edita os dados do cliente
+        public async Task<IActionResult> EditarCliente(int idCliente, string nomeCompleto, string emailCliente)
+        {
+            var cliente = await _context.Clientes.FindAsync(idCliente);
+
+            if (cliente == null)
+            {
+                return NotFound();
+            }
+
+            cliente.nomeCompleto = nomeCompleto;
+            cliente.emailCliente = emailCliente;
 
 
+            _context.Clientes.Update(cliente);
+            await _context.SaveChangesAsync();
+
+            TempData["Msg"] = "Seus Dados foram atualizados com sucesso!";
+            return RedirectToAction("Painel");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AdicionarEndereco(int idCliente, string cepEnd, string logradouro, int numeroEnd, string complemento, string bairro, string cidade, string estado)
+        {
+
+            var novoEndereco = new Endereco
+            {
+                Cep = cepEnd,
+                Logradouro = logradouro,
+                Numero = numeroEnd,
+                Complemento = complemento,
+                Bairro = bairro,
+                Cidade = cidade,
+                Estado = estado
+            };
+
+            // Adiciona o novo endereço ao contexto
+            _context.Enderecos.Add(novoEndereco);
+            await _context.SaveChangesAsync();
+
+            // Busca o cliente e vincula o novo endereço
+            var cliente = await _context.Clientes.FindAsync(idCliente);
+            if (cliente != null)
+            {
+                cliente.idEnd = novoEndereco.idEnd;
+                _context.Clientes.Update(cliente);
+                await _context.SaveChangesAsync();
+            }
+
+            TempData["Msg"] = "Endereço adicionado com sucesso!";
+            return RedirectToAction("Painel");
+        }
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> DeletarEndereco(int idEndereco, int idCliente)
+        {
+            // 1. Buscar o cliente que usa esse endereço
+            var cliente = await _context.Clientes
+                .FirstOrDefaultAsync(c => c.idCliente == idCliente && c.idEnd == idEndereco);
+
+            if (cliente != null)
+            {
+                // 2. Desvincular o endereço do cliente
+                cliente.idEnd = null;
+                _context.Clientes.Update(cliente);
+            }
+
+            // 3. Verificar se o endereço ainda está em uso por outro cliente
+            bool enderecoEmUso = await _context.Clientes
+                .AnyAsync(c => c.idEnd == idEndereco);
+
+            // 4. Se não estiver em uso, pode excluir
+            if (!enderecoEmUso)
+            {
+                var endereco = await _context.Enderecos.FindAsync(idEndereco);
+                if (endereco != null)
+                {
+                    _context.Enderecos.Remove(endereco);
+                }
+            }
+
+            await _context.SaveChangesAsync();
+
+            TempData["Msg"] = "Endereço removido com sucesso!";
+            return RedirectToAction("Painel");
+        }
+
+
+        //HISTORICO DE COMPRAS DO CLIENTEEE
+        public async Task<IActionResult> Historico()
+        {
+            var idCliente = HttpContext.Session.GetInt32("idCliente");
+
+            if (!idCliente.HasValue)
+            {
+                TempData["Login"] = "Você precisa estar logado para ver o histórico.";
+                return RedirectToAction("Login", "Logins");
+            }
+
+            var pedidos = await _context.Pedidos
+                .Where(p => p.idCliente == idCliente)
+                .Include(p => p.Itens)
+                    .ThenInclude(i => i.produto)
+                .Include(p => p.cliente) // Carrega os dados do cliente se necessário
+                .OrderByDescending(p => p.Data)
+                .ToListAsync();
+
+            return View(pedidos);
+        }
 
     }
 }

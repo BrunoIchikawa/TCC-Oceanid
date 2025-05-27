@@ -11,59 +11,42 @@
         @foreach (var produto in categoria.Produtos)
         {
             <!-- Produto -->
-            <div class="product-placeholder">
-                <div class="itens-favoritados">
+            <div class="product-card">
+
+
+                <div class="product-header">
                     <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
                         <input type="hidden" name="idProd" value="@produto.idProd" />
-                        <button type="submit" class="btn-favoritar">
+                        <button type="submit" class="btn-favoritar" style="font-size:25px; border:none; background-color:transparent;">
                             <img class="icons-prod" src="~/img/favs-icon.png" alt="favoritos">
                         </button>
                     </form>
                 </div>
-                <div class="img-produtos">
-                    <img class="img-prod-fav" src="~/img/produtos/labios/batom/fenty.png" alt="Imagem do Produto" />
-                    <!-- FAZER UM JSONN -->
-                    <!--    <img src="Url.Content(produto.imagemUrl)" alt="produto.nomeProd" /> -->
+
+                <div class="product-image">
+                    <img src="@Url.Content(produto.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@produto.nomeProd" />
                 </div>
-                <div class="btn-prod">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#productModal-@produto.idProd">Ver mais</a>
+
+                <div class="product-info">
+                    <h3 class="product-name">@produto.nomeProd</h3>
+                    <p class="product-brand">@produto.marcaProd</p>
+
+
+                </div>
+
+                <div class="product-actions">
+                    <a asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd"> Ver mais </a>
                     <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
                         <input type="hidden" name="id" value="@produto.idProd" />
                         <input type="hidden" name="quantidade" value="1" />
-                        <button type="submit">
-                            <img class="icons-prod" src="~/img/icon-shopping-prod.png" alt="">
+                        <button type="submit" class="btn-add-to-cart">
+                            <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho">
                         </button>
                     </form>
                 </div>
             </div>
 
-            <!-- Modal para cada produto -->
-            <div class="modal fade" id="productModal-@produto.idProd" tabindex="-1" aria-labelledby="productModalLabel-@produto.idProd" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="productModalLabel-@produto.idProd">@produto.nomeProd</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <img class="img-prod-fav" src="~/img/produtos/labios/batom/fenty.png" alt="Imagem do Produto" />
-                            <!-- <img src="Url.Content(produto.ImagemUrl)" class="img-fluid" alt="produto.nomeProd"> -->
-                            <p>@produto.nomeProd</p>
-                            <p>Preço: R$ @produto.precoProd.ToString("N2")</p>
-                            <img class="icon-fav-modal" src="~/img/favs-icon.png" alt="favoritos" />
-                        </div>
-                        <div class="modal-footer">
-                            <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
-                                <input type="hidden" name="id" value="@produto.idProd" />
-                                <input type="hidden" name="quantidade" value="1" />
-                                <button type="submit">
-                                    <img class="icon-comprar-modal" src="~/img/icon-shopping-prod.png" alt="comprar">Adicionar ao carrinho
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
         }
     </div>
-}
+}﻿﻿
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
