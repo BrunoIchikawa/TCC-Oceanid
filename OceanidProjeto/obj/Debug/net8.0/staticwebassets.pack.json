@@ -1,0 +1,769 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OceanidProjeto.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OceanidProjeto.dvk97rqfmr.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\css\\carrinho.css",
+      "PackagePath": "staticwebassets\\css\\carrinho.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\baggy-linkedin.jpeg",
+      "PackagePath": "staticwebassets\\img\\baggy-linkedin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\baggy-linkedin2.jpeg",
+      "PackagePath": "staticwebassets\\img\\baggy-linkedin2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\banner.jfif",
+      "PackagePath": "staticwebassets\\img\\banner.jfif"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\bg-footer.png",
+      "PackagePath": "staticwebassets\\img\\bg-footer.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\boleto-oceanid.png",
+      "PackagePath": "staticwebassets\\img\\boleto-oceanid.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\bruno-linkedin.png",
+      "PackagePath": "staticwebassets\\img\\bruno-linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carol-linkedin.jpeg",
+      "PackagePath": "staticwebassets\\img\\carol-linkedin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\1.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\2.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\carrossel\\4.png",
+      "PackagePath": "staticwebassets\\img\\carrossel\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\cartao.png",
+      "PackagePath": "staticwebassets\\img\\cartao.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\darkmode.png",
+      "PackagePath": "staticwebassets\\img\\darkmode.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\dinheiro.png",
+      "PackagePath": "staticwebassets\\img\\dinheiro.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\emilly-linkedin2.jpeg",
+      "PackagePath": "staticwebassets\\img\\emilly-linkedin2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\eye-icon.png",
+      "PackagePath": "staticwebassets\\img\\eye-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\favs-icon.png",
+      "PackagePath": "staticwebassets\\img\\favs-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\favsP-icon.png",
+      "PackagePath": "staticwebassets\\img\\favsP-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\fechar-icon.png",
+      "PackagePath": "staticwebassets\\img\\fechar-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\gabiGomes-linkedin.jpeg",
+      "PackagePath": "staticwebassets\\img\\gabiGomes-linkedin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\gabiMoreira-linkedin.jpeg",
+      "PackagePath": "staticwebassets\\img\\gabiMoreira-linkedin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\giovanna-linkedin.jpeg",
+      "PackagePath": "staticwebassets\\img\\giovanna-linkedin.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icon-shopping-prod.png",
+      "PackagePath": "staticwebassets\\img\\icon-shopping-prod.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-escova-de-cabelo-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-escova-de-cabelo-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-garrafa-de-creme-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-garrafa-de-creme-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-instagram-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-instagram-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-lixo-48.png",
+      "PackagePath": "staticwebassets\\img\\icons8-lixo-48.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-maquiagem-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-maquiagem-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-novo-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-novo-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-perfume-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-perfume-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-skin-care-64.png",
+      "PackagePath": "staticwebassets\\img\\icons8-skin-care-64.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-tiktok-30.png",
+      "PackagePath": "staticwebassets\\img\\icons8-tiktok-30.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\icons8-twitter-50.png",
+      "PackagePath": "staticwebassets\\img\\icons8-twitter-50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\img1.jpg",
+      "PackagePath": "staticwebassets\\img\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\img2.jpg",
+      "PackagePath": "staticwebassets\\img\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\img3.jpg",
+      "PackagePath": "staticwebassets\\img\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\kit-maquiagem.png",
+      "PackagePath": "staticwebassets\\img\\kit-maquiagem.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\login-icon.png",
+      "PackagePath": "staticwebassets\\img\\login-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logos\\LogoCMFinalOficial.png",
+      "PackagePath": "staticwebassets\\img\\logos\\LogoCMFinalOficial.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logos\\Vinotália-pprt.png",
+      "PackagePath": "staticwebassets\\img\\logos\\Vinotália-pprt.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logos\\codedMind-logo.png",
+      "PackagePath": "staticwebassets\\img\\logos\\codedMind-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logos\\gh-img.png",
+      "PackagePath": "staticwebassets\\img\\logos\\gh-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logos\\lgCalaveritoVertical.png",
+      "PackagePath": "staticwebassets\\img\\logos\\lgCalaveritoVertical.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logos\\rede-img.png",
+      "PackagePath": "staticwebassets\\img\\logos\\rede-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logos\\skincare-categoria.png",
+      "PackagePath": "staticwebassets\\img\\logos\\skincare-categoria.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\logout.png",
+      "PackagePath": "staticwebassets\\img\\logout.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\menuBurguer-img.png",
+      "PackagePath": "staticwebassets\\img\\menuBurguer-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\mvv\\missao-img.png",
+      "PackagePath": "staticwebassets\\img\\mvv\\missao-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\mvv\\valores-img.png",
+      "PackagePath": "staticwebassets\\img\\mvv\\valores-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\mvv\\visao-img.png",
+      "PackagePath": "staticwebassets\\img\\mvv\\visao-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\oceanid_logo.png",
+      "PackagePath": "staticwebassets\\img\\oceanid_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\oceanid_logo_menor.png",
+      "PackagePath": "staticwebassets\\img\\oceanid_logo_menor.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\pesq-icon.png",
+      "PackagePath": "staticwebassets\\img\\pesq-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img1.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img1.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img10.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img10.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img11.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img11.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img12.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img12.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img13.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img13.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img14.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img14.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img15.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img15.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img16.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img16.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img17.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img17.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img18.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img18.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img19.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img19.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img2.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img2.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img20.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img20.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img21.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img21.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img22.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img22.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img23.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img23.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img24.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img24.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img25.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img25.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img26.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img26.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img27.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img27.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img28.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img28.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img29.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img29.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img3.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img3.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img30.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img30.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img31.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img31.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img32.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img32.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img33.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img33.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img34.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img34.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img35.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img35.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img36.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img36.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img37.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img37.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img38.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img38.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img39.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img39.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img4.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img4.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img40.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img40.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img41.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img41.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img42.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img42.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img43.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img43.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img44.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img44.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img45.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img45.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img46.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img46.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img47.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img47.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img48.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img48.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img49.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img49.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img5.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img5.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img50.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img50.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img51.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img51.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img52.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img52.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img53.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img53.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img54.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img54.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img55.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img55.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img56.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img56.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img57.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img57.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img58.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img58.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img59.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img59.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img6.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img6.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img60.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img60.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img7.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img7.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img8.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img8.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\img9.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\img9.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\produtos\\sem-imagem.png.png",
+      "PackagePath": "staticwebassets\\img\\produtos\\sem-imagem.png.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\servicos\\banco-img.png",
+      "PackagePath": "staticwebassets\\img\\servicos\\banco-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\servicos\\cll-img.png",
+      "PackagePath": "staticwebassets\\img\\servicos\\cll-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\servicos\\identidade-img.png",
+      "PackagePath": "staticwebassets\\img\\servicos\\identidade-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\servicos\\mundo-imng.png",
+      "PackagePath": "staticwebassets\\img\\servicos\\mundo-imng.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\servicos\\pc-img.png",
+      "PackagePath": "staticwebassets\\img\\servicos\\pc-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\servicos\\suporte-img.png",
+      "PackagePath": "staticwebassets\\img\\servicos\\suporte-img.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\shopping-icon.png",
+      "PackagePath": "staticwebassets\\img\\shopping-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\img\\voltdrive.png",
+      "PackagePath": "staticwebassets\\img\\voltdrive.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OceanidProjeto.props",
+      "PackagePath": "build\\OceanidProjeto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OceanidProjeto.props",
+      "PackagePath": "buildMultiTargeting\\OceanidProjeto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OceanidProjeto.props",
+      "PackagePath": "buildTransitive\\OceanidProjeto.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

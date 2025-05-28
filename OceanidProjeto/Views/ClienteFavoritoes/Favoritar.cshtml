@@ -1,0 +1,28 @@
+﻿<link rel="stylesheet" href="~/css/sacola.css" asp-append-version="true" />
+<section class="wishlist">
+    <h2>Wishlist</h2>
+    <div class="wishlist-container">
+
+        @foreach (var favorito in ViewBag.clienteFavoritos as List<ClienteFavorito>)
+        {
+            var produto = favorito.produto;
+            <div class="wishlist-item">
+
+                <img src="@Url.Content(produto.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@produto.nomeProd" />
+                <form asp-controller="ClienteFavoritoes" asp-action="Desfavoritar" method="post">
+                    <input type="hidden" name="idProd" value="@produto.idProd" />
+                    <!-- icon do produro coração -->
+                    <button type="submit" class="btn-favoritar">
+                        <img class="icons-prod" src="~/img/favs-icon.png" alt="favoritos">
+                    </button>
+                </form>
+                <h3>@produto.nomeProd</h3>
+                <p class="preco">R$ @produto.precoProd.ToString("N2")</p>
+                <p class="parcelamento">
+                    Em até 1x R$ @produto.precoProd.ToString("N2") sem juros
+                </p>
+                <a class="btn-favs"> <img class="icons-prodCompra" src="~/img/icon-shopping-prod.png" alt="favoritos" />Comprar</a>
+            </div>
+        }
+    </div>
+</section>
