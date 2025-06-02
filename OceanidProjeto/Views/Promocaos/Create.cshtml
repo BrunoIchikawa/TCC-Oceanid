@@ -1,0 +1,76 @@
+﻿@model OceanidProjeto.Models.Promocao
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Promocao</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nomePromocao" class="control-label"></label>
+                <input asp-for="nomePromocao" class="form-control" />
+                <span asp-validation-for="nomePromocao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="tipoDesconto" class="control-label"></label>
+                <input asp-for="tipoDesconto" class="form-control" />
+                <span asp-validation-for="tipoDesconto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="valorDesconto" class="control-label"></label>
+                <input asp-for="valorDesconto" class="form-control" />
+                <span asp-validation-for="valorDesconto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="precoPromocional" class="control-label"></label>
+                <input asp-for="precoPromocional" class="form-control" />
+                <span asp-validation-for="precoPromocional" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dataInicio" class="control-label"></label>
+                <input asp-for="dataInicio" class="form-control" />
+                <span asp-validation-for="dataInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dataFim" class="control-label"></label>
+                <input asp-for="dataFim" class="form-control" />
+                <span asp-validation-for="dataFim" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="ativa" /> @Html.DisplayNameFor(model => model.ativa)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="limitePorCliente" class="control-label"></label>
+                <input asp-for="limitePorCliente" class="form-control" />
+                <span asp-validation-for="limitePorCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="idProd" class="control-label"></label>
+                <select asp-for="idPromocao" class ="form-control" asp-items="ViewBag.idPromocao"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="idCategoria" class="control-label"></label>
+                <select asp-for="idCategoria" class ="form-control" asp-items="ViewBag.idCategoria"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,30 @@
+﻿@model List<OceanidProjeto.Models.Pedido>
+
+<h2>Histórico de Compras</h2>
+
+@if (Model.Count == 0)
+{
+    <p>Você ainda não fez nenhuma compra.</p>
+}
+else
+{
+    foreach (var pedido in Model)
+    {
+        <div class="pedido-card">
+            <h4>Pedido #@pedido.idPed - @pedido.Data.ToString("dd/MM/yyyy")</h4>
+            <p>Status: @pedido.idPag</p>
+            <p>Endereço: @pedido.idEnd</p>
+            <p>Total: R$ @pedido.Total.ToString("F2")</p>
+
+            <ul>
+                @foreach (var item in pedido.Itens)
+                {
+                    <li>
+                        @item.produto.nomeProd - @item.Quantidade x R$ @item.PrecoUnitario.ToString("F2")
+                    </li>
+                }
+            </ul>
+            <hr />
+        </div>
+    }
+}

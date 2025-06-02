@@ -1,0 +1,236 @@
+﻿﻿
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Home Page</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OceanidProjeto.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header>
+        <div class="header1">
+            <a class="hamburger d-md-none" onclick="toggleMobileMenu()">
+                <img src="~/img/menuBurguer-img.png" alt="menu" style="width: 30px; height: 30px;" />
+            </a>
+            <!-- Ícone da lupa (mobile) -->
+            <img id="lupa-mobile" class="icons-header mobile-only" src="~/img/pesq-icon.png" alt="pesquisar" />
+
+            <!-- Campo de busca com lupa (desktop) -->
+            <form asp-controller="Produtoes" asp-action="Pesquisar" method="get" class="desktop-only">
+                <img class="icons-header" src="~/img/pesq-icon.png" alt="pesquisar" />
+                <input type="text" id="pesq" name="searchTerm" placeholder="Pesquisar" />
+                <button type="submit" style="display: none;"></button>
+            </form>
+
+
+            <a asp-controller="Home" asp-action="index"> <img class="logo-header" src="~/img/oceanid_logo_menor.png" alt="logo oceanid"></a>
+
+            <div class="icon-holders">
+                <!-- Ícone de Favoritos -->
+                <a asp-controller="ClienteFavoritoes" asp-action="Favoritar">
+                    <i class="bi bi-heart "></i> <!-- Usando ícone de coração -->
+                </a>
+
+                <!-- Ícone de Carrinho -->
+                <a asp-controller="Pedidoes" asp-action="Carrinho" onclick="abrirSacola()">
+                    <i class="bi bi-cart"></i> <!-- Usando ícone de carrinho -->
+                </a>
+
+                <!-- Painel de Cliente -->
+
+                <a asp-controller="Clientes" asp-action="Painel">
+                    <i class="bi bi-house-door"></i> <!-- Usando ícone de casa -->
+                </a>
+
+
+
+
+                <!-- Ícone de Login -->
+                <a href="#" onclick="menuLogin()">
+                    <i class="bi bi-person"></i> <!-- Usando ícone de login -->
+                </a>
+
+                <!-- (Modo Claro/Escuro) -->
+                <a href="#" onclick="toggleTheme()" id="themeToggle">
+                    <i class="bi bi-moon"></i> <!-- Ícone de lua (modo escuro) -->
+                </a>
+            </div>
+        </div>
+        <div id="mobileMenu" class="mobile-slide-menu">
+            <button class="close-btn" onclick="toggleMobileMenu()">&#10005;</button>
+            <a href="#" onclick="abrirMenuLogin(event)">
+                <span class="icon">
+                    <img class="icons-header" src="~/img/login-icon.png" alt="login">
+                </span>
+                Login
+            </a>
+
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/shopping-icon.png" alt="Carrinho">
+                </span>
+                Carrinho
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/icons8-maquiagem-64.png" alt="Maquiagem">
+                </span>
+                Maquiagem
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/icons8-skin-care-64.png" alt="Skin Care">
+                </span>
+                Skin Care
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/icons8-escova-de-cabelo-50.png" alt="Hair">
+                </span>
+                Hair
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/icons8-perfume-50.png" alt="Perfume">
+                </span>
+                Perfume
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/icons8-novo-64.png" alt="Ofertas">
+                </span>
+                Ofertas
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/icons8-garrafa-de-creme-64.png" alt="Body Cream">
+                </span>
+                Body Cream
+            </a>
+            <a href="#">
+                <span class="icon">
+                    <img src="~/img/kit-maquiagem.png" alt="Kits">
+                </span>
+                Kits
+            </a>
+        </div>
+
+        <div class="header2">
+            <a asp-action="Maquiagem" asp-controller="Produtoes">Maquiagem</a>
+            <a asp-action="Skincare" asp-controller="Produtoes">Skincare</a>
+            <a asp-action="Cabelo" asp-controller="Produtoes">Cabelo</a>
+            <a asp-action="Perfume" asp-controller="Produtoes">Perfume</a>
+            <a asp-action="Ofertas" asp-controller="Produtoes">Ofertas</a>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main">
+            @RenderBody() <!-- Esta linha irá renderizar o conteúdo das páginas filhas -->
+        </main>
+    </div>
+
+    <footer>
+        <!-- Formulário de login -->
+        <section class="cadastro">
+            <h2>Login</h2>
+
+            <form class="menu-login" id="menu-login" asp-controller="Logins" asp-action="Login" method="post">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="cad-text">
+                    <p>Login</p>
+                    <img src="~/img/fechar-icon.png" alt="Fechar" onclick="menuLogin()" class="icon-menu">
+                </div>
+
+                <div class="menu" id="menu">
+                    <div class="input-holders">
+                        <input type="email" name="email" id="email" class="inputUser" required>
+                        <label class="label-input" for="email">E-mail</label>
+                    </div>
+
+                    <div class="input-holders" style="position: relative;">
+                        <input type="password" name="senha" id="senha" class="inputUser senhaCliente" required>
+                        <label class="label-input" for="senha">Senha</label>
+                        <img src="~/img/eye-icon.png" alt="Mostrar senha" class="toggle-eye" onclick="toggleSenha()" />
+                    </div>
+                    <div class="links-log">
+                        <a href="#">Esqueceu sua senha?</a>
+                        <a href="#" onclick=" abrirCadastro()">Faça já o seu cadastro!</a>
+                    </div>
+                </div>
+                <div class="cad-text2">
+                    <input type="submit" value="Entrar">
+                    <div class="logout">
+                        <a asp-controller="Logins" asp-action="Logout">
+                            <div class="logout">
+                                <img src="~/img/logout.png" alt="logout" />
+                                <p>LogOut</p>
+                            </div>
+                        </a>
+
+                    </div>
+            </form>
+        </section>
+
+        <div class="footer-links">
+            <div class="link-column">
+                <h3>Dúvidas</h3>
+                <ul>
+                    <li class="list-duvidas"><a href="#">Política de Privacidade</a></li>
+                    <li class="list-duvidas"><a href="#">Política de Troca e Devolução</a></li>
+                    <li class="list-duvidas"><a href="#">Termos e Condições</a></li>
+                </ul>
+                <div class="atendimento">
+                    <h3>Atendimento</h3>
+                    <ul>
+                        <li>Telefone: (XX) XXXX-XXXX</li>
+                        <li>Email: contato@cliente.com.br</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-payment">
+            <h3>Formas de Pagamento</h3>
+            <span>
+                <a href="#">
+                    <img class="imgPagFooter" src="~/img/cartao.png" alt="cartão">
+                </a>
+            </span>
+            <span>
+                <a href="#">
+                    <img class="imgPagFooter" src="~/img/dinheiro.png" alt="dinheiro">
+                </a>
+            </span>
+            <span>
+                <a href="#">
+                    <img class="imgPagFooter" src="~/img/boleto-oceanid.png" alt="boleto">
+                </a>
+            </span>
+        </div>
+
+        <div class="footer-social">
+            <h3>Nossas redes sociais</h3>
+            <span>
+                <a href="#">
+                    <img class="imgSocialFooter" src="~/img/icons8-tiktok-30.png" alt="tiktok">
+                </a>
+            </span>
+            <span>
+                <a href="#">
+                    <img class="imgSocialFooter" src="~/img/icons8-twitter-50.png" alt="twitter">
+                </a>
+            </span>
+            <span>
+                <a href="#">
+                    <img class="imgSocialFooter" src="~/img/icons8-instagram-50.png" alt="instagram">
+                </a>
+            </span>
+        </div>
+
+    </footer>
+</body>
+</html>
