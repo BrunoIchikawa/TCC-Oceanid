@@ -14,7 +14,7 @@ namespace OceanidProjeto.Models
 
         [Required(ErrorMessage = "O endereço é obrigatório")]
         [Column("idEnd")]
-        public int idEnd { get; set; }
+        public int? idEnd { get; set; }
 
         [Required(ErrorMessage = "O pagamento é obrigatório")]
         [Column("idPag")]
@@ -34,7 +34,7 @@ namespace OceanidProjeto.Models
         public decimal Total { get; set; }
 
         [ForeignKey("idEnd")]
-        public Endereco endereco { get; set; }
+        public Endereco? endereco { get; set; }
 
         [ForeignKey("idPag")]
         public Pagamento pagamento { get; set; }

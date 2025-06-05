@@ -25,8 +25,6 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\TCM\TCC-Oceanid\OceanidProjeto
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
 [C:/TCM/TCC-Oceanid/OceanidProjeto/Views/Adms/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtc1xDcmVhdGUuY3NodG1s

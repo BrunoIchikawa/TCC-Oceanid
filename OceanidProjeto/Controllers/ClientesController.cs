@@ -324,12 +324,15 @@ namespace OceanidProjeto.Controllers
             }
 
             var pedidos = await _context.Pedidos
-                .Where(p => p.idCliente == idCliente)
-                .Include(p => p.Itens)
-                    .ThenInclude(i => i.produto)
-                .Include(p => p.cliente) // Carrega os dados do cliente se necessário
-                .OrderByDescending(p => p.Data)
-                .ToListAsync();
+             .Where(p => p.idCliente == idCliente)
+             .Include(p => p.Itens)
+                 .ThenInclude(i => i.produto)
+             .Include(p => p.cliente)
+             .Include(p => p.pagamento) 
+             .Include(p => p.endereco)  
+             .OrderByDescending(p => p.Data)
+             .ToListAsync();
+
 
             return View(pedidos);
         }

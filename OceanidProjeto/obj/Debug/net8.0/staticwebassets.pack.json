@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OceanidProjeto.bundle.scp.css",
-      "PackagePath": "staticwebassets\\OceanidProjeto.dvk97rqfmr.bundle.scp.css"
+      "PackagePath": "staticwebassets\\OceanidProjeto.bundle.scp.css"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Detalhes.css",
@@ -73,8 +73,8 @@
       "PackagePath": "staticwebassets\\img\\carrossel\\1.png"
     },
     {
-      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\2.png",
-      "PackagePath": "staticwebassets\\img\\carrossel\\2.png"
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\2.mp4",
+      "PackagePath": "staticwebassets\\img\\carrossel\\2.mp4"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.png",
@@ -775,10 +775,6 @@
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OceanidProjeto.Microsoft.AspNetCore.StaticWebAssets.props",

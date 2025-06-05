@@ -37,13 +37,13 @@
         <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" class="form-detalhes" method="post">
             <input type="hidden" name="idProd" value="@Model.idProd" />
             <button type="submit" class="btn-favoritar">
-                <i class="bi bi-heart "></i>
+                <i class="bi bi-heart favv"></i>
             </button>
         </form>
     </div>
 
     <div class="product-info-detalhes">
-        <h3 class="product-name">@Model.nomeProd</h3>
+        <h3 style="font-size:30px;" class="product-name">@Model.nomeProd</h3>
         <p class="product-brand">@Model.marcaProd</p>
 
         <div class="product-price-detalhes">
@@ -62,8 +62,8 @@
         <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
             <input type="hidden" name="id" value="@Model.idProd" />
             <input type="hidden" name="quantidade" value="1" />
-            <button type="submit" class="btn-add-to-cart carrinho-detalhes">
-                <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho" style="font-size:14px;" />Adicionar ao carrinho
+            <button type="submit" class="btn-add-to-cart- carrinho-detalhes">
+                <i class ="bi bi-cart"></i> Adicionar ao carrinho
             </button>
         </form>
     </div>
@@ -83,12 +83,11 @@
                 }
 
                 <div class="product-card-detalhes-carrossel">
-
                     <div class="product-header">
                         <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
-                            <input type="hidden" name="idProd" value="@Model.idProd" />
+                            <input type="hidden" name="idProd" value="@produto.idProd" />
                             <button type="submit" class="btn-favoritar">
-                                <i class=" bi bi-heart fav-detalhes"></i>
+                                <i class="bi bi-heart fav-detalhes"></i>
                             </button>
                         </form>
                     </div>
@@ -96,22 +95,26 @@
                     <div class="product-image-container">
                         <img src="@(string.IsNullOrEmpty(produto.imagemUrl) ? Url.Content("/assets/img/default-image.png") : produto.imagemUrl)"
                              alt="@produto.nomeProd"
-                             class="product-image-detalhes-carrolssel"
+                             class="product-image-detalhes-carrossel"
                              onerror="this.onerror=null;this.src='@Url.Content("/assets/img/default-image.png")';" />
                     </div>
 
-
-                    <div class="product-info">
+                    <div class="product-info-carrossel">
                         <h5 class="product-name">@produto.nomeProd</h5>
-                        <p class="product-price-detalhes">@produto.precoProd.ToString("C")</p>
+                        <p class="product-price">@produto.precoProd.ToString("C")</p>
 
-                        <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
-                            <input type="hidden" name="id" value="@produto.idProd" />
-                            <input type="hidden" name="quantidade" value="1" />
-                            <button type="submit" class="btn-add-to-cart">
-                                <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho" />
-                            </button>
-                        </form>
+                        <div class="product-actions-carrossel">
+                            <a class="btn-details" asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd">
+                                Ver detalhes
+                            </a>
+                            <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
+                                <input type="hidden" name="id" value="@produto.idProd" />
+                                <input type="hidden" name="quantidade" value="1" />
+                                <button type="submit" class="btn-add-to-cart">
+                                    <i class="bi bi-cart"></i>
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             }
@@ -120,3 +123,27 @@
 
     <button class="product-carousel-button next">&#10095;</button>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const track = document.querySelector('.product-carousel-track');
+        const btnPrev = document.querySelector('.product-carousel-button.prev');
+        const btnNext = document.querySelector('.product-carousel-button.next');
+        const cardWidth = 320;
+
+        let currentPosition = 0;
+
+        btnPrev.addEventListener('click', () => {
+            currentPosition -= cardWidth;
+            if (currentPosition < 0) currentPosition = 0;
+            track.style.transform = `translateX(-${currentPosition}px)`;
+        });
+
+        btnNext.addEventListener('click', () => {
+            const maxScroll = track.scrollWidth - track.parentElement.offsetWidth;
+            currentPosition += cardWidth;
+            if (currentPosition > maxScroll) currentPosition = maxScroll;
+            track.style.transform = `translateX(-${currentPosition}px)`;
+        });
+    });
+</script>

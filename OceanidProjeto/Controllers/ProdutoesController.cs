@@ -262,6 +262,7 @@ namespace OceanidProjeto.Controllers
         [HttpGet]
         public async Task<IActionResult> Detalhes(int id)
         {
+
             // Carrega os produtos do banco de dados incluindo as promoções ativas e categorias
             var produtosDoBanco = _context.Produtos
                 .Include(p => p.Promocao.Where(promo => promo.ativa && promo.dataInicio <= DateTime.Now && promo.dataFim >= DateTime.Now))

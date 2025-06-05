@@ -13,7 +13,7 @@ namespace OceanidProjeto.Models
 
         [Required(ErrorMessage = "CEP é obrigatório")]
         [Column("cepEnd")]
-        [StringLength(10, ErrorMessage = "CEP não pode exceder 10 caracteres")]
+        [StringLength(11, ErrorMessage = "CEP não pode exceder 11 caracteres")]
         [RegularExpression(@"^\d{5}-?\d{3}$", ErrorMessage = "CEP inválido")]
         public string Cep { get; set; }
 
