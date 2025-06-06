@@ -1,0 +1,150 @@
+﻿@model OceanidProjeto.Models.Cliente
+@{
+    ViewData["Title"] = "Painel do Cliente";
+    var enderecos = ViewBag.Enderecos as List<OceanidProjeto.Models.Endereco>;
+}
+
+<link rel="stylesheet" href="~/css/painel.css" />
+
+<div class="painel-container" style="padding-top:100px;">
+    <aside class="sidebar">
+        <i class="bi bi-person">  Área do Usuário</i>
+
+        <ul class="sidebar-menu">
+            <li>Status dos Pedidos</li>
+            <li> <a asp-action="Favoritar" asp-controller="ClienteFavoritoes">Favoritos</a></li>
+            <li>
+                <a asp-action="Historico" asp-controller="Clientes">Histórico de Compras</a>
+            </li>
+            <li>Ajuda</li>
+        </ul>
+        <button class="btn-voltar" onclick="location.href='/home/index'">Voltar</button>
+    </aside>
+
+    <main class="painel-conteudo">
+        <h2 class="titulo-bemvindo">Bem vindo, @Model.nomeCompleto!</h2>
+
+        @if (TempData["Msg"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["Msg"]
+            </div>
+        }
+
+        <!-- Seção de edição dos dados -->
+        <div class="painel-card">
+            <h3>Editar Dados do Cliente</h3>
+            <form asp-action="EditarCliente" method="post" class="painel-form">
+                <input type="hidden" name="idCliente" value="@Model.idCliente" />
+
+                <div class="form-grid">
+                    <div>
+                        <label>Nome</label>
+                        <input name="nomeCompleto" value="@Model.nomeCompleto" />
+                    </div>
+                    <div>
+                        <label>Senha</label>
+                        <input type="password" name="senhaCliente" value="@Model.senhaCliente" />
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input name="emailCliente" value="@Model.emailCliente" />
+                    </div>
+                    <div>
+                        <label>Data de nascimento</label>
+                        <input type="date" name="dataNasc" value="@Model.dataNasc.ToString("yyyy-MM-dd")" />
+                    </div>
+                    <div>
+                        <label>CPF</label>
+                        <input name="cpf" value="@Model.cpf" />
+                    </div>
+
+                </div>
+                <button type="submit" class="btn-salvar">Salvar Alterações</button>
+            </form>
+        </div>
+
+        <!-- Endereço Cadastrado -->
+        <div class="painel-card">
+            <h3>Endereço Cadastrado</h3>
+
+            @if (Model.enderecoCli != null)
+            {
+                <ul class="lista-enderecos">
+                    <li>
+                        <div>
+                            <strong>@Model.enderecoCli.Logradouro, @Model.enderecoCli.Numero</strong><br />
+                            @Model.enderecoCli.Bairro - @Model.enderecoCli.Cidade/@Model.enderecoCli.Estado<br />
+                            CEP: @Model.enderecoCli.Cep
+                        </div>
+                        <form asp-action="DeletarEndereco" method="post">
+                            <input type="hidden" name="idEnd" value="@Model.enderecoCli.idEnd" />
+                            <input type="hidden" name="idCliente" value="@Model.idCliente" />
+                        </form>
+                        <div class="col-3 text-end">
+                            <button type="button" class="btn btn-sm btn-outline-danger" onclick="confirmRemove(@Model.enderecoCli.idEnd, @Model.idCliente)">EXCLUIR</button>
+                        </div>
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <p>Nenhum endereço cadastrado.</p>
+            }
+        </div>
+
+
+
+        <!-- Adicionar Endereço -->
+        <div class="painel-card">
+            <h3>Adicionar Novo Endereço</h3>
+            <form asp-action="AdicionarEndereco" method="post" class="painel-form">
+                <input type="hidden" name="idCliente" value="@Model.idCliente" />
+
+                <div class="form-grid">
+                    <input type="text" name="cepEnd" placeholder="CEP" required />
+                    <input type="text" name="logradouro" placeholder="Logradouro" required />
+                    <input type="number" name="numeroEnd" placeholder="Número" required />
+                    <input type="text" name="complemento" placeholder="Complemento" />
+                    <input type="text" name="bairro" placeholder="Bairro" required />
+                    <input type="text" name="cidade" placeholder="Cidade" required />
+                    <input type="text" name="estado" placeholder="Estado" required />
+                </div>
+                <button type="submit" class="btn-adicionar">Adicionar Endereço</button>
+            </form>
+        </div>
+    </main>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    function confirmRemove(idEndereco, idCliente) {
+        Swal.fire({
+            title: 'Tem certeza?',
+            text: "Deseja remover este Endereço?",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Sim, remover!',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                $.ajax({
+                    url: '@Url.Action("DeletarEndereco", "Clientes")',
+                    type: 'POST',
+                    data: { idEndereco: idEndereco, idCliente: idCliente },
+                    success: function (response) {
+                        location.reload();
+                    },
+                    error: function () {
+                        Swal.fire('Erro', 'Erro ao remover o endereço.', 'error');
+                    }
+                });
+            }
+        });
+    }
+</script>

@@ -1,0 +1,77 @@
+﻿@model OceanidProjeto.Models.Produto
+
+@{
+    var promocaoativa = Model.Promocao?.FirstOrDefault(p =>
+        p.ativa && p.dataInicio <= DateTime.Now && p.dataFim >= DateTime.Now);
+
+    decimal precoFinal = Model.precoProd;
+    decimal? valorDesconto = null;
+    string tipoDesconto = "";
+
+    if (promocaoativa != null)
+    {
+        if (promocaoativa.tipoDesconto == "Percentual" && promocaoativa.valorDesconto.HasValue)
+        {
+            valorDesconto = promocaoativa.valorDesconto;
+            precoFinal = Model.precoProd * (1 - (valorDesconto.Value / 100));
+            tipoDesconto = $"{valorDesconto}% OFF";
+        }
+        else if (promocaoativa.tipoDesconto == "Valor Fixo" && promocaoativa.precoPromocional.HasValue)
+        {
+            precoFinal = promocaoativa.precoPromocional.Value;
+            valorDesconto = Model.precoProd - precoFinal;
+            tipoDesconto = $"R$ {valorDesconto.Value.ToString("N2")} OFF";
+        }
+    }
+}
+
+<!-- Produto -->
+<div class="product-card">
+    @if (promocaoativa != null)
+    {
+        <div class="promo-badge">@tipoDesconto</div>
+    }
+
+    <div class="product-header">
+        <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
+            <input type="hidden" name="idProd" value="@Model.idProd" />
+            <button type="submit" class="btn-favoritar">
+                <img class="icons-prod" src="~/img/favs-icon.png" alt="favoritos">
+            </button>
+        </form>
+    </div>
+
+    <div class="product-image">
+        <img src="@Url.Content(Model.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@Model.nomeProd" />
+    </div>
+
+    <div class="product-info">
+        <h3 class="product-name">@Model.nomeProd</h3>
+        <p class="product-brand">@Model.marcaProd</p>
+
+        <div class="product-price">
+            @if (promocaoativa != null)
+            {
+                <span class="original-price">R$ @Model.precoProd.ToString("N2")</span>
+            }
+            <span class="final-price">R$ @precoFinal.ToString("N2")</span>
+            @if (promocaoativa != null)
+            {
+                <span class="discount-type">@tipoDesconto</span>
+            }
+        </div>
+    </div>
+
+    <div class="product-actions">
+        <a asp-action="DetalhesProd" asp-controller="Produtoes" class="btn-details">
+            Ver detalhes
+        </a>
+        <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
+            <input type="hidden" name="id" value="@Model.idProd" />
+            <input type="hidden" name="quantidade" value="1" />
+            <button type="submit" class="btn-add-to-cart">
+                <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho">
+            </button>
+        </form>
+    </div>
+</div>

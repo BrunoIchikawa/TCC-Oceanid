@@ -1,0 +1,167 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.painel-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+    color: #1C364E;
+}
+
+    .sidebar i {
+        font-size: 20px;
+        text-align: center;
+        line-height: 35px;
+    }
+
+
+.sidebar-logo {
+    width: 80px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.sidebar-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2rem;
+}
+
+    .sidebar-menu li {
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+        .sidebar-menu li:hover {
+            color: #C28E9E;
+        }
+
+.btn-voltar {
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4C82B4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .btn-voltar:hover {
+        background-color: #C28E9E;
+    }
+
+/* Conteúdo principal */
+.painel-conteudo {
+    flex: 1;
+    padding: 40px 60px;
+}
+
+.titulo-bemvindo {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.painel-card {
+    background-color: #a9cbe0;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+    .painel-card h3 {
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+/* Formulários */
+.painel-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.painel-form input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.painel-form label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+/* Botões */
+.btn-salvar, .btn-adicionar {
+    align-self: start;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #1C364E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .btn-salvar:hover, .btn-adicionar:hover {
+        background-color: #4C82B4;
+    }
+
+/* Lista de Endereços */
+.lista-enderecos {
+    list-style: none;
+    padding: 0;
+}
+
+    .lista-enderecos li {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .lista-enderecos strong {
+        display: block;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+/* SweetAlert botões */
+.swal2-confirm {
+    background-color: #EFC6D8 !important;
+}
