@@ -24,7 +24,12 @@ namespace OceanidProjeto.CarrinhoCompra
         {
             if (_cookie.Existe(Key))
             {
+<<<<<<< HEAD
                 string valor = _cookie.Consultar(Key);
+=======
+                string valor = _cookie.Consultar(Key, _cookie.Get_context());
+                #pragma warning disable CS8603 
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                 return JsonConvert.DeserializeObject<List<Produto>>(valor);
             }
             else

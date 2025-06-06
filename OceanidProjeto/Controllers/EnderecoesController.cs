@@ -26,7 +26,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Enderecoes/Details/5
+<<<<<<< HEAD
         public async Task<IActionResult> Details(int? id)
+=======
+        public async Task<IActionResult> Details(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -54,7 +58,11 @@ namespace OceanidProjeto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public async Task<IActionResult> Create([Bind("idEnd,Cep,Numero,Logradouro,Complemento,Bairro,Estado,Cidade")] Endereco endereco)
+=======
+        public async Task<IActionResult> Create([Bind("idEnd,cepEnd,numeroEnd,logradouro,complemento,bairro,estado,cidade")] Endereco endereco)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +74,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Enderecoes/Edit/5
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int? id)
+=======
+        public async Task<IActionResult> Edit(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -86,7 +98,11 @@ namespace OceanidProjeto.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int id, [Bind("idEnd,Cep,Numero,Logradouro,Complemento,Bairro,Estado,Cidade")] Endereco endereco)
+=======
+        public async Task<IActionResult> Edit(int id, [Bind("idEnd,cepEnd,numeroEnd,logradouro,complemento,bairro,estado,cidade")] Endereco endereco)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id != endereco.idEnd)
             {
@@ -117,7 +133,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Enderecoes/Delete/5
+<<<<<<< HEAD
         public async Task<IActionResult> Delete(int? id)
+=======
+        public async Task<IActionResult> Delete(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {

@@ -1,14 +1,29 @@
+<<<<<<< HEAD
 ﻿﻿
+=======
+﻿
+@{
+    ViewData["Title"] = "Oceanid";
+}
+﻿
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
     <title>@ViewData["Title"] - Home Page</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OceanidProjeto.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+=======
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OceanidProjeto.styles.css" asp-append-version="true" />
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 </head>
 <body>
 
@@ -31,6 +46,7 @@
             <a asp-controller="Home" asp-action="index"> <img class="logo-header" src="~/img/oceanid_logo_menor.png" alt="logo oceanid"></a>
 
             <div class="icon-holders">
+<<<<<<< HEAD
                 <!-- Ícone de Favoritos -->
                 <a asp-controller="ClienteFavoritoes" asp-action="Favoritar">
                     <i class="bi bi-heart "></i> <!-- Usando ícone de coração -->
@@ -58,12 +74,25 @@
                 <!-- (Modo Claro/Escuro) -->
                 <a href="#" onclick="toggleTheme()" >
                     <i id="themeToggle" class="bi bi-moon"></i> <!-- Ícone de lua (modo escuro) -->
+=======
+                <a asp-controller="ClienteFavoritoes" asp-action="Favoritar"><img class="icons-header" src="~/img/favs-icon.png" alt="favoritos"></a>
+
+                <a asp-controller="Pedidoes" asp-action="Carrinho"><img class="icons-header" src="~/img/shopping-icon.png" alt="carrinho" onclick="abrirSacola()"></a>
+                <a href="#"><img class="icons-header" src="~/img/login-icon.png" alt="login" onclick="menuLogin()"></a>
+                <a href="#" onclick="toggleTheme()" id="themeToggle">
+                    <img src="~/img/darkmode.png" class="bi bi-moon" id="themeIcon" alt="dark mode" />
+
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                 </a>
             </div>
         </div>
         <div id="mobileMenu" class="mobile-slide-menu">
             <button class="close-btn" onclick="toggleMobileMenu()">&#10005;</button>
+<<<<<<< HEAD
             <a href="#" onclick="abrirMenuLogin(event)">
+=======
+            <a href="#" onclick="abrirMenuLogin(eloEvent)">
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                 <span class="icon">
                     <img class="icons-header" src="~/img/login-icon.png" alt="login">
                 </span>
@@ -148,12 +177,20 @@
 
                 <div class="menu" id="menu">
                     <div class="input-holders">
+<<<<<<< HEAD
                         <input type="email" name="email" id="email" class="inputUser" required>
+=======
+                        <input type="email" name="email" id="email" class="inputUser" >
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                         <label class="label-input" for="email">E-mail</label>
                     </div>
 
                     <div class="input-holders" style="position: relative;">
+<<<<<<< HEAD
                         <input type="password" name="senha" id="senha" class="inputUser senhaCliente" required>
+=======
+                        <input type="password" name="senha" id="senha" class="inputUser senhaCliente" >
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                         <label class="label-input" for="senha">Senha</label>
                         <img src="~/img/eye-icon.png" alt="Mostrar senha" class="toggle-eye" onclick="toggleSenha()" />
                     </div>
@@ -207,9 +244,13 @@
             </span>
             <span>
                 <a href="#">
+<<<<<<< HEAD
                     <img class="imgPagFooter"
                          src="~/img/boleto-oceanid.png"
                          alt="boleto">
+=======
+                    <img class="imgPagFooter" src="~/img/boleto-oceanid.png" alt="boleto">
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                 </a>
             </span>
         </div>

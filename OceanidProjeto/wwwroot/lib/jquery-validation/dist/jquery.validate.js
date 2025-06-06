@@ -198,11 +198,19 @@ $.extend( $.fn, {
 			$.validator.staticRules( element )
 		), element );
 
+<<<<<<< HEAD
 		// Make sure required is at front
 		if ( data.required ) {
 			param = data.required;
 			delete data.required;
 			data = $.extend( { required: param }, data );
+=======
+		// Make sure  is at front
+		if ( data. ) {
+			param = data.;
+			delete data.;
+			data = $.extend( { : param }, data );
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 		}
 
 		// Make sure remote is at back
@@ -369,7 +377,11 @@ $.extend( $.validator, {
 	},
 
 	messages: {
+<<<<<<< HEAD
 		required: "This field is required.",
+=======
+		: "This field is .",
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 		remote: "Please fix this field.",
 		email: "Please enter a valid email address.",
 		url: "Please enter a valid URL.",
@@ -1110,7 +1122,11 @@ $.extend( $.validator, {
 
 		optional: function( element ) {
 			var val = this.elementValue( element );
+<<<<<<< HEAD
 			return !$.validator.methods.required.call( this, val, element ) && "dependency-mismatch";
+=======
+			return !$.validator.methods..call( this, val, element ) && "dependency-mismatch";
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 		},
 
 		startRequest: function( element ) {
@@ -1185,7 +1201,11 @@ $.extend( $.validator, {
 	},
 
 	classRuleSettings: {
+<<<<<<< HEAD
 		required: { required: true },
+=======
+		: { : true },
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 		email: { email: true },
 		url: { url: true },
 		date: { date: true },
@@ -1248,12 +1268,21 @@ $.extend( $.validator, {
 
 		for ( method in $.validator.methods ) {
 
+<<<<<<< HEAD
 			// Support for <input required> in both html5 and older browsers
 			if ( method === "required" ) {
 				value = element.getAttribute( method );
 
 				// Some browsers return an empty string for the required attribute
 				// and non-HTML5 browsers might have required="" markup
+=======
+			// Support for <input > in both html5 and older browsers
+			if ( method === "" ) {
+				value = element.getAttribute( method );
+
+				// Some browsers return an empty string for the  attribute
+				// and non-HTML5 browsers might have ="" markup
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 				if ( value === "" ) {
 					value = true;
 				}
@@ -1284,7 +1313,11 @@ $.extend( $.validator, {
 		for ( method in $.validator.methods ) {
 			value = $element.data( "rule" + method.charAt( 0 ).toUpperCase() + method.substring( 1 ).toLowerCase() );
 
+<<<<<<< HEAD
 			// Cast empty attributes like `data-rule-required` to `true`
+=======
+			// Cast empty attributes like `data-rule-` to `true`
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 			if ( value === "" ) {
 				value = true;
 			}
@@ -1309,7 +1342,11 @@ $.extend( $.validator, {
 		// Handle dependency check
 		$.each( rules, function( prop, val ) {
 
+<<<<<<< HEAD
 			// Ignore rule when param is explicitly false, eg. required:false
+=======
+			// Ignore rule when param is explicitly false, eg. :false
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 			if ( val === false ) {
 				delete rules[ prop ];
 				return;
@@ -1374,7 +1411,11 @@ $.extend( $.validator, {
 		return rules;
 	},
 
+<<<<<<< HEAD
 	// Converts a simple string to a {string: true} rule, e.g., "required" to {required:true}
+=======
+	// Converts a simple string to a {string: true} rule, e.g., "" to {:true}
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 	normalizeRule: function( data ) {
 		if ( typeof data === "string" ) {
 			var transformed = {};
@@ -1398,8 +1439,13 @@ $.extend( $.validator, {
 	// https://jqueryvalidation.org/jQuery.validator.methods/
 	methods: {
 
+<<<<<<< HEAD
 		// https://jqueryvalidation.org/required-method/
 		required: function( value, element, param ) {
+=======
+		// https://jqueryvalidation.org/-method/
+		: function( value, element, param ) {
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
 			// Check if dependency is met
 			if ( !this.depend( param, element ) ) {

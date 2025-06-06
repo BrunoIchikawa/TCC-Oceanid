@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using OceanidProjeto.Data;
 using OceanidProjeto.Models;
+<<<<<<< HEAD
+=======
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
 namespace OceanidProjeto.Controllers
 {
@@ -24,7 +28,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: ItemPedidoes/Details/5
+<<<<<<< HEAD
         public async Task<IActionResult> Details(int? id)
+=======
+        public async Task<IActionResult> Details(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -63,13 +71,21 @@ namespace OceanidProjeto.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
+<<<<<<< HEAD
+=======
+            #pragma warning disable CS0162 // Código inacessível detectado
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             ViewData["idPedido"] = new SelectList(_context.Pedidos, "idPed", "idPed", itemPedido.idPedido);
             ViewData["idProd"] = new SelectList(_context.Produtos, "idProd", "idProd", itemPedido.idProd);
             return View(itemPedido);
         }
 
         // GET: ItemPedidoes/Edit/5
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int? id)
+=======
+        public async Task<IActionResult> Edit(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -117,13 +133,21 @@ namespace OceanidProjeto.Controllers
             }
             return RedirectToAction(nameof(Index));
 
+<<<<<<< HEAD
+=======
+            #pragma warning disable CS0162 // Código inacessível detectado
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             ViewData["idPedido"] = new SelectList(_context.Pedidos, "idPed", "idPed", itemPedido.idPedido);
             ViewData["idProd"] = new SelectList(_context.Produtos, "idProd", "idProd", itemPedido.idProd);
             return View(itemPedido);
         }
 
         // GET: ItemPedidoes/Delete/5
+<<<<<<< HEAD
         public async Task<IActionResult> Delete(int? id)
+=======
+        public async Task<IActionResult> Delete(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {

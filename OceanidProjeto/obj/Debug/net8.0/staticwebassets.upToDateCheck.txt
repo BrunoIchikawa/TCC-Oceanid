@@ -1,17 +1,26 @@
 wwwroot\css\carrinho.css
+<<<<<<< HEAD
 wwwroot\css\Painel.css
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\logo.png
 wwwroot\img\baggy-linkedin.jpeg
 wwwroot\img\baggy-linkedin2.jpeg
 wwwroot\img\banner.jfif
+<<<<<<< HEAD
 wwwroot\img\Banner.png
 wwwroot\img\bg-footer.png
 wwwroot\img\boleto-oceanid.png
 wwwroot\img\bruno-linkedin.png
 wwwroot\img\cabelo_dark.png
 wwwroot\img\cabelo_light.png
+=======
+wwwroot\img\bg-footer.png
+wwwroot\img\boleto-oceanid.png
+wwwroot\img\bruno-linkedin.png
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\img\carol-linkedin.jpeg
 wwwroot\img\carrossel\1.png
 wwwroot\img\carrossel\2.png
@@ -40,7 +49,10 @@ wwwroot\img\icons8-tiktok-30.png
 wwwroot\img\icons8-twitter-50.png
 wwwroot\img\icon-shopping-prod.png
 wwwroot\img\img1.jpg
+<<<<<<< HEAD
 wwwroot\img\img1.png
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\img\img2.jpg
 wwwroot\img\img3.jpg
 wwwroot\img\kit-maquiagem.png
@@ -53,17 +65,23 @@ wwwroot\img\logos\rede-img.png
 wwwroot\img\logos\skincare-categoria.png
 wwwroot\img\logos\Vinotália-pprt.png
 wwwroot\img\logout.png
+<<<<<<< HEAD
 wwwroot\img\maquiagem_dark.png
 wwwroot\img\maquiagem_light.png
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\img\menuBurguer-img.png
 wwwroot\img\mvv\missao-img.png
 wwwroot\img\mvv\valores-img.png
 wwwroot\img\mvv\visao-img.png
 wwwroot\img\oceanid_logo.png
 wwwroot\img\oceanid_logo_menor.png
+<<<<<<< HEAD
 wwwroot\img\oferta-categoria.png
 wwwroot\img\perfume_dark.png
 wwwroot\img\perfume_light.png
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\img\pesq-icon.png
 wwwroot\img\produtos\img1.png
 wwwroot\img\produtos\img10.png
@@ -97,14 +115,45 @@ wwwroot\img\produtos\img35.png
 wwwroot\img\produtos\img36.png
 wwwroot\img\produtos\img37.png
 wwwroot\img\produtos\img38.png
+<<<<<<< HEAD
 wwwroot\img\produtos\img4.png
 wwwroot\img\produtos\img5.png
 wwwroot\img\produtos\img6.png
+=======
+wwwroot\img\produtos\img39.png
+wwwroot\img\produtos\img4.png
+wwwroot\img\produtos\img40.png
+wwwroot\img\produtos\img41.png
+wwwroot\img\produtos\img42.png
+wwwroot\img\produtos\img43.png
+wwwroot\img\produtos\img44.png
+wwwroot\img\produtos\img45.png
+wwwroot\img\produtos\img46.png
+wwwroot\img\produtos\img47.png
+wwwroot\img\produtos\img48.png
+wwwroot\img\produtos\img49.png
+wwwroot\img\produtos\img5.png
+wwwroot\img\produtos\img50.png
+wwwroot\img\produtos\img51.png
+wwwroot\img\produtos\img52.png
+wwwroot\img\produtos\img53.png
+wwwroot\img\produtos\img54.png
+wwwroot\img\produtos\img55.png
+wwwroot\img\produtos\img56.png
+wwwroot\img\produtos\img57.png
+wwwroot\img\produtos\img58.png
+wwwroot\img\produtos\img59.png
+wwwroot\img\produtos\img6.png
+wwwroot\img\produtos\img60.png
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\img\produtos\img7.png
 wwwroot\img\produtos\img8.png
 wwwroot\img\produtos\img9.png
 wwwroot\img\produtos\sem-imagem.png.png
+<<<<<<< HEAD
 wwwroot\img\produtos\Thumbs.db
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\img\servicos\banco-img.png
 wwwroot\img\servicos\cll-img.png
 wwwroot\img\servicos\identidade-img.png
@@ -112,8 +161,11 @@ wwwroot\img\servicos\mundo-imng.png
 wwwroot\img\servicos\pc-img.png
 wwwroot\img\servicos\suporte-img.png
 wwwroot\img\shopping-icon.png
+<<<<<<< HEAD
 wwwroot\img\skincare_dark.png
 wwwroot\img\skincare_light.png
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 wwwroot\img\Thumbs.db
 wwwroot\img\voltdrive.png
 wwwroot\js\site.js

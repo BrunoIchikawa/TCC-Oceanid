@@ -13,10 +13,17 @@
     <thead>
         <tr>
             <th>
+<<<<<<< HEAD
                 @Html.DisplayNameFor(model => model.Data)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Total)
+=======
+                @Html.DisplayNameFor(model => model.dataPed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.totalPed)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.endereco)
@@ -34,6 +41,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+<<<<<<< HEAD
                 @Html.DisplayFor(modelItem => item.Data)
             </td>
             <td>
@@ -41,6 +49,15 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.endereco.Bairro)
+=======
+                @Html.DisplayFor(modelItem => item.dataPed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.totalPed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.endereco.bairro)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.pagamento.metodo)

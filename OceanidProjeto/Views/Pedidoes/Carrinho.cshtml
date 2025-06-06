@@ -1,26 +1,42 @@
 ﻿@model List<OceanidProjeto.Models.Produto>
 
 @{
+<<<<<<< HEAD
     ViewData["Title"] = "Carrinho";
     decimal total = 0;
 }
 
 
+=======
+    ViewData["Title"] = "Sacola";
+    decimal total = 0;
+}
+
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 <link href="~/css/carrinho.css" rel="stylesheet" />
 
 <div class="container">
     <section id="order">
         <br />
+<<<<<<< HEAD
         <h2 class="title-doc" style="font-weight:600;color:#1C364E;">Carrinho</h2>
 
         ```
+=======
+        <h2 class="title-doc" style="font-weight:600;color:#1C364E;">Sacola</h2>
+
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         <div id="code_cart">
             <div class="card p-3">
                 @if (!Model.Any())
                 {
                     <div class="empty-cart">
 
+<<<<<<< HEAD
                         <p>Carrinho está vazio</p>
+=======
+                        <p>Sacola está vazio</p>
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                     </div>
                 }
                 else
@@ -127,8 +143,12 @@
             </div>
         </div>
     </section>
+<<<<<<< HEAD
     <br />
     ```
+=======
+    <br/>
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
 </div>
 
@@ -143,7 +163,11 @@
             <form>
                 <div style="margin:0 auto;" class="mb-3 select">
                     <label for="formaPagamento" class="form-label">Forma de Pagamento</label>
+<<<<<<< HEAD
                     <select class="form-select rosa" id="formaPagamento" name="formaPagamento" required>
+=======
+                    <select class="form-select rosa" id="formaPagamento" name="formaPagamento" >
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                         <option selected disabled>Escolha uma opção</option>
                         <option value="Boleto">Boleto</option>
                         <option value="CartaoCredito">Cartão de Crédito</option>
@@ -166,20 +190,29 @@
 
         </div>
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         @if (TempData["Login"] != null)
         {
             <div id="popupLogin" class="alert alert-success text-center shadow rounded-pill position-fixed top-0 start-50 translate-middle-x mt-3 px-5 py-3" style="z-index: 9999;">
                 @TempData["Login"]
             </div>
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
     </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     function confirmRemove(id) {

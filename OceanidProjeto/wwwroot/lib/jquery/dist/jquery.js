@@ -592,7 +592,11 @@ var i,
 	},
 
 	booleans = "checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|" +
+<<<<<<< HEAD
 		"ismap|loop|multiple|open|readonly|required|scoped",
+=======
+		"ismap|loop|multiple|open|readonly||scoped",
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
 	// Regular expressions
 
@@ -4752,7 +4756,11 @@ function adjustCSS( elem, prop, valueParts, tween ) {
 		initial = currentValue(),
 		unit = valueParts && valueParts[ 3 ] || ( jQuery.cssNumber[ prop ] ? "" : "px" ),
 
+<<<<<<< HEAD
 		// Starting value computation is required for potential unit mismatches
+=======
+		// Starting value computation is  for potential unit mismatches
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 		initialInUnit = elem.nodeType &&
 			( jQuery.cssNumber[ prop ] || unit !== "px" && +initial ) &&
 			rcssNum.exec( jQuery.css( elem, prop ) );
@@ -4847,7 +4855,11 @@ function showHide( elements, show ) {
 		if ( show ) {
 
 			// Since we force visibility upon cascade-hidden elements, an immediate (and slow)
+<<<<<<< HEAD
 			// check is required in this first loop unless we have a nonempty display value (either
+=======
+			// check is  in this first loop unless we have a nonempty display value (either
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 			// inline or about-to-be-restored)
 			if ( display === "none" ) {
 				values[ index ] = dataPriv.get( elem, "display" ) || null;
@@ -4944,7 +4956,11 @@ var wrapMap = {
 
 	// XHTML parsers do not magically insert elements in the
 	// same way that tag soup parsers do. So we cannot shorten
+<<<<<<< HEAD
 	// this by omitting <tbody> or other required elements.
+=======
+	// this by omitting <tbody> or other  elements.
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 	thead: [ 1, "<table>", "</table>" ],
 	col: [ 2, "<table><colgroup>", "</colgroup></table>" ],
 	tr: [ 2, "<table><tbody>", "</tbody></table>" ],

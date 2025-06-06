@@ -26,7 +26,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Logins/Details/5
+<<<<<<< HEAD
         public async Task<IActionResult> Details(int? id)
+=======
+        public async Task<IActionResult> Details(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -72,7 +76,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Logins/Edit/5
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int? id)
+=======
+        public async Task<IActionResult> Edit(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -127,7 +135,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Logins/Delete/5
+<<<<<<< HEAD
         public async Task<IActionResult> Delete(int? id)
+=======
+        public async Task<IActionResult> Delete(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {

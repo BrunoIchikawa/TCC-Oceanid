@@ -381,10 +381,17 @@
 
         setValidationValues(options, "equalTo", element);
     });
+<<<<<<< HEAD
     adapters.add("required", function (options) {
         // jQuery Validate equates "required" with "mandatory" for checkbox elements
         if (options.element.tagName.toUpperCase() !== "INPUT" || options.element.type.toUpperCase() !== "CHECKBOX") {
             setValidationValues(options, "required", true);
+=======
+    adapters.add("", function (options) {
+        // jQuery Validate equates "" with "mandatory" for checkbox elements
+        if (options.element.tagName.toUpperCase() !== "INPUT" || options.element.type.toUpperCase() !== "CHECKBOX") {
+            setValidationValues(options, "", true);
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         }
     });
     adapters.add("remote", ["url", "type", "additionalfields"], function (options) {

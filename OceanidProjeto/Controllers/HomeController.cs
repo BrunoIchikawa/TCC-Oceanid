@@ -43,6 +43,7 @@ namespace OceanidProjeto.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+<<<<<<< HEAD
 
        
 
@@ -51,5 +52,7 @@ namespace OceanidProjeto.Controllers
 
 
 
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
     }
 }

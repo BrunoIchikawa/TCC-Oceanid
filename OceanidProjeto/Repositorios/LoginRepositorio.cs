@@ -6,6 +6,7 @@ using OceanidProjeto.Repositorios.Interface;
 
 namespace OceanidProjeto.Repositorios
 {
+<<<<<<< HEAD
     public class LoginRepositorio : ILoginRepositorio
     {
         private readonly AppDbContext _context;
@@ -17,6 +18,16 @@ namespace OceanidProjeto.Repositorios
         }
 
         public object Login(string email, string senha)
+=======
+    #pragma warning disable CS9113 // O parâmetro não está lido.
+    public class LoginRepositorio(AppDbContext context, IConfiguration configuration) : ILoginRepositorio
+    {
+        #pragma warning disable CS8601
+        private readonly string _conexaoMySQL = configuration.GetConnectionString("conexaoMySQL");
+
+        #pragma warning disable CS8766 // A nulidade de tipos de referência no tipo de retorno não corresponde ao membro implementado implicitamente (possivelmente devido a atributos de nulidade).
+        public object? Login(string email, string senha)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
@@ -54,7 +65,11 @@ namespace OceanidProjeto.Repositorios
                         var adm = new Adm
                         {
                             idAdm = Convert.ToInt32(dr["idAdm"]),
+<<<<<<< HEAD
                             nomePromocaoAdm = dr["nomePromocaoAdm"].ToString(),
+=======
+                            nomeAdm = dr["nomeAdm"].ToString(),
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                             emailAdm = dr["emailAdm"].ToString(),
                             senhaAdm = dr["senhaAdm"].ToString()
                         };

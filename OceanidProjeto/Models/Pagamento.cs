@@ -24,7 +24,11 @@ namespace OceanidProjeto.Models
         [Required(ErrorMessage = "O método de pagamento é obrigatório")]
         [Column("metodoPag")]
         [StringLength(50, ErrorMessage = "O método de pagamento não pode exceder 50 caracteres")]
+<<<<<<< HEAD
         public string metodo { get; set; }
+=======
+        public string? metodo { get; set; }
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
         public ICollection<Pedido> Pedidos { get; set; } = new HashSet<Pedido>();
     }

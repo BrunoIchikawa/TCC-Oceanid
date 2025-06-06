@@ -66,7 +66,11 @@ namespace OceanidProjeto.Data
 
             /*
             2. Produto <-> Categoria (N:1)
+<<<<<<< HEAD
                - Um produto pertence a uma categoria (required)
+=======
+               - Um produto pertence a uma categoria ()
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                - Uma categoria pode ter muitos produtos
             */
             modelBuilder.Entity<Produto>()
@@ -118,7 +122,11 @@ namespace OceanidProjeto.Data
 
             /*
             6. Pedido -> Cliente (N:1)
+<<<<<<< HEAD
                - Um pedido pertence a um cliente (required)
+=======
+               - Um pedido pertence a um cliente ()
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                - Um cliente pode ter vários pedidos
             */
             modelBuilder.Entity<Pedido>()
@@ -129,7 +137,11 @@ namespace OceanidProjeto.Data
 
             /*
             7. Pedido -> Endereço (N:1)
+<<<<<<< HEAD
                - Um pedido está vinculado a um endereço de entrega (required)
+=======
+               - Um pedido está vinculado a um endereço de entrega ()
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                - Um endereço pode estar em vários pedidos
             */
             modelBuilder.Entity<Pedido>()
@@ -140,7 +152,11 @@ namespace OceanidProjeto.Data
 
             /*
             8. Pedido -> Pagamento (N:1)
+<<<<<<< HEAD
                - Um pedido tem um método de pagamento (required)
+=======
+               - Um pedido tem um método de pagamento ()
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                - Um pagamento pode estar em vários pedidos
             */
             modelBuilder.Entity<Pedido>()
@@ -151,7 +167,11 @@ namespace OceanidProjeto.Data
 
             /*
             9. ItemPedido -> Pedido (N:1)
+<<<<<<< HEAD
                - Um item de pedido pertence a um pedido (required)
+=======
+               - Um item de pedido pertence a um pedido ()
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                - Um pedido pode ter vários itens
             */
             modelBuilder.Entity<ItemPedido>()
@@ -162,7 +182,11 @@ namespace OceanidProjeto.Data
 
             /*
             10. ItemPedido -> Produto (N:1)
+<<<<<<< HEAD
                 - Um item de pedido referencia um produto (required)
+=======
+                - Um item de pedido referencia um produto ()
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                 - Um produto pode estar em vários itens de pedido
             */
             modelBuilder.Entity<ItemPedido>()
@@ -172,7 +196,11 @@ namespace OceanidProjeto.Data
                 .OnDelete(DeleteBehavior.Restrict);
             /*
             11. Login -> Cliente(1:1)
+<<<<<<< HEAD
                 - um login por usuario (required)
+=======
+                - um login por usuario ()
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
                 - um cliente por login
             */
             modelBuilder.Entity<Login>()

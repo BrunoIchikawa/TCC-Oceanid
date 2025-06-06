@@ -28,7 +28,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Clientes/Details/5
+<<<<<<< HEAD
         public async Task<IActionResult> Details(int? id)
+=======
+        public async Task<IActionResult> Details(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -49,7 +53,11 @@ namespace OceanidProjeto.Controllers
         // GET: Clientes/Create
         public IActionResult Create()
         {
+<<<<<<< HEAD
             ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "Bairro");
+=======
+            ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "bairro");
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             return View();
         }
 
@@ -66,12 +74,20 @@ namespace OceanidProjeto.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+<<<<<<< HEAD
             ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "Bairro", cliente.enderecoCli);
+=======
+            ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "bairro", cliente.enderecoCli);
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             return View(cliente);
         }
 
         // GET: Clientes/Edit/5
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int? id)
+=======
+        public async Task<IActionResult> Edit(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -83,7 +99,11 @@ namespace OceanidProjeto.Controllers
             {
                 return NotFound();
             }
+<<<<<<< HEAD
             ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "Bairro", cliente.enderecoCli);
+=======
+            ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "bairro", cliente.enderecoCli);
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             return View(cliente);
         }
 
@@ -119,12 +139,20 @@ namespace OceanidProjeto.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+<<<<<<< HEAD
             ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "Bairro", cliente.enderecoCli);
+=======
+            ViewData["endereco"] = new SelectList(_context.Enderecos, "idEnd", "bairro", cliente.enderecoCli);
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             return View(cliente);
         }
 
         // GET: Clientes/Delete/5
+<<<<<<< HEAD
         public async Task<IActionResult> Delete(int? id)
+=======
+        public async Task<IActionResult> Delete(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -193,6 +221,7 @@ namespace OceanidProjeto.Controllers
 
 
         }
+<<<<<<< HEAD
 
         
 
@@ -334,5 +363,7 @@ namespace OceanidProjeto.Controllers
             return View(pedidos);
         }
 
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
     }
 }

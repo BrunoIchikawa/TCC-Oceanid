@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 function toggleTheme() {
     const html = document.documentElement; // Obtém o elemento raiz HTML
@@ -74,6 +75,22 @@ document.addEventListener("DOMContentLoaded", applySavedTheme);
 
 
 
+=======
+﻿function toggleTheme() {
+    const html = document.documentElement;
+    const current = html.getAttribute("data-bs-theme");
+    const icon = document.getElementById("themeIcon");
+
+    if (current === "dark") {
+        html.setAttribute("data-bs-theme", "light");
+        icon.className = "bi bi-moon";
+    } else {
+        html.setAttribute("data-bs-theme", "dark");
+        icon.className = "bi bi-sun";
+    }
+}
+
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 var carrossel = document.querySelector('#carouselExample');
 var instanciaCarrossel = new bootstrap.Carousel(carrossel, {
     interval: 4000,
@@ -88,7 +105,11 @@ function menuLogin() {
 function abrirCadastro() {
     document.getElementById("menu-cad").classList.add("show");
     document.getElementById("tudo-cad").style.display = "block";
+<<<<<<< HEAD
     document.getElementById("menu-login").style.display = 'none';
+=======
+    document.getElemntById("menu-login").style.display = 'none';
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 }
 
 function fecharCadastro() {
@@ -121,8 +142,13 @@ function fecharSacola() {
 }
 
 
+<<<<<<< HEAD
 function toggleFavorito(event, element) {
     event.preventDefault(); 
+=======
+function toggleFavorito(eloEvent, element) {
+    eloEvent.preventDefault(); 
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
     var img = element.querySelector('img');
 
@@ -170,12 +196,18 @@ function toggleMobileMenu() {
     }
 }
 
+<<<<<<< HEAD
 function abrirMenuLogin(event) {
     event.preventDefault();
+=======
+function abrirMenuLogin(eloEvent) {
+    eloEvent.preventDefault();
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
     toggleMobileMenu();     // fecha o menu hambúrguer
     menuLogin();            // exibe o menu de login
 }
 
+<<<<<<< HEAD
 
 // ------------- CARREGARR PRODUUUTO
 
@@ -218,3 +250,5 @@ function carregarProduto() {
 }
 
 carregarProduto();
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9

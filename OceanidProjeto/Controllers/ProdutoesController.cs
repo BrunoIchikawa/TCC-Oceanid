@@ -23,7 +23,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Produtoes/Details/5
+<<<<<<< HEAD
         public async Task<IActionResult> Details(int? id)
+=======
+        public async Task<IActionResult> Details(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -66,7 +70,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Produtoes/Edit/5
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int? id)
+=======
+        public async Task<IActionResult> Edit(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -119,7 +127,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Produtoes/Delete/5
+<<<<<<< HEAD
         public async Task<IActionResult> Delete(int? id)
+=======
+        public async Task<IActionResult> Delete(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -259,6 +271,7 @@ namespace OceanidProjeto.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         [HttpGet]
         public async Task<IActionResult> Detalhes(int idProd)
         {
@@ -274,5 +287,7 @@ namespace OceanidProjeto.Controllers
             return View(produto);
         }
 
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
     }
 }

@@ -28,7 +28,11 @@ namespace OceanidProjeto.Controllers
 
 
         // GET: Pedidoes/Details/5
+<<<<<<< HEAD
         public async Task<IActionResult> Details(int? id)
+=======
+        public async Task<IActionResult> Details(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -69,6 +73,10 @@ namespace OceanidProjeto.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
+<<<<<<< HEAD
+=======
+            #pragma warning disable CS0162 // Código inacessível detectado
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente", pedido.idCliente);
             ViewData["idEnd"] = new SelectList(_context.Enderecos, "idEnd", "idEnd", pedido.idEnd);
             ViewData["idPag"] = new SelectList(_context.Pagamentos, "idPag", "idPag", pedido.idPag);
@@ -76,7 +84,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Pedidoes/Edit/5
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int? id)
+=======
+        public async Task<IActionResult> Edit(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -125,6 +137,10 @@ namespace OceanidProjeto.Controllers
             }
             return RedirectToAction(nameof(Index));
 
+<<<<<<< HEAD
+=======
+            #pragma warning disable CS0162 // Código inacessível detectado
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente", pedido.idCliente);
             ViewData["idEnd"] = new SelectList(_context.Enderecos, "idEnd", "idEnd", pedido.idEnd);
             ViewData["idPag"] = new SelectList(_context.Pagamentos, "idPag", "idPag", pedido.idPag);
@@ -132,7 +148,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Pedidoes/Delete/5
+<<<<<<< HEAD
         public async Task<IActionResult> Delete(int? id)
+=======
+        public async Task<IActionResult> Delete(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             if (id == null)
             {
@@ -178,6 +198,7 @@ namespace OceanidProjeto.Controllers
         [HttpGet]
         public IActionResult Carrinho()
         {
+<<<<<<< HEAD
             var idCliente = HttpContext.Session.GetInt32("idCliente");
 
             if (idCliente == null)
@@ -185,12 +206,15 @@ namespace OceanidProjeto.Controllers
                 TempData["Login"] = "Primeiro faça o login";
                 return RedirectToAction("Index", "Home");
             }
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
             return View(_cookieCarrinhoCompra.Consultar()); // EXIBE os itens salvos
         }
 
         [HttpPost]
         public IActionResult AdicionarItem(Int32 id)
         {
+<<<<<<< HEAD
             var idCliente = HttpContext.Session.GetInt32("idCliente");
 
             if (idCliente == null)
@@ -199,6 +223,8 @@ namespace OceanidProjeto.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
 
             Produto produto = _context.Produtos.Find(id);

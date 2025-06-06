@@ -227,7 +227,10 @@ C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.RazorAssemblyInfo.cache
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.RazorAssemblyInfo.cs
+<<<<<<< HEAD
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.sourcelink.json
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\scopedcss\bundle\OceanidProjeto.styles.css
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\scopedcss\projectbundle\OceanidProjeto.bundle.scp.css
@@ -247,6 +250,7 @@ C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.pdb
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.genruntimeconfig.cache
 C:\Users\bruno\OneDrive\Documentos\DS-MODULAR\TCM\OceanidProjeto\OceanidProjeto\obj\Debug\net8.0\ref\OceanidProjeto.dll
+<<<<<<< HEAD
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\appsettings.Development.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\appsettings.json
 C:\TCM\TCC-Oceanid\OceanidProjeto\bin\Debug\net8.0\OceanidProjeto.staticwebassets.runtime.json
@@ -1484,3 +1488,5 @@ C:\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\refint\OceanidProjeto.dll
 C:\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.pdb
 C:\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\OceanidProjeto.genruntimeconfig.cache
 C:\TCC-Oceanid\OceanidProjeto\obj\Debug\net8.0\ref\OceanidProjeto.dll
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9

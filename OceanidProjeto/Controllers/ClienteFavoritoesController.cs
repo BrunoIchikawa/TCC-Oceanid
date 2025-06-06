@@ -41,7 +41,11 @@ namespace OceanidProjeto.Controllers
 
 
         // GET: ClienteFavoritoes/Details/5
+<<<<<<< HEAD
         public async Task<IActionResult> Details(int? id)
+=======
+        public async Task<IActionResult> Details(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
             ViewBag.ClienteFavoritos = clienteFavoritos;
@@ -93,7 +97,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: ClienteFavoritoes/Edit/5
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int? id)
+=======
+        public async Task<IActionResult> Edit(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
             ViewBag.ClienteFavoritos = clienteFavoritos;
@@ -152,7 +160,11 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: ClienteFavoritoes/Delete/5
+<<<<<<< HEAD
         public async Task<IActionResult> Delete(int? id)
+=======
+        public async Task<IActionResult> Delete(int id)
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
         {
             var clienteFavoritos = _context.ClienteFavoritos.Include(cl => cl.produto).ToList();
             ViewBag.ClienteFavoritos = clienteFavoritos;
@@ -230,7 +242,11 @@ namespace OceanidProjeto.Controllers
         public IActionResult Favoritar(int idProd)
         {
             // Recuperar idCliente da sessão corretamente
+<<<<<<< HEAD
             int? idCliente = HttpContext.Session.GetInt32("idCliente");
+=======
+            var idCliente = HttpContext.Session.GetInt32("idCliente");
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
             if (!idCliente.HasValue)
             {
@@ -271,7 +287,10 @@ namespace OceanidProjeto.Controllers
             }
 
             _context.SaveChanges();
+<<<<<<< HEAD
             TempData["FavoritoMsg"] = "Produto adicionado aos favoritos!";
+=======
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
             return RedirectToAction("Index", "Home");
         }
@@ -280,7 +299,11 @@ namespace OceanidProjeto.Controllers
         {
 
             // Recuperar idCliente da sessão corretamente
+<<<<<<< HEAD
             int? idCliente = HttpContext.Session.GetInt32("idCliente");
+=======
+            var idCliente = HttpContext.Session.GetInt32("idCliente");
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
             if (!idCliente.HasValue)
             {

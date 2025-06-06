@@ -12,11 +12,19 @@ namespace OceanidProjeto.Models
 
         [Required(ErrorMessage = "O ID do pedido é obrigatório")]
         [Column("idPedido")]
+<<<<<<< HEAD
         public int idPedido { get; set; }
 
         [Required(ErrorMessage = "O ID do produto é obrigatório")]
         [Column("idProd")]
         public int idProd { get; set; }
+=======
+        public  int idPedido { get; set; }
+
+        [Required(ErrorMessage = "O ID do produto é obrigatório")]
+        [Column("idProd")]
+        public  int idProd { get; set; }
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
         [Required(ErrorMessage = "A quantidade é obrigatória")]
         [Column("quantidade")]
@@ -29,7 +37,11 @@ namespace OceanidProjeto.Models
         public decimal PrecoUnitario { get; set; }
 
         [ForeignKey("idPedido")]
+<<<<<<< HEAD
         public Pedido pedido { get; set; }
+=======
+        public Pedido? pedido { get; set; }
+>>>>>>> 68c1ac3c63b82c5528ee599e81a2cef6e92e80a9
 
         [ForeignKey("idProd")]
         public Produto produto { get; set; }
