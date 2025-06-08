@@ -1,0 +1,184 @@
+﻿@model IEnumerable<OceanidProjeto.Models.Promocao>
+@{
+    ViewData["Title"] = "Ofertas Especiais";
+}
+<style>
+    .header-ofertas {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .filtros-ofertas {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .promo-card {
+        position: relative;
+        border: 2px solid #ff6b6b;
+    }
+
+    .promo-badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #ff4757;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-weight: bold;
+        z-index: 2;
+    }
+
+    .percent-badge {
+        background: linear-gradient(135deg, #ff4757, #ff6b6b);
+    }
+
+    .value-badge {
+        background: linear-gradient(135deg, #2ed573, #7bed9f);
+    }
+
+    .promo-badge small {
+        display: block;
+        font-size: 0.7rem;
+        opacity: 0.9;
+    }
+
+    .promo-timer {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .countdown {
+        font-weight: bold;
+        color: #ff4757;
+    }
+</style>
+
+<section class="ofertas">
+    <div class="header-ofertas">
+        <h1 class="section-title">Ofertas Especiais</h1>
+
+        <!-- Filtro por tipo de desconto -->
+        <div class="filtros-ofertas">
+            <form method="get" class="filtro-form">
+                <select name="tipoDesconto" class="form-select" onchange="this.form.submit()">
+                    <option value="">Todos os descontos</option>
+                    @foreach (var tipo in ViewBag.TiposDesconto)
+                    {
+                        <option value="@tipo" selected="@(ViewBag.TipoSelecionado == tipo)">@tipo</option>
+                    }
+                </select>
+            </form>
+
+            <div class="contador-ofertas">
+                <span>@Model.Count() ofertas ativas</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-produtos">
+        @foreach (var promocao in Model)
+        {
+            var produto = promocao.produto;
+            decimal precoFinal = produto.precoProd;
+            string tipoDesconto = "";
+            string badgeClass = "";
+
+            if (promocao.tipoDesconto == "Percentual" && promocao.valorDesconto.HasValue)
+            {
+                precoFinal = produto.precoProd * (1 - (promocao.valorDesconto.Value / 100));
+                tipoDesconto = $"{promocao.valorDesconto}% OFF";
+                badgeClass = "percent-badge";
+            }
+            else if (promocao.tipoDesconto == "Valor Fixo" && promocao.precoPromocional.HasValue)
+            {
+                precoFinal = promocao.precoPromocional.Value;
+                tipoDesconto = $"R$ {(produto.precoProd - precoFinal).ToString("N2")} OFF";
+                badgeClass = "value-badge";
+            }
+
+            <div class="product-card promo-card">
+                <div class="promo-badge @badgeClass">
+                    <span>@tipoDesconto</span>
+                    <small>Válido até @promocao.dataFim.ToString("dd/MM")</small>
+                </div>
+
+                <div class="product-header">
+                    <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
+                        <input type="hidden" name="idProd" value="@produto.idProd" />
+                        <button type="submit" class="btn-fav">
+                            <img class="icons-prod" src="~/img/favs-icon.png" alt="favoritos">
+                        </button>
+                    </form>
+                </div>
+
+                <div class="product-image">
+                    <img src="@Url.Content(produto.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@produto.nomeProd" />
+                </div>
+
+                <div class="product-info">
+                    <h3 class="product-name">@produto.nomeProd</h3>
+                    <p class="product-brand">@produto.marcaProd</p>
+
+                    <div class="product-price">
+                        <span class="original-price">R$ @produto.precoProd.ToString("N2")</span>
+                        <span class="final-price">R$ @precoFinal.ToString("N2")</span>
+                    </div>
+
+                    <div class="promo-timer">
+                        <small>Tempo limitado:</small>
+                        <div class="countdown" data-end="@promocao.dataFim.ToString("yyyy-MM-ddTHH:mm:ss")"></div>
+                    </div>
+                </div>
+
+                <div class="product-actions">
+                    <a href="#" class="btn-details" data-bs-toggle="modal" data-bs-target="#productModal-@produto.idProd">
+                        Ver detalhes
+                    </a>
+                    <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
+                        <input type="hidden" name="id" value="@produto.idProd" />
+                        <input type="hidden" name="quantidade" value="1" />
+                        <button type="submit" class="btn-add-to-cart">
+                            <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho">
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Modal (similar ao da Home) -->
+            @await Html.PartialAsync("_ProductModalPartial", produto)
+        }
+    </div>
+</section>
+
+
+<script>
+    // Atualiza os contadores regressivos
+    function updateCountdowns() {
+        $('.countdown').each(function() {
+            const endDate = new Date($(this).data('end'));
+            const now = new Date();
+            const diff = endDate - now;
+
+            if (diff <= 0) {
+                $(this).text('Oferta expirada');
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+
+            $(this).text(`${days}d ${hours}h ${mins}m`);
+        });
+    }
+
+    $(document).ready(function() {
+        updateCountdowns();
+        setInterval(updateCountdowns, 60000); // Atualiza a cada minuto
+    });
+</script>

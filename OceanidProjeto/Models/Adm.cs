@@ -11,9 +11,9 @@ namespace OceanidProjeto.Models
         public int idAdm { get; set; }
 
         [Required(ErrorMessage = "O nomePromocao do administrador é obrigatório")]
-        [Column("nomePromocaoAdm")]
+        [Column("nomeAdm")]
         [StringLength(70, ErrorMessage = "O nomePromocao não pode exceder 70 caracteres")]
-        public string nomePromocaoAdm { get; set; }
+        public string nomeAdm { get; set; }
 
         [Required(ErrorMessage = "A senha é obrigatória")]
         [Column("senhaAdm")]

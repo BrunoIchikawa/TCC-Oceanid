@@ -23,7 +23,7 @@ namespace OceanidProjeto.Controllers
         }
 
         // GET: Promocaos/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
             if (id == null)
             {
@@ -45,42 +45,54 @@ namespace OceanidProjeto.Controllers
         // GET: Promocaos/Create
         public IActionResult Create()
         {
-            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria");
-            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd");
+            // Carrega listas para os dropdowns
+            ViewBag.Produtos = new SelectList(_context.Produtos.ToList(), "idProd", "nomeProd");
+            ViewBag.Categorias = new SelectList(_context.Categorias.ToList(), "idCategoria", "nomeCategoria");
+
+            // Valores padrão
+            var model = new Promocao
+            {
+                dataInicio = DateTime.Now,
+                dataFim = DateTime.Now.AddDays(7),
+                ativa = true,
+                tipoDesconto = "Percentual" // Valor padrão
+            };
+
             return View();
         }
 
         // POST: Promocaos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,nomePromocao,DescontoPercentual,precoPromocional,dataInicio,dataFim,ativa,idPromocao,idCategoria")] Promocao Promocao)
+        public async Task<IActionResult> Create([Bind("idPromocao,nomePromocao,tipoDesconto,valorDesconto,precoPromocional,dataInicio,dataFim,ativa,limitePorCliente,idProd,idCategoria")] Promocao promocao)
         {
-            // Validação para garantir que ou idPromocao ou idCategoria está preenchido, mas não ambos
-            if (Promocao.idProd == null && Promocao.idCategoria == null)
+            // Validação customizada
+            if (promocao.idProd == 0 && promocao.idCategoria == 0)
             {
-                ModelState.AddModelError(string.Empty, "Você deve selecionar um produto OU uma categoria para a promoção.");
+                ModelState.AddModelError("", "Você deve selecionar um produto OU uma categoria para a promoção.");
             }
-            else if (Promocao.idProd != null && Promocao.idCategoria!= null)
+            else if (promocao.idProd != 0 && promocao.idCategoria != 0)
             {
-                ModelState.AddModelError(string.Empty, "Selecione apenas um produto OU uma categoria, não ambos.");
+                ModelState.AddModelError("", "Selecione apenas um produto OU uma categoria, não ambos.");
             }
 
             if (ModelState.IsValid)
             {
-                _context.Add(Promocao);
+                _context.Add(promocao);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria", Promocao.idCategoria);
-            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd", Promocao.idPromocao);
-            return View(Promocao);
+            // Recarrega as listas
+            ViewBag.Produtos = new SelectList(_context.Produtos, "idProd", "nomeProd");
+            ViewBag.Categorias = new SelectList(_context.Categorias, "idCategoria", "nomeCategoria");
+
+            return View(promocao);
         }
 
         // GET: Promocaos/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
             if (id == null)
             {
@@ -98,8 +110,6 @@ namespace OceanidProjeto.Controllers
         }
 
         // POST: Promocaos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,nomePromocao,DescontoPercentual,precoPromocional,dataInicio,dataFim,ativa,idPromocao,idCategoria")] Promocao Promocao)
@@ -109,32 +119,35 @@ namespace OceanidProjeto.Controllers
                 return NotFound();
             }
 
-
-            try
+            // Removed unreachable code below
+            if (ModelState.IsValid)
             {
-                _context.Update(Promocao);
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PromocaoExists(Promocao.idPromocao))
+                try
                 {
-                    return NotFound();
+                    _context.Update(Promocao);
+                    await _context.SaveChangesAsync();
                 }
-                else
+                catch (DbUpdateConcurrencyException)
                 {
-                    throw;
+                    if (!PromocaoExists(Promocao.idPromocao))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
                 }
+                return RedirectToAction(nameof(Index));
             }
-            return RedirectToAction(nameof(Index));
 
-            ViewData["idCategoriaPromocao"] = new SelectList(_context.Categorias, "idPromocaoCategoria", "nomeCategoria", Promocao.categoria);
-            ViewData["idPromocaoPromocao"] = new SelectList(_context.Produtos, "idPromocaoProd", "DescricaoProd", Promocao.idPromocao);
+            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria", Promocao.idCategoria);
+            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd", Promocao.idProd);
             return View(Promocao);
         }
 
         // GET: Promocaos/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id == null)
             {
@@ -187,6 +200,24 @@ namespace OceanidProjeto.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
+        }
+        public IActionResult Ofertas(string tipoDesconto = null)
+        {
+            var hoje = DateTime.Now;
+
+            var promocoes = _context.Promocao
+                .Include(p => p.produto)
+                    .ThenInclude(prod => prod.categoria)
+                .Where(p => p.ativa &&
+                            p.dataInicio <= hoje &&
+                            p.dataFim >= hoje &&
+                            (tipoDesconto == null || p.tipoDesconto == tipoDesconto))
+                .ToList();
+
+            ViewBag.TiposDesconto = new List<string> { "Percentual", "Valor Fixo" };
+            ViewBag.TipoSelecionado = tipoDesconto;
+
+            return View(promocoes);
         }
     }
 }

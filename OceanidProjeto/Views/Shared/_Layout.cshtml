@@ -127,7 +127,7 @@
             <a asp-action="Skincare" asp-controller="Produtoes">Skincare</a>
             <a asp-action="Cabelo" asp-controller="Produtoes">Cabelo</a>
             <a asp-action="Perfume" asp-controller="Produtoes">Perfume</a>
-            <a asp-action="Ofertas" asp-controller="Produtoes">Ofertas</a>
+            <a asp-action="Ofertas" asp-controller="Promocaos">Ofertas</a>
         </div>
     </header>
     <div class="container">
@@ -195,5 +195,7 @@
         </div>
 
     </footer>
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>

@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OceanidProjeto.Models
@@ -14,12 +13,12 @@ namespace OceanidProjeto.Models
         [Required(ErrorMessage = "O nomePromocao da promoção é obrigatório")]
         [Column("nomePromocao")]
         [StringLength(100, ErrorMessage = "O nomePromocao não pode exceder 100 caracteres")]
-        public string nomePromocao { get; set; }
+        public string? nomePromocao { get; set; }
 
         [Required(ErrorMessage = "O tipo de desconto é obrigatório")]
         [Column("tipoDesconto")]
         [StringLength(20, ErrorMessage = "O tipo de desconto não pode exceder 20 caracteres")]
-        public string tipoDesconto { get; set; } 
+        public string? tipoDesconto { get; set; }
 
         [Column("valorDesconto")]
         [Range(0, double.MaxValue, ErrorMessage = "O valor do desconto deve ser positivo")]
@@ -46,21 +45,21 @@ namespace OceanidProjeto.Models
 
         [Column("limitePorCliente")]
         [Range(1, int.MaxValue, ErrorMessage = "O limite por cliente deve ser pelo menos 1")]
-        public int? limitePorCliente { get; set; }
+        public int limitePorCliente { get; set; }
 
         [Column("idProd")]
         [PromocaoTypeValidation]
-        public int? idProd { get; set; }
+        public int idProd { get; set; }
 
         [ForeignKey("idProd")]
         public Produto produto { get; set; }
 
         [Column("idCategoria")]
         [PromocaoTypeValidation]
-        public int? idCategoria { get; set; }
+        public int idCategoria { get; set; }
 
         [ForeignKey("idCategoria")]
-        public Categoria categoria { get; set; }
+        public Categoria? categoria { get; set; }
 
         public static ValidationResult ValidatedataFim(DateTime dataFim, ValidationContext context)
         {
@@ -71,6 +70,7 @@ namespace OceanidProjeto.Models
                 return new ValidationResult("A data de término deve ser posterior à data de início");
             }
 
+#pragma warning disable CS8603
             return ValidationResult.Success;
         }
 
@@ -78,7 +78,7 @@ namespace OceanidProjeto.Models
         {
             var Promocao = (Promocao)context.ObjectInstance;
 
-            if (Promocao.tipoDesconto == "Percentual" && Promocao.valorDesconto.HasValue)
+            if (Promocao.tipoDesconto == "Percentual")
             {
                 if (Promocao.valorDesconto < 0 || Promocao.valorDesconto > 100)
                 {
@@ -93,7 +93,7 @@ namespace OceanidProjeto.Models
         {
             var Promocao = (Promocao)context.ObjectInstance;
 
-            if (Promocao.tipoDesconto == "Valor Fixo" && !Promocao.precoPromocional.HasValue)
+            if (Promocao.tipoDesconto == "Valor Fixo" && Promocao.precoPromocional == 0)
             {
                 return new ValidationResult("Para desconto de valor fixo, o preço promocional é obrigatório");
             }
@@ -103,16 +103,17 @@ namespace OceanidProjeto.Models
 
         public class PromocaoTypeValidationAttribute : ValidationAttribute
         {
+#pragma warning disable CS8765 // A nulidade do tipo de parâmetro não corresponde ao membro substituído (possivelmente devido a atributos de nulidade).
             protected override ValidationResult IsValid(object value, ValidationContext validationContext)
             {
                 var Promocao = (Promocao)validationContext.ObjectInstance;
 
-                if (Promocao.idPromocao == null && Promocao.idPromocao == null)
+                if (Promocao.idPromocao == 0 && Promocao.idPromocao == 0)
                 {
                     return new ValidationResult("Selecione um produto OU uma categoria");
                 }
-                
-                if (Promocao.idPromocao != null && Promocao.idPromocao != null)
+
+                if (Promocao.idPromocao != 0 && Promocao.idPromocao != 0)
                 {
                     return new ValidationResult("Selecione apenas um produto OU uma categoria");
                 }
