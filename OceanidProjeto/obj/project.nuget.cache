@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UB6XfvzLdUI=",
+  "dgSpecHash": "dr70r2Iwp/k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj",
+  "projectFilePath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj": {}
+    "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj": {
+    "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj",
         "projectName": "OceanidProjeto",
-        "projectPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\OceanidProjeto.csproj",
+        "projectPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\OceanidProjeto.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\obj\\",
+        "outputPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -69,7 +69,7 @@ namespace OceanidProjeto.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
-            #pragma warning disable CS0162 // Código inacessível detectado
+#pragma warning disable CS0162 // Código inacessível detectado
             ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente", pedido.idCliente);
             ViewData["idEnd"] = new SelectList(_context.Enderecos, "idEnd", "idEnd", pedido.idEnd);
             ViewData["idPag"] = new SelectList(_context.Pagamentos, "idPag", "idPag", pedido.idPag);
@@ -126,7 +126,7 @@ namespace OceanidProjeto.Controllers
             }
             return RedirectToAction(nameof(Index));
 
-            #pragma warning disable CS0162 // Código inacessível detectado
+#pragma warning disable CS0162 // Código inacessível detectado
             ViewData["idCliente"] = new SelectList(_context.Clientes, "idCliente", "idCliente", pedido.idCliente);
             ViewData["idEnd"] = new SelectList(_context.Enderecos, "idEnd", "idEnd", pedido.idEnd);
             ViewData["idPag"] = new SelectList(_context.Pagamentos, "idPag", "idPag", pedido.idPag);
@@ -175,8 +175,7 @@ namespace OceanidProjeto.Controllers
         }
 
         //-----------------  PEDIIDOOOOO     -------------------------------------
-
-        //PAGINA CARRINHO
+        // PAGINA CARRINHO
         [HttpGet]
         public IActionResult Carrinho()
         {
@@ -184,10 +183,8 @@ namespace OceanidProjeto.Controllers
         }
 
         [HttpPost]
-        public IActionResult AdicionarItem(Int32 id)
+        public IActionResult AdicionarItem(int id)
         {
-
-
             Produto produto = _context.Produtos.Find(id);
 
             if (produto == null)
@@ -199,7 +196,7 @@ namespace OceanidProjeto.Controllers
                 var item = new Produto()
                 {
                     idProd = id,
-                    qtdProd = produto.qtdProd,
+                    qtdProd = 1, // Sempre adiciona 1 unidade ao carrinho
                     nomeProd = produto.nomeProd,
                     precoProd = produto.precoProd,
                 };
@@ -210,33 +207,48 @@ namespace OceanidProjeto.Controllers
             }
         }
 
-        //PAGINA DIMINUIR ITEM
+        // DIMINUIR ITEM
+        [HttpPost]
         public IActionResult DiminuirItem(int id)
         {
+            // Verifica se o produto existe no banco de dados
             Produto produto = _context.Produtos.Find(id);
             if (produto == null)
             {
                 return View("NaoExisteItem");
             }
-            else
+
+            // Obtém o carrinho atual
+            var carrinho = _cookieCarrinhoCompra.Consultar();
+            var itemNoCarrinho = carrinho.FirstOrDefault(p => p.idProd == id);
+
+            if (itemNoCarrinho == null)
+            {
+                return View("NaoExisteItem");
+            }
+
+            // Diminui a quantidade ou remove se for 1
+            if (itemNoCarrinho.qtdProd > 1)
             {
                 var item = new Produto()
                 {
                     idProd = id,
-                    qtdProd = produto.qtdProd,
-                    //ImagemProduto = produto.ImagemProduto,
+                    qtdProd = -1, // Diminui 1 unidade
                     nomeProd = produto.nomeProd,
                     precoProd = produto.precoProd,
                 };
-
                 _cookieCarrinhoCompra.DiminuirProduto(item);
-
-
-                return RedirectToAction(nameof(Carrinho));
             }
+            else
+            {
+                _cookieCarrinhoCompra.Remover(new Produto() { idProd = id });
+            }
+
+            return RedirectToAction(nameof(Carrinho));
         }
 
-        //PAGINA REMOVER ITEM
+        // REMOVER ITEM
+        [HttpPost]
         public IActionResult RemoverItem(int id)
         {
             _cookieCarrinhoCompra.Remover(new Produto() { idProd = id });

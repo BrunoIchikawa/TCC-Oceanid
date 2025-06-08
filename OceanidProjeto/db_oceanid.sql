@@ -69,7 +69,7 @@ create table tbCliente (
 insert into tbCliente (cpf, nomeCompleto, senhaCliente, emailCliente, dataNasc,idEnd)
 values (
     '54520929865',
-    'Bruno Ichuikawa',
+    'Bruno Ichikawa',
     'orv',
     'b123@gmail.com',
     '2008-06-09',

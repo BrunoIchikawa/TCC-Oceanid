@@ -1,76 +1,149 @@
 ﻿@model OceanidProjeto.Models.Promocao
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar Promoção";
 }
 
-<h1>Create</h1>
+<h1>Criar Promoção</h1>
 
-<h4>Promocao</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+    <div class="col-md-6">
+        <form asp-action="Create" id="promocaoForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Campos básicos -->
             <div class="form-group">
-                <label asp-for="nomePromocao" class="control-label"></label>
+                <label asp-for="nomePromocao" class="control-label">Nome da Promoção</label>
                 <input asp-for="nomePromocao" class="form-control" />
                 <span asp-validation-for="nomePromocao" class="text-danger"></span>
             </div>
+
+            <!-- Tipo de Desconto -->
             <div class="form-group">
-                <label asp-for="tipoDesconto" class="control-label"></label>
-                <input asp-for="tipoDesconto" class="form-control" />
+                <label asp-for="tipoDesconto" class="control-label">Tipo de Desconto</label>
+                <select asp-for="tipoDesconto" class="form-control">
+                    <option value="">Selecione o tipo</option>
+                    <option value="Percentual">Percentual</option>
+                    <option value="Valor Fixo">Valor Fixo</option>
+                </select>
                 <span asp-validation-for="tipoDesconto" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="valorDesconto" class="control-label"></label>
+
+            <!-- Campos condicionais -->
+            <div class="form-group" id="valorDescontoGroup" style="display:none;">
+                <label asp-for="valorDesconto" class="control-label">Percentual de Desconto (%)</label>
                 <input asp-for="valorDesconto" class="form-control" />
                 <span asp-validation-for="valorDesconto" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="precoPromocional" class="control-label"></label>
+
+            <div class="form-group" id="precoPromocionalGroup" style="display:none;">
+                <label asp-for="precoPromocional" class="control-label">Preço Promocional</label>
                 <input asp-for="precoPromocional" class="form-control" />
                 <span asp-validation-for="precoPromocional" class="text-danger"></span>
             </div>
+
+            <!-- Datas -->
             <div class="form-group">
-                <label asp-for="dataInicio" class="control-label"></label>
-                <input asp-for="dataInicio" class="form-control" />
+                <label asp-for="dataInicio" class="control-label">Data de Início</label>
+                <input asp-for="dataInicio" class="form-control" type="datetime-local" />
                 <span asp-validation-for="dataInicio" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="dataFim" class="control-label"></label>
-                <input asp-for="dataFim" class="form-control" />
+                <label asp-for="dataFim" class="control-label">Data de Término</label>
+                <input asp-for="dataFim" class="form-control" type="datetime-local" />
                 <span asp-validation-for="dataFim" class="text-danger"></span>
             </div>
+
+            <!-- Status -->
             <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="ativa" /> @Html.DisplayNameFor(model => model.ativa)
-                </label>
+                <input class="form-check-input" asp-for="ativa" />
+                <label class="form-check-label" asp-for="ativa">Ativa</label>
             </div>
+
             <div class="form-group">
-                <label asp-for="limitePorCliente" class="control-label"></label>
-                <input asp-for="limitePorCliente" class="form-control" />
+                <label asp-for="limitePorCliente" class="control-label">Limite por Cliente</label>
+                <input asp-for="limitePorCliente" class="form-control" min="1" />
                 <span asp-validation-for="limitePorCliente" class="text-danger"></span>
             </div>
+            <!-- Seleção de Produto OU Categoria -->
             <div class="form-group">
-                <label asp-for="idProd" class="control-label"></label>
-                <select asp-for="idPromocao" class ="form-control" asp-items="ViewBag.idPromocao"></select>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoAplicacao" id="aplicacaoProduto" value="produto" checked>
+                    <label class="form-check-label" for="aplicacaoProduto">Produto Específico</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoAplicacao" id="aplicacaoCategoria" value="categoria">
+                    <label class="form-check-label" for="aplicacaoCategoria">Toda a Categoria</label>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="idCategoria" class="control-label"></label>
-                <select asp-for="idCategoria" class ="form-control" asp-items="ViewBag.idCategoria"></select>
+
+            <div class="form-group" id="produtoGroup">
+                <label asp-for="idProd" class="control-label">Produto</label>
+                <select asp-for="idProd" class="form-control" asp-items="ViewBag.Produtos">
+                    <option value="">Selecione um produto</option>
+                </select>
+                <span asp-validation-for="idProd" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="form-group" id="categoriaGroup" style="display:none;">
+                <label asp-for="idCategoria" class="control-label">Categoria</label>
+                <select asp-for="idCategoria" class="form-control" asp-items="ViewBag.Categorias">
+                    <option value="">Selecione uma categoria</option>
+                </select>
+                <span asp-validation-for="idCategoria" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary ml-2">Voltar à lista</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        $(document).ready(function() {
+            // Controle Produto/Categoria
+            $('input[name="tipoAplicacao"]').change(function() {
+                if ($(this).val() === 'produto') {
+                    $('#produtoGroup').show();
+                    $('#categoriaGroup').hide();
+                    $('#idCategoria').val('');
+                } else {
+                    $('#produtoGroup').hide();
+                    $('#categoriaGroup').show();
+                    $('#idProd').val('');
+                }
+            });
+
+            // Validação do formulário
+            $('#promocaoForm').submit(function(e) {
+                // Limpa mensagens de erro anteriores
+                $('[data-valmsg-for="idProd"], [data-valmsg-for="idCategoria"]').text('');
+                
+                // Verifica se algum dos campos foi preenchido
+                const produtoSelecionado = $('#idProd').val() !== '';
+                const categoriaSelecionada = $('#idCategoria').val() !== '';
+                
+                if (!produtoSelecionado && !categoriaSelecionada) {
+                    $('[data-valmsg-for="idProd"]').text('Selecione um produto OU uma categoria');
+                    e.preventDefault();
+                    return false;
+                }
+                
+                if (produtoSelecionado && categoriaSelecionada) {
+                    $('[data-valmsg-for="idProd"]').text('Selecione apenas um produto OU uma categoria');
+                    e.preventDefault();
+                    return false;
+                }
+                
+                return true;
+            });
+        });
+    </script>
 }

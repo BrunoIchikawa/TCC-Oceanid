@@ -20,10 +20,8 @@
                         </button>
                     </form>
                 </div>
-                <div class="img-produtos">
-                    <img class="img-prod-fav" src="~/img/produtos/olhos/mascara de cilios/narscilios.png" alt="Imagem do Produto" />
-                    <!-- FAZER UM JSONN -->
-                    <!--    <img src="Url.Content(produto.imagemUrl)" alt="produto.nomeProd" /> -->
+                <div class="product-image">
+                    <img src="@Url.Content(produto.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@produto.nomeProd" />
                 </div>
                 <div class="btn-prod">
                     <a href="#" data-bs-toggle="modal" data-bs-target="#productModal-@produto.idProd">Ver mais</a>

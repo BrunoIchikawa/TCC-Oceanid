@@ -5,6 +5,7 @@ wwwroot\images\logo.png
 wwwroot\img\baggy-linkedin.jpeg
 wwwroot\img\baggy-linkedin2.jpeg
 wwwroot\img\banner.jfif
+wwwroot\img\banner\banner1.jpg
 wwwroot\img\bg-footer.png
 wwwroot\img\boleto-oceanid.png
 wwwroot\img\bruno-linkedin.png

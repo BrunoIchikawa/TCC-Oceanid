@@ -45,8 +45,19 @@ namespace OceanidProjeto.Controllers
         // GET: Promocaos/Create
         public IActionResult Create()
         {
-            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria");
-            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd");
+            // Carrega listas para os dropdowns
+            ViewBag.Produtos = new SelectList(_context.Produtos.ToList(), "idProd", "nomeProd");
+            ViewBag.Categorias = new SelectList(_context.Categorias.ToList(), "idCategoria", "nomeCategoria");
+
+            // Valores padrão
+            var model = new Promocao
+            {
+                dataInicio = DateTime.Now,
+                dataFim = DateTime.Now.AddDays(7),
+                ativa = true,
+                tipoDesconto = "Percentual" // Valor padrão
+            };
+
             return View();
         }
 
@@ -54,28 +65,30 @@ namespace OceanidProjeto.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,nomePromocao,DescontoPercentual,precoPromocional,dataInicio,dataFim,ativa,idPromocao,idCategoria")] Promocao Promocao)
+        public async Task<IActionResult> Create([Bind("idPromocao,nomePromocao,tipoDesconto,valorDesconto,precoPromocional,dataInicio,dataFim,ativa,limitePorCliente,idProd,idCategoria")] Promocao promocao)
         {
-            // Validação para garantir que ou idPromocao ou idCategoria está preenchido, mas não ambos
-            if (Promocao.idProd == 0 && Promocao.idCategoria == 0)
+            // Validação customizada
+            if (promocao.idProd == 0 && promocao.idCategoria == 0)
             {
-                ModelState.AddModelError(string.Empty, "Você deve selecionar um produto OU uma categoria para a promoção.");
+                ModelState.AddModelError("", "Você deve selecionar um produto OU uma categoria para a promoção.");
             }
-            else if (Promocao.idProd != 0 && Promocao.idCategoria!= 0)
+            else if (promocao.idProd != 0 && promocao.idCategoria != 0)
             {
-                ModelState.AddModelError(string.Empty, "Selecione apenas um produto OU uma categoria, não ambos.");
+                ModelState.AddModelError("", "Selecione apenas um produto OU uma categoria, não ambos.");
             }
 
             if (ModelState.IsValid)
             {
-                _context.Add(Promocao);
+                _context.Add(promocao);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewData["idCategoria"] = new SelectList(_context.Categorias, "IdCategoria", "nomeCategoria", Promocao.idCategoria);
-            ViewData["idPromocao"] = new SelectList(_context.Produtos, "IdProd", "DescricaoProd", Promocao.idPromocao);
-            return View(Promocao);
+            // Recarrega as listas
+            ViewBag.Produtos = new SelectList(_context.Produtos, "idProd", "nomeProd");
+            ViewBag.Categorias = new SelectList(_context.Categorias, "idCategoria", "nomeCategoria");
+
+            return View(promocao);
         }
 
         // GET: Promocaos/Edit/5
@@ -187,6 +200,24 @@ namespace OceanidProjeto.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
+        }
+        public IActionResult Ofertas(string tipoDesconto = null)
+        {
+            var hoje = DateTime.Now;
+
+            var promocoes = _context.Promocao
+                .Include(p => p.produto)
+                    .ThenInclude(prod => prod.categoria)
+                .Where(p => p.ativa &&
+                            p.dataInicio <= hoje &&
+                            p.dataFim >= hoje &&
+                            (tipoDesconto == null || p.tipoDesconto == tipoDesconto))
+                .ToList();
+
+            ViewBag.TiposDesconto = new List<string> { "Percentual", "Valor Fixo" };
+            ViewBag.TipoSelecionado = tipoDesconto;
+
+            return View(promocoes);
         }
     }
 }

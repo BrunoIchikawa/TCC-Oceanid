@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\",
+  "WorkspaceRootPath": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\oceanidprojeto\\oceanidprojeto\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\tcc-oceanid\\oceanidprojeto\\views\\promocaos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\promocaos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\oceanidprojeto\\oceanidprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\tcc-oceanid\\oceanidprojeto\\controllers\\promocaoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\controllers\\promocaoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\tcc-oceanid\\oceanidprojeto\\models\\promocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\models\\promocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\tcc-oceanid\\oceanidprojeto\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\tcc-oceanid\\oceanidprojeto\\views\\promocaos\\ofertas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\promocaos\\ofertas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\tcc-oceanid\\oceanidprojeto\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\users\\bruno\\onedrive\\documentos\\ds-modular\\tcm\\tcc-oceanid\\oceanidprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +47,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "OceanidProjeto\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "OceanidProjeto\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-22T19:18:04.029Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Promocaos\\Create.cshtml",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Promocaos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Promocaos\\Create.cshtml",
+              "RelativeToolTip": "OceanidProjeto\\Views\\Promocaos\\Create.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwEUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T17:22:24.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Models\\Categoria.cs",
+              "RelativeToolTip": "OceanidProjeto\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:22:04.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Models\\Produto.cs",
+              "RelativeToolTip": "OceanidProjeto\\Models\\Produto.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwC4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:21:58.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Promocao.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Models\\Promocao.cs",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Models\\Promocao.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Models\\Promocao.cs",
+              "RelativeToolTip": "OceanidProjeto\\Models\\Promocao.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:21:50.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\OceanidProjeto\\OceanidProjeto\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "OceanidProjeto\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAkAAAAtAAAAAAAAAA==",
+              "Title": "PromocaosController.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Controllers\\PromocaosController.cs",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Controllers\\PromocaosController.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Controllers\\PromocaosController.cs",
+              "RelativeToolTip": "OceanidProjeto\\Controllers\\PromocaosController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T17:18:32.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ofertas.cshtml",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Promocaos\\Ofertas.cshtml",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Promocaos\\Ofertas.cshtml",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Promocaos\\Ofertas.cshtml",
+              "RelativeToolTip": "OceanidProjeto\\Views\\Promocaos\\Ofertas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-22T19:08:25.505Z"
+              "WhenOpened": "2025-06-08T17:06:19.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Documentos\\DS-MODULAR\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OceanidProjeto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAgwKwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:59:44.79Z",
+              "EditorCaption": ""
             }
           ]
         }
