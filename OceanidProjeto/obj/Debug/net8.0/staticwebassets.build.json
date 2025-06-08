@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TTlAU+IQQxaxmcoC/VLdxMMuauGWxsusr3MOSafTHHQ=",
+  "Hash": "VSX64TGl4NR/IOfRUSsUjrBgEuOeV83NGO6X2N/MqPY=",
   "Source": "OceanidProjeto",
   "BasePath": "_content/OceanidProjeto",
   "Mode": "Default",
@@ -226,25 +226,6 @@
       "OriginalItemSpec": "wwwroot\\img\\banner.jfif"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Banner.png",
-      "SourceId": "OceanidProjeto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
-      "BasePath": "_content/OceanidProjeto",
-      "RelativePath": "img/Banner.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Banner.png"
-    },
-    {
       "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\bg-footer.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
@@ -302,12 +283,12 @@
       "OriginalItemSpec": "wwwroot\\img\\bruno-linkedin.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo-categoria.png",
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
-      "RelativePath": "img/cabelo-categoria.png",
+      "RelativePath": "img/cabelo_dark.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,7 +299,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\cabelo-categoria.png"
+      "OriginalItemSpec": "wwwroot\\img\\cabelo_dark.png"
+    },
+    {
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_light.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/cabelo_light.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cabelo_light.png"
     },
     {
       "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carol-linkedin.jpeg",
@@ -378,12 +378,12 @@
       "OriginalItemSpec": "wwwroot\\img\\carrossel\\2.mp4"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.png",
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.mp4",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
-      "RelativePath": "img/carrossel/3.png",
+      "RelativePath": "img/carrossel/3.mp4",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -394,7 +394,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\carrossel\\3.png"
+      "OriginalItemSpec": "wwwroot\\img\\carrossel\\3.mp4"
     },
     {
       "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\4.png",
@@ -1081,12 +1081,12 @@
       "OriginalItemSpec": "wwwroot\\img\\logout.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem-categoria.png",
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
-      "RelativePath": "img/maquiagem-categoria.png",
+      "RelativePath": "img/maquiagem_dark.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1097,7 +1097,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\maquiagem-categoria.png"
+      "OriginalItemSpec": "wwwroot\\img\\maquiagem_dark.png"
+    },
+    {
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_light.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/maquiagem_light.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\maquiagem_light.png"
     },
     {
       "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\menuBurguer-img.png",
@@ -1233,12 +1252,12 @@
       "OriginalItemSpec": "wwwroot\\img\\oferta-categoria.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume-categoria.png",
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
-      "RelativePath": "img/perfume-categoria.png",
+      "RelativePath": "img/perfume_dark.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1249,7 +1268,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\perfume-categoria.png"
+      "OriginalItemSpec": "wwwroot\\img\\perfume_dark.png"
+    },
+    {
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_light.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/perfume_light.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\perfume_light.png"
     },
     {
       "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\pesq-icon.png",
@@ -2563,12 +2601,12 @@
       "OriginalItemSpec": "wwwroot\\img\\shopping-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare-categoria.png",
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
-      "RelativePath": "img/skincare-categoria.png",
+      "RelativePath": "img/skincare_dark.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2579,7 +2617,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\skincare-categoria.png"
+      "OriginalItemSpec": "wwwroot\\img\\skincare_dark.png"
+    },
+    {
+      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_light.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/skincare_light.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\skincare_light.png"
     },
     {
       "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Thumbs.db",

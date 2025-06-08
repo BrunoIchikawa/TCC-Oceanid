@@ -1,25 +1,30 @@
-﻿﻿﻿<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<link href="~/css/site.css" rel="stylesheet" />
+﻿@using System.Security.Policy
 
+<!-- Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Estilos -->
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<!-- Banner da Categoria -->
 <div class="banner-categoria">
-    <img style="height:270px;" src="~/img/maquiagem-categoria.png" alt="Imagem do Produto" />
+    <img id="themeImgmaquiagem" src="/img/maquiagem_light.png" alt="Imagem do Produto" style="height:270px;" />
 </div>
 
+<!-- Produtos por Categoria -->
 @foreach (var categoria in ViewBag.CategoriaProdutos as List<Categoria>)
 {
-    <!--<h2>categoria.nomeCategoria</h2>-->
     <div class="grid-produtos">
         @foreach (var produto in categoria.Produtos)
         {
-            <!-- Produto -->
             <div class="product-card">
 
 
                 <div class="product-header">
-                    <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
+                    <form class="btn-favoritar" asp-controller="ClienteFavoritoes" asp-action="Favoritar" method="post">
                         <input type="hidden" name="idProd" value="@produto.idProd" />
                         <button type="submit" class="btn-favoritar" style="font-size:25px; border:none; background-color:transparent;">
-                            <img class="icons-prod" src="~/img/favs-icon.png" alt="favoritos">
+                            <i class="bi bi-heart favorite" data-prod-id="@produto.idProd" style="font-size:20px; border:none; background-color:transparent;"></i>
                         </button>
                     </form>
                 </div>
@@ -31,28 +36,25 @@
                 <div class="product-info">
                     <h3 class="product-name">@produto.nomeProd</h3>
                     <p class="product-brand">@produto.marcaProd</p>
-
-
                 </div>
 
                 <div class="product-actions">
-                    <a asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd"> Ver mais </a>
+                    <a style="font-size:0.9rem;" class="btn-details" asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd">
+                        Ver detalhes
+                    </a>
                     <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
                         <input type="hidden" name="id" value="@produto.idProd" />
                         <input type="hidden" name="quantidade" value="1" />
                         <button type="submit" class="btn-add-to-cart">
-                            <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho">
+                            <i style="font-size:1rem;" class="bi bi-cart"></i>
                         </button>
                     </form>
                 </div>
-            </div>
 
+            </div>
         }
     </div>
-}﻿﻿
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<link href="~/css/site.css" rel="stylesheet" />
+}
 
-
-
-
+<!-- Scripts adicionais -->
+<script src="~/js/site.js" asp-append-version="true"></script>

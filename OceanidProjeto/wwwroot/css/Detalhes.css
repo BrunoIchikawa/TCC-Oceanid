@@ -1,4 +1,70 @@
-﻿/* Reset básico */
+﻿:root,
+[data-bs-theme="light"] {
+    --bs-body-bg: #fff;
+    --bs-body-color: #000;
+    --bs-corDosBotoes: #ABDDDE;
+    --bs-corDasLetras: #0F1C28;
+    --bs-headertxt-color: #000;
+    --bs-headertxt2-color: #8EE2E8;
+    --bs-fundodest-color: #FFFBFB;
+    --bs-menulogin-color: #fff;
+    --bs-entrar-color: #EFC6D8;
+    --bs-entrar2-color: #ABDDDE;
+    --bs-hoverDosBotoes: #EFC6D8;
+    --bs-cadastro-color: #fff;
+    --bs-pesqtxt-color: #000;
+    --bs-txtp-color: #000;
+    --bs-ipesq-color: #000;
+    --bs-iuser-color: #000;
+    --bs-iheart-color: #000;
+    --bs-ilua-color: #000;
+    --bs-icasa-color: #000;
+    --bs-icarrinho-color: #000;
+    --bs-txtnp-color: #000;
+    --bs-sectiontxt-color: #000;
+    --bs-card-color: #fff;
+    --bs-verDetalhes-fundo: #f8f8f8;
+    --bs-footerGradiente: linear-gradient(to right, #8EE2E8, #4C82B4, #1C364E);
+}
+
+[data-bs-theme="dark"] {
+    --bs-header-color: #0F1C28;
+    --bs-fundo-color: #fff;
+    --bs-body-bg: #0F1C28;
+    --bs-corDosBotoes: #F8A797;
+    --bs-corDasLetras: #fff;
+    --bs-headertxt-color: #8EE2E8;
+    --bs-headertxt2-color: #F8A797;
+    --bs-fundodest-color: #0F1C28;
+    --bs-menulogin-color: #0F1C28;
+    --bs-entrar-color: #EFC6D8;
+    --bs-entrar2-color: #F8A797;
+    --bs-hoverDosBotoes: #F897D1;
+    --bs-logintxt-color: #FFF1BC;
+    --bs-txt-color: #fff;
+    --bs-cadastro-color: #0F1C28;
+    --bs-pesquisa-color: #0F1C28;
+    --bs-pesqtxt-color: #fff;
+    --bs-txtp-color: #fff;
+    --bs-ipesq-color: #fff;
+    --bs-iuser-color: #fff;
+    --bs-iheart-color: #fff;
+    --bs-ilua-color: #fff;
+    --bs-icasa-color: #fff;
+    --bs-icarrinho-color: #fff;
+    --bs-txtnp-color: #fff;
+    --bs-sectiontxt-color: #fff;
+    --bs-card-color: #294B6D;
+    --bs-verDetalhes-fundo: #16283b;
+    --bs-footerGradiente: linear-gradient(to right, #3e8298, #1b558b, #1C364E);
+}
+
+
+
+
+
+
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +73,7 @@
 
 /* Estilo geral do card */
 .product-card-detalhes {
-    background: #fff;
+    background: var(--bs-card-color);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -89,13 +155,13 @@
     text-align: center;
     font-size: 1.8rem;
     font-size: 1.8rem;
-    color: #333;
+    color: var(--bs-corDasLetras);
     margin-bottom: 8px;
 }
 
 .product-brand {
     font-size: 0.9rem;
-    color: #777;
+    color: var(--bs-corDasLetras);
     margin-bottom: 12px;
 }
 
@@ -128,19 +194,19 @@
 
 .original-price {
     text-decoration: line-through;
-    color: #888;
+    color: var(--bs-corDasLetras);
     font-size: 0.95rem;
 }
 
 .final-price {
-    color: #1C364E;
+    color: var(--bs-corDasLetras);
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 .discount-type {
     background-color: #EFC6D8;
-    color: #333;
+    color: var(--bs-corDasLetras);
     padding: 4px 10px;
     border-radius: 12px;
     font-size: 0.8rem;
@@ -185,7 +251,7 @@
 }
 
 .product-card-detalhes-carrossel {
-    background: #fff;
+    background: var(--bs-card-color);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     padding: 20px;
@@ -211,15 +277,19 @@
 
 
 .btn-favoritar {
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
     background: none;
     border: none;
     cursor: pointer;
     padding: 5px;
+    color:var(--bs-corDasLetras);
 }
 
 .favv {
     font-size: 1.2rem;
-    color: #333;
+    color: var(--bs-corDasLetras);
     transition: color 0.3s;
 }
 
@@ -255,7 +325,7 @@
 
 .product-name {
     font-size: 1rem;
-    color: #333;
+    color: var(--bs-corDasLetras);
     margin-bottom: 8px;
     text-align: center;
     overflow: hidden;
@@ -267,7 +337,7 @@
 
 .product-price {
     font-size: 1.2rem;
-    color: #1C364E;
+    color: var(--bs-corDasLetras);
     font-weight: bold;
     text-align: center;
     margin: 10px 0;
@@ -283,8 +353,8 @@
 
 .btn-details {
     flex: 1;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: var(--bs-verDetalhes-fundo);
+    color: var(--bs-corDasLetras);
     padding: 8px 12px;
     text-align: center;
     border-radius: 6px;
@@ -299,7 +369,7 @@
 
 .btn-add-to-cart {
     background-color: #EFC6D8;
-    color: #333;
+    color: var(--bs-corDasLetras);
     border: none;
     border-radius: 6px;
     padding: 8px 12px;

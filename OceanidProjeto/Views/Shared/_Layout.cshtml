@@ -1,5 +1,4 @@
-﻿﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -9,6 +8,9 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OceanidProjeto.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
 </head>
 <body>
 
@@ -22,7 +24,7 @@
 
             <!-- Campo de busca com lupa (desktop) -->
             <form asp-controller="Produtoes" asp-action="Pesquisar" method="get" class="desktop-only">
-                <img class="icons-header" src="~/img/pesq-icon.png" alt="pesquisar" />
+                <i class="bi bi-search ipesq"></i>
                 <input type="text" id="pesq" name="searchTerm" placeholder="Pesquisar" />
                 <button type="submit" style="display: none;"></button>
             </form>
@@ -33,32 +35,32 @@
             <div class="icon-holders">
                 <!-- Ícone de Favoritos -->
                 <a asp-controller="ClienteFavoritoes" asp-action="Favoritar">
-                    <i class="bi bi-heart "></i> <!-- Usando ícone de coração -->
+                    <i class="bi bi-heart iheart"></i> <!-- Usando ícone de coração -->
                 </a>
 
                 <!-- Ícone de Carrinho -->
                 <a asp-controller="Pedidoes" asp-action="Carrinho" onclick="abrirSacola()">
-                    <i class="bi bi-cart"></i> <!-- Usando ícone de carrinho -->
+                    <i class="bi bi-cart icarrinho"></i> <!-- Usando ícone de carrinho -->
                 </a>
 
                 <!-- Painel de Cliente -->
 
                 <a asp-controller="Clientes" asp-action="Painel">
-                    <i class="bi bi-house-door"></i> <!-- Usando ícone de casa -->
+                    <i class="bi bi-house-door icasa"></i> <!-- Usando ícone de casa -->
                 </a>
-
 
 
 
                 <!-- Ícone de Login -->
                 <a href="#" onclick="menuLogin()">
-                    <i class="bi bi-person"></i> <!-- Usando ícone de login -->
+                    <i class="bi bi-person iuser"></i> <!-- Usando ícone de login -->
                 </a>
 
                 <!-- (Modo Claro/Escuro) -->
-                <a href="#" onclick="toggleTheme()" id="themeToggle">
-                    <i class="bi bi-moon"></i> <!-- Ícone de lua (modo escuro) -->
+                <a href="#" onclick="toggleTheme()">
+                    <i " id="themeToggle" class="bi bi-moon"></i> 
                 </a>
+
             </div>
         </div>
         <div id="mobileMenu" class="mobile-slide-menu">
@@ -135,46 +137,7 @@
     </div>
 
     <footer>
-        <!-- Formulário de login -->
-        <section class="cadastro">
-            <h2>Login</h2>
 
-            <form class="menu-login" id="menu-login" asp-controller="Logins" asp-action="Login" method="post">
-                <div asp-validation-summary="ModelOnly"></div>
-                <div class="cad-text">
-                    <p>Login</p>
-                    <img src="~/img/fechar-icon.png" alt="Fechar" onclick="menuLogin()" class="icon-menu">
-                </div>
-
-                <div class="menu" id="menu">
-                    <div class="input-holders">
-                        <input type="email" name="email" id="email" class="inputUser" required>
-                        <label class="label-input" for="email">E-mail</label>
-                    </div>
-
-                    <div class="input-holders" style="position: relative;">
-                        <input type="password" name="senha" id="senha" class="inputUser senhaCliente" required>
-                        <label class="label-input" for="senha">Senha</label>
-                        <img src="~/img/eye-icon.png" alt="Mostrar senha" class="toggle-eye" onclick="toggleSenha()" />
-                    </div>
-                    <div class="links-log">
-                        <a href="#">Esqueceu sua senha?</a>
-                        <a href="#" onclick=" abrirCadastro()">Faça já o seu cadastro!</a>
-                    </div>
-                </div>
-                <div class="cad-text2">
-                    <input type="submit" value="Entrar">
-                    <div class="logout">
-                        <a asp-controller="Logins" asp-action="Logout">
-                            <div class="logout">
-                                <img src="~/img/logout.png" alt="logout" />
-                                <p>LogOut</p>
-                            </div>
-                        </a>
-
-                    </div>
-            </form>
-        </section>
 
         <div class="footer-links">
             <div class="link-column">

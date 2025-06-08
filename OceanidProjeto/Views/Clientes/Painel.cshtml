@@ -5,17 +5,20 @@
 }
 
 <link rel="stylesheet" href="~/css/painel.css" />
+<script src="~/js/site.js"></script>
 
 <div class="painel-container" style="padding-top:100px;">
     <aside class="sidebar">
         <i class="bi bi-person">  Área do Usuário</i>
 
         <ul class="sidebar-menu">
-            <li>Status dos Pedidos</li>
-            <li> <a asp-action="Favoritar" asp-controller="ClienteFavoritoes">Favoritos</a></li>
+            <li> <a asp-action="Favoritar" asp-controller="ClienteFavoritoes"><i class="bi bi-heart "></i> Favoritos</a></li>
+           
             <li>
-                <a asp-action="Historico" asp-controller="Clientes">Histórico de Compras</a>
+                <a asp-controller="Logins" asp-action="Logout"> <i class="bi bi-person"></i> Logout</a>
+                
             </li>
+
             <li>Ajuda</li>
         </ul>
         <button class="btn-voltar" onclick="location.href='/home/index'">Voltar</button>

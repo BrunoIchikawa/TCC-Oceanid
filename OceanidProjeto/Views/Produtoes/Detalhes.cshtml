@@ -34,10 +34,10 @@
         <img src="@Url.Content(Model.imagemUrl ?? "~/img/produtos/sem-imagem.png")" alt="@Model.nomeProd" />
     </div>
     <div class="product-header-detalhes">
-        <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" class="form-detalhes" method="post">
+        <form asp-controller="ClienteFavoritoes" asp-action="Favoritar" class="form-detalhes btn-favoritar" method="post">
             <input type="hidden" name="idProd" value="@Model.idProd" />
             <button type="submit" class="btn-favoritar">
-                <i class="bi bi-heart favv"></i>
+                <i class="bi bi-heart favv" style="font-size:20px; border:none; background-color:transparent;"></i>
             </button>
         </form>
     </div>

@@ -29,10 +29,6 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Banner.png",
-      "PackagePath": "staticwebassets\\img\\Banner.png"
-    },
-    {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
@@ -61,8 +57,12 @@
       "PackagePath": "staticwebassets\\img\\bruno-linkedin.png"
     },
     {
-      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo-categoria.png",
-      "PackagePath": "staticwebassets\\img\\cabelo-categoria.png"
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_dark.png",
+      "PackagePath": "staticwebassets\\img\\cabelo_dark.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_light.png",
+      "PackagePath": "staticwebassets\\img\\cabelo_light.png"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carol-linkedin.jpeg",
@@ -77,8 +77,8 @@
       "PackagePath": "staticwebassets\\img\\carrossel\\2.mp4"
     },
     {
-      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.png",
-      "PackagePath": "staticwebassets\\img\\carrossel\\3.png"
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.mp4",
+      "PackagePath": "staticwebassets\\img\\carrossel\\3.mp4"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\4.png",
@@ -225,8 +225,12 @@
       "PackagePath": "staticwebassets\\img\\logout.png"
     },
     {
-      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem-categoria.png",
-      "PackagePath": "staticwebassets\\img\\maquiagem-categoria.png"
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_dark.png",
+      "PackagePath": "staticwebassets\\img\\maquiagem_dark.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_light.png",
+      "PackagePath": "staticwebassets\\img\\maquiagem_light.png"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\menuBurguer-img.png",
@@ -257,8 +261,12 @@
       "PackagePath": "staticwebassets\\img\\oferta-categoria.png"
     },
     {
-      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume-categoria.png",
-      "PackagePath": "staticwebassets\\img\\perfume-categoria.png"
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_dark.png",
+      "PackagePath": "staticwebassets\\img\\perfume_dark.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_light.png",
+      "PackagePath": "staticwebassets\\img\\perfume_light.png"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\pesq-icon.png",
@@ -537,8 +545,12 @@
       "PackagePath": "staticwebassets\\img\\shopping-icon.png"
     },
     {
-      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare-categoria.png",
-      "PackagePath": "staticwebassets\\img\\skincare-categoria.png"
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_dark.png",
+      "PackagePath": "staticwebassets\\img\\skincare_dark.png"
+    },
+    {
+      "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_light.png",
+      "PackagePath": "staticwebassets\\img\\skincare_light.png"
     },
     {
       "Id": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\voltdrive.png",

@@ -1,6 +1,6 @@
 ﻿<link rel="stylesheet" href="~/css/carrinho.css" asp-append-version="true" />
 <section class="wishlist">
-    <h2>Wishlist</h2>
+    <h2 class="t-favo" >Wishlist</h2>
     <div class="wishlist-container">
 
         @foreach (var favorito in ViewBag.clienteFavoritos as List<ClienteFavorito>)
@@ -29,12 +29,14 @@
                     </div>
 
                     <div class="product-actions">
-                        <a asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd"> Ver mais </a>
+                        <a style="font-size:0.9rem;" class="btn-details" asp-controller="Produtoes" asp-action="Detalhes" asp-route-id="@produto.idProd">
+                            Ver detalhes
+                        </a>
                         <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem">
                             <input type="hidden" name="id" value="@produto.idProd" />
                             <input type="hidden" name="quantidade" value="1" />
                             <button type="submit" class="btn-add-to-cart">
-                                <img src="~/img/icon-shopping-prod.png" alt="Adicionar ao carrinho">
+                                <i style="font-size:1rem;" class="bi bi-cart"></i>
                             </button>
                         </form>
                     </div>

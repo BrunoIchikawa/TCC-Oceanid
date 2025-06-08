@@ -7,11 +7,12 @@
 
 
 <link href="~/css/carrinho.css" rel="stylesheet" />
+<script src="~/js/site.js"></script>
 
 <div class="container">
     <section id="order">
         <br />
-        <h2 class="title-doc" style="font-weight:600;color:#1C364E;">Carrinho</h2>
+        <h2 class="title-doc">Carrinho</h2>
 
         ```
         <div id="code_cart">
@@ -140,7 +141,7 @@
         <div class="offset-md-4 col-md-4" style="display: @(!Model.Any() ? "none" : "block")">
 
 
-            <form>
+            <form class="sla">
                 <div style="margin:0 auto;" class="mb-3 select">
                     <label for="formaPagamento" class="form-label">Forma de Pagamento</label>
                     <select class="form-select rosa" id="formaPagamento" name="formaPagamento" required>
@@ -155,12 +156,9 @@
 
             <a asp-action="SalvarCarrinho" asp-controller="Pedidoes" type="button" class="btn btn-outline-primary btn-continuar-comprando" id="btnFinalizar">  Finalizar a compra </a>
             <div style="margin-bottom:8%;margin-left:3%;" class="col-md-12 text-center   logoCar">
-                <a asp-controller="Home" asp-action="Index">
+                <a asp-controller="Home" asp-action="Index" style="background-color:#EFC6D8;padding:5px 15px;border-radius:15px;color:black;width:50%;">
                     Clique aqui
                 </a> para adicionar mais itens
-                <a style="background-color:#EFC6D8;padding:5px 15px;border-radius:15px;color:black;width:50%;" asp-controller="Home" asp-action="Index">
-                    Voltar
-                </a>
             </div>
 
 

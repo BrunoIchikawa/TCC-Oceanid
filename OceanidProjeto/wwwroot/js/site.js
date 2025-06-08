@@ -1,16 +1,61 @@
-﻿function toggleTheme() {
+﻿
+function toggleTheme() {
     const html = document.documentElement;
-    const current = html.getAttribute("data-bs-theme");
-    const icon = document.getElementById("themeIcon");
+    const current = html.getAttribute("data-bs-theme") || "light";
+    const icon = document.getElementById("themeToggle");
+    const image = document.getElementById("themeImage");
+    const imgmaquiagem = document.getElementById("themeImgmaquiagem");
+    const imgcabelo = document.getElementById("themeImgcabelo");
+    const imgperfume = document.getElementById("themeImgperfume");
 
     if (current === "dark") {
         html.setAttribute("data-bs-theme", "light");
-        icon.className = "bi bi-moon";
+        localStorage.setItem("theme", "light");
+        if (icon) icon.className = "bi bi-moon";
+        if (image) image.src = "/img/skincare_light.png";
+        if (imgmaquiagem) imgmaquiagem.src = "/img/maquiagem_light.png";
+        if (imgcabelo) imgcabelo.src = "/img/cabelo_light.png";
+        if (imgperfume) imgperfume.src = "/img/perfume_light.png";
     } else {
         html.setAttribute("data-bs-theme", "dark");
-        icon.className = "bi bi-sun";
+        localStorage.setItem("theme", "dark");
+        if (icon) icon.className = "bi bi-sun";
+        if (image) image.src = "/img/skincare_dark.png";
+        if (imgmaquiagem) imgmaquiagem.src = "/img/maquiagem_dark.png";
+        if (imgcabelo) imgcabelo.src = "/img/cabelo_dark.png";
+        if (imgperfume) imgperfume.src = "/img/perfume_dark.png";
     }
 }
+
+function applySavedTheme() {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    const html = document.documentElement;
+    html.setAttribute("data-bs-theme", savedTheme);
+
+    const icon = document.getElementById("themeToggle");
+    const image = document.getElementById("themeImage");
+    const imgmaquiagem = document.getElementById("themeImgmaquiagem");
+    const imgcabelo = document.getElementById("themeImgcabelo");
+    const imgperfume = document.getElementById("themeImgperfume");
+
+    if (savedTheme === "dark") {
+        if (icon) icon.className = "bi bi-sun";
+        if (image) image.src = "/img/skincare_dark.png";
+        if (imgmaquiagem) imgmaquiagem.src = "/img/maquiagem_dark.png";
+        if (imgcabelo) imgcabelo.src = "/img/cabelo_dark.png";
+        if (imgperfume) imgperfume.src = "/img/perfume_dark.png";
+    } else {
+        if (icon) icon.className = "bi bi-moon";
+        if (image) image.src = "/img/skincare_light.png";
+        if (imgmaquiagem) imgmaquiagem.src = "/img/maquiagem_light.png";
+        if (imgcabelo) imgcabelo.src = "/img/cabelo_light.png";
+        if (imgperfume) imgperfume.src = "/img/perfume_light.png";
+    }
+}
+
+document.addEventListener("DOMContentLoaded", applySavedTheme);
+
+
 
 var carrossel = document.querySelector('#carouselExample');
 var instanciaCarrossel = new bootstrap.Carousel(carrossel, {
@@ -84,7 +129,7 @@ function toggleSenha() {
     }
 }
 
-function toggleSenha2() {
+function toggleSenhaLog() {
     var input = document.getElementById("senhaCliente2");
     if (input.type === "password") {
         input.type = "text";
@@ -113,43 +158,3 @@ function abrirMenuLogin(event) {
     toggleMobileMenu();     // fecha o menu hambúrguer
     menuLogin();            // exibe o menu de login
 }
-
-
-// ------------- CARREGARR PRODUUUTO
-
-
-function carregarProduto() {
-
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get('produto')
-
-
-    const produto = produtos[id];
-    if (!produto) return;
-
-
-    document.getElementById("nome").innerText = produto.nome;
-    document.getElementById("preco").innerText = produto.preco;
-    document.getElementById("imagem").src = produto.imagem;
-    document.getElementById("descricao").innerText = produto.descricao;
-
-    const tamanhoSelect = document.getElementById("tamanhos");
-    tamanhoSelect.innerHTML = "";
-    produto.tamanhos.forEach(tamanho => {
-        const option = document.createElement("option");
-        option.value = tamanho;
-        option.textContent = tamanho;
-        tamanhoSelect.appendChild(option);
-    });
-
-    const corSelect = document.getElementById("cores");
-    corSelect.innerHTML = "";
-    produto.cores.forEach(cor => {
-        const option = document.createElement("option");
-        option.value = cor;
-        option.textContent = cor;
-        corSelect.appendChild(option);
-    });
-}
-
-carregarProduto();
