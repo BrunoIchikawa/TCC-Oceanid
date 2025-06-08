@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OceanidProjeto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6641d48d8e3bb0d89306aecb97f4074e42a34d42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+214a79a119722aae2c3e03d4e688834c9f0c17c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("OceanidProjeto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OceanidProjeto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

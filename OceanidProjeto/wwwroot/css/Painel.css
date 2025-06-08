@@ -1,69 +1,21 @@
 ﻿:root,
 [data-bs-theme="light"] {
     --bs-body-bg: #fff;
-    --bs-body-color: #000;
-    --bs-corDosBotoes: #ABDDDE;
     --bs-corDasLetras: #0F1C28;
-    --bs-headertxt-color: #000;
-    --bs-headertxt2-color: #8EE2E8;
-    --bs-fundodest-color: #FFFBFB;
-    --bs-menulogin-color: #fff;
-    --bs-entrar-color: #EFC6D8;
-    --bs-entrar2-color: #ABDDDE;
-    --bs-hoverDosBotoes: #EFC6D8;
-    --bs-cadastro-color: #fff;
-    --bs-pesqtxt-color: #000;
-    --bs-txtp-color: #000;
-    --bs-ipesq-color: #000;
-    --bs-iuser-color: #000;
-    --bs-iheart-color: #000;
-    --bs-ilua-color: #000;
-    --bs-icasa-color: #000;
-    --bs-icarrinho-color: #000;
-    --bs-txtnp-color: #000;
-    --bs-sectiontxt-color: #000;
-    --bs-card-color: #fff;
-    --bs-btnPainel-fundo: #1C364E;
-    --bs-footerGradiente: linear-gradient(to right, #8EE2E8, #4C82B4, #1C364E);
+    --bs-card-color: #a9cbe0;
+    --bs-btnFundo: #4C82B4;
 }
 
 [data-bs-theme="dark"] {
-    --bs-header-color: #0F1C28;
-    --bs-fundo-color: #fff;
     --bs-body-bg: #0F1C28;
-    --bs-corDosBotoes: #F8A797;
     --bs-corDasLetras: #fff;
-    --bs-headertxt-color: #8EE2E8;
-    --bs-headertxt2-color: #F8A797;
-    --bs-fundodest-color: #0F1C28;
-    --bs-menulogin-color: #0F1C28;
-    --bs-entrar-color: #EFC6D8;
-    --bs-entrar2-color: #F8A797;
-    --bs-hoverDosBotoes: #F897D1;
-    --bs-logintxt-color: #FFF1BC;
-    --bs-txt-color: #fff;
-    --bs-cadastro-color: #0F1C28;
-    --bs-pesquisa-color: #0F1C28;
-    --bs-pesqtxt-color: #fff;
-    --bs-txtp-color: #fff;
-    --bs-ipesq-color: #fff;
-    --bs-iuser-color: #fff;
-    --bs-iheart-color: #fff;
-    --bs-ilua-color: #fff;
-    --bs-icasa-color: #fff;
-    --bs-icarrinho-color: #fff;
-    --bs-txtnp-color: #fff;
-    --bs-sectiontxt-color: #fff;
     --bs-card-color: #294B6D;
-    --bs-btnPainel-fundo: #a9cbe0;
-    --bs-footerGradiente: linear-gradient(to right, #3e8298, #1b558b, #1C364E);
+    --bs-btnFundo: #1C364E;
 }
-
-
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #fff;
+    background-color: var(--bs-body-bg);
     margin: 0;
     padding: 0;
     color: var(--bs-corDasLetras);
@@ -77,18 +29,22 @@ body {
 /* Sidebar */
 .sidebar {
     width: 220px;
-    background-color: #f8f8f8;
+    background-color: var(--bs-card-color);
     padding: 40px 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
     color: var(--bs-corDasLetras);
 }
 
+    .sidebar a {
+        color: var(--bs-corDasLetras);
+    }
+
     .sidebar i {
+        color: var(--bs-corDasLetras);
         font-size: 20px;
         text-align: center;
         line-height: 35px;
     }
-
 
 .sidebar-logo {
     width: 80px;
@@ -189,7 +145,7 @@ body {
     align-self: start;
     padding: 10px 20px;
     font-size: 14px;
-    background-color: #1C364E;
+    background-color: var(--bs-btnFundo);
     color: var(--bs-corDasLetras);
     border: none;
     border-radius: 8px;
