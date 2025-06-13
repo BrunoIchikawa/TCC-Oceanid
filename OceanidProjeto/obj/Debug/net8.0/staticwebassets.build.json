@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VSX64TGl4NR/IOfRUSsUjrBgEuOeV83NGO6X2N/MqPY=",
+  "Hash": "H579VVinVq0rvtMIIj9QvWh51ucZTpiOhzoi/aGAiiE=",
   "Source": "OceanidProjeto",
   "BasePath": "_content/OceanidProjeto",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OceanidProjeto\\wwwroot",
       "Source": "OceanidProjeto",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OceanidProjeto.styles.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OceanidProjeto.styles.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "OceanidProjeto.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OceanidProjeto.styles.css"
+      "OriginalItemSpec": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OceanidProjeto.styles.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OceanidProjeto.bundle.scp.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OceanidProjeto.bundle.scp.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "OceanidProjeto.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OceanidProjeto.bundle.scp.css"
+      "OriginalItemSpec": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OceanidProjeto.bundle.scp.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\carrinho.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\carrinho.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "css/carrinho.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\carrinho.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Detalhes.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Detalhes.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "css/Detalhes.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Detalhes.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Painel.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Painel.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "css/Painel.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Painel.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\site.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\site.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\favicon.ico",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\favicon.ico",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\images\\logo.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\baggy-linkedin.jpeg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\baggy-linkedin.jpeg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/baggy-linkedin.jpeg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\baggy-linkedin.jpeg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\baggy-linkedin2.jpeg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\baggy-linkedin2.jpeg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/baggy-linkedin2.jpeg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\baggy-linkedin2.jpeg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\banner.jfif",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\banner.jfif",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/banner.jfif",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner.jfif"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\bg-footer.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\bg-footer.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/bg-footer.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bg-footer.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\boleto-oceanid.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\boleto-oceanid.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/boleto-oceanid.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\img\\boleto-oceanid.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\bruno-linkedin.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\bruno-linkedin.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/bruno-linkedin.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\img\\bruno-linkedin.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_dark.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/cabelo_dark.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cabelo_dark.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_light.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cabelo_light.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/cabelo_light.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cabelo_light.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carol-linkedin.jpeg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carol-linkedin.jpeg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/carol-linkedin.jpeg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carol-linkedin.jpeg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\1.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\1.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/carrossel/1.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carrossel\\1.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\2.mp4",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\2.mp4",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/carrossel/2.mp4",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carrossel\\2.mp4"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.mp4",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\3.mp4",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/carrossel/3.mp4",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carrossel\\3.mp4"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\4.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\carrossel\\4.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/carrossel/4.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\carrossel\\4.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cartao.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\cartao.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/cartao.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\img\\cartao.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\darkmode.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\darkmode.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/darkmode.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\img\\darkmode.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\dinheiro.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\dinheiro.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/dinheiro.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\img\\dinheiro.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\emilly-linkedin2.jpeg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\emilly-linkedin2.jpeg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/emilly-linkedin2.jpeg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\img\\emilly-linkedin2.jpeg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\eye-icon.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\eye-icon.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/eye-icon.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\img\\eye-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\favs-icon.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\favs-icon.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/favs-icon.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favs-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\favsP-icon.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\favsP-icon.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/favsP-icon.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favsP-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\fechar-icon.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\fechar-icon.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/fechar-icon.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fechar-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\gabiGomes-linkedin.jpeg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\gabiGomes-linkedin.jpeg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/gabiGomes-linkedin.jpeg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gabiGomes-linkedin.jpeg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\gabiMoreira-linkedin.jpeg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\gabiMoreira-linkedin.jpeg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/gabiMoreira-linkedin.jpeg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gabiMoreira-linkedin.jpeg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\giovanna-linkedin.jpeg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\giovanna-linkedin.jpeg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/giovanna-linkedin.jpeg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\img\\giovanna-linkedin.jpeg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-escova-de-cabelo-50.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-escova-de-cabelo-50.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-escova-de-cabelo-50.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-escova-de-cabelo-50.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-garrafa-de-creme-64.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-garrafa-de-creme-64.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-garrafa-de-creme-64.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-garrafa-de-creme-64.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-instagram-50.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-instagram-50.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-instagram-50.png",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-instagram-50.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-lixo-48.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-lixo-48.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-lixo-48.png",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-lixo-48.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-maquiagem-64.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-maquiagem-64.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-maquiagem-64.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-maquiagem-64.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-novo-64.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-novo-64.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-novo-64.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-novo-64.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-perfume-50.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-perfume-50.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-perfume-50.png",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-perfume-50.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-skin-care-64.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-skin-care-64.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-skin-care-64.png",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-skin-care-64.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-tiktok-30.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-tiktok-30.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-tiktok-30.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-tiktok-30.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-twitter-50.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icons8-twitter-50.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icons8-twitter-50.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-twitter-50.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icon-shopping-prod.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\icon-shopping-prod.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/icon-shopping-prod.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon-shopping-prod.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\img1.jpg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\img1.jpg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/img1.jpg",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img1.jpg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\img2.jpg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\img2.jpg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/img2.jpg",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img2.jpg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\img3.jpg",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\img3.jpg",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/img3.jpg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\img\\img3.jpg"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\kit-maquiagem.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\kit-maquiagem.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/kit-maquiagem.png",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\img\\kit-maquiagem.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\login-icon.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\login-icon.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/login-icon.png",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\img\\login-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\codedMind-logo.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\codedMind-logo.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logos/codedMind-logo.png",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\codedMind-logo.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\gh-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\gh-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logos/gh-img.png",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\gh-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\lgCalaveritoVertical.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\lgCalaveritoVertical.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logos/lgCalaveritoVertical.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\lgCalaveritoVertical.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\LogoCMFinalOficial.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\LogoCMFinalOficial.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logos/LogoCMFinalOficial.png",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\LogoCMFinalOficial.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\rede-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\rede-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logos/rede-img.png",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\rede-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\skincare-categoria.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\skincare-categoria.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logos/skincare-categoria.png",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\skincare-categoria.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\Vinotália-pprt.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logos\\Vinotália-pprt.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logos/Vinotália-pprt.png",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logos\\Vinotália-pprt.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logout.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\logout.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/logout.png",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logout.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_dark.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/maquiagem_dark.png",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\img\\maquiagem_dark.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_light.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\maquiagem_light.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/maquiagem_light.png",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\maquiagem_light.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\menuBurguer-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\menuBurguer-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/menuBurguer-img.png",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\img\\menuBurguer-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\mvv\\missao-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\mvv\\missao-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/mvv/missao-img.png",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mvv\\missao-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\mvv\\valores-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\mvv\\valores-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/mvv/valores-img.png",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mvv\\valores-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\mvv\\visao-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\mvv\\visao-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/mvv/visao-img.png",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\img\\mvv\\visao-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oceanid_logo.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oceanid_logo.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/oceanid_logo.png",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\img\\oceanid_logo.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oceanid_logo_menor.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oceanid_logo_menor.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/oceanid_logo_menor.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\img\\oceanid_logo_menor.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oferta-categoria.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\oferta-categoria.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/oferta-categoria.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\img\\oferta-categoria.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_dark.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/perfume_dark.png",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\img\\perfume_dark.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_light.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\perfume_light.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/perfume_light.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\img\\perfume_light.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\pesq-icon.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\pesq-icon.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/pesq-icon.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pesq-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img1.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img1.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img1.png",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img1.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img10.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img10.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img10.png",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img10.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img11.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img11.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img11.png",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img11.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img12.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img12.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img12.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img12.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img13.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img13.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img13.png",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img13.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img14.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img14.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img14.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img14.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img15.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img15.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img15.png",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img15.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img16.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img16.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img16.png",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img16.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img17.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img17.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img17.png",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img17.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img18.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img18.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img18.png",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img18.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img19.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img19.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img19.png",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img19.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img2.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img2.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img2.png",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img2.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img20.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img20.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img20.png",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img20.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img21.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img21.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img21.png",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img21.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img22.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img22.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img22.png",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img22.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img23.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img23.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img23.png",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img23.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img24.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img24.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img24.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img24.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img25.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img25.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img25.png",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img25.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img26.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img26.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img26.png",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img26.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img27.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img27.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img27.png",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img27.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img28.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img28.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img28.png",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img28.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img29.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img29.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img29.png",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img29.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img3.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img3.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img3.png",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img3.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img30.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img30.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img30.png",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img30.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img31.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img31.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img31.png",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img31.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img32.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img32.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img32.png",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img32.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img33.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img33.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img33.png",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img33.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img34.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img34.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img34.png",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img34.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img35.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img35.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img35.png",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img35.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img36.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img36.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img36.png",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img36.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img37.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img37.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img37.png",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img37.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img38.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img38.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img38.png",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img38.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img39.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img39.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img39.png",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img39.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img4.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img4.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img4.png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img4.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img40.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img40.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img40.png",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img40.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img41.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img41.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img41.png",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img41.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img42.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img42.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img42.png",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img42.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img43.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img43.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img43.png",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img43.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img44.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img44.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img44.png",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img44.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img45.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img45.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img45.png",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img45.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img46.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img46.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img46.png",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img46.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img47.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img47.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img47.png",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img47.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img48.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img48.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img48.png",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img48.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img49.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img49.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img49.png",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img49.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img5.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img5.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img5.png",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img5.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img50.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img50.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img50.png",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img50.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img51.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img51.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img51.png",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img51.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img52.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img52.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img52.png",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img52.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img53.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img53.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img53.png",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img53.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img54.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img54.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img54.png",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img54.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img55.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img55.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img55.png",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img55.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img56.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img56.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img56.png",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img56.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img57.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img57.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img57.png",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img57.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img58.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img58.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img58.png",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img58.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img59.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img59.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img59.png",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img59.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img6.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img6.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img6.png",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img6.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img60.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img60.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img60.png",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img60.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img7.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img7.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img7.png",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img7.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img8.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img8.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img8.png",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img8.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img9.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\img9.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/img9.png",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\img9.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\sem-imagem.png.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos\\sem-imagem.png.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/produtos/sem-imagem.png.png",
       "AssetKind": "All",
@@ -2468,10 +2468,295 @@
       "OriginalItemSpec": "wwwroot\\img\\produtos\\sem-imagem.png.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\banco-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-cabelo\\img1.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-cabelo/img1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-cabelo\\img1.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-cabelo\\img2.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-cabelo/img2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-cabelo\\img2.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-cabelo\\img3.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-cabelo/img3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-cabelo\\img3.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-cabelo\\img4.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-cabelo/img4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-cabelo\\img4.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-cabelo\\img5.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-cabelo/img5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-cabelo\\img5.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-perfume\\img1.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-perfume/img1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-perfume\\img1.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-perfume\\img2.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-perfume/img2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-perfume\\img2.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-perfume\\img3.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-perfume/img3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-perfume\\img3.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-perfume\\img4.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-perfume/img4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-perfume\\img4.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-perfume\\img5.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-perfume/img5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-perfume\\img5.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-skincare\\img1.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-skincare/img1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-skincare\\img1.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-skincare\\img2.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-skincare/img2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-skincare\\img2.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-skincare\\img3.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-skincare/img3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-skincare\\img3.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-skincare\\img4.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-skincare/img4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-skincare\\img4.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\produtos-skincare\\img5.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "BasePath": "_content/OceanidProjeto",
+      "RelativePath": "img/produtos-skincare/img5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produtos-skincare\\img5.png"
+    },
+    {
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\banco-img.png",
+      "SourceId": "OceanidProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/servicos/banco-img.png",
       "AssetKind": "All",
@@ -2487,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\img\\servicos\\banco-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\cll-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\cll-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/servicos/cll-img.png",
       "AssetKind": "All",
@@ -2506,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\img\\servicos\\cll-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\identidade-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\identidade-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/servicos/identidade-img.png",
       "AssetKind": "All",
@@ -2525,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\img\\servicos\\identidade-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\mundo-imng.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\mundo-imng.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/servicos/mundo-imng.png",
       "AssetKind": "All",
@@ -2544,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\img\\servicos\\mundo-imng.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\pc-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\pc-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/servicos/pc-img.png",
       "AssetKind": "All",
@@ -2563,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\img\\servicos\\pc-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\suporte-img.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\servicos\\suporte-img.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/servicos/suporte-img.png",
       "AssetKind": "All",
@@ -2582,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\servicos\\suporte-img.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\shopping-icon.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\shopping-icon.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/shopping-icon.png",
       "AssetKind": "All",
@@ -2601,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\img\\shopping-icon.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_dark.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_dark.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/skincare_dark.png",
       "AssetKind": "All",
@@ -2620,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\img\\skincare_dark.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_light.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\skincare_light.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/skincare_light.png",
       "AssetKind": "All",
@@ -2639,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\img\\skincare_light.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Thumbs.db",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\Thumbs.db",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/Thumbs.db",
       "AssetKind": "All",
@@ -2658,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\voltdrive.png",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\img\\voltdrive.png",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "img/voltdrive.png",
       "AssetKind": "All",
@@ -2677,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\img\\voltdrive.png"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\js\\site.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\js\\site.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2696,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2715,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2734,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2753,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2772,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2791,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2810,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2829,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2848,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2867,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2886,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2905,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2924,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2943,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2962,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2981,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3000,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3019,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3038,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3057,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3076,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3095,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3114,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3133,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3152,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3171,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3190,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3209,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3228,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3247,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3266,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3285,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3304,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3323,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3342,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3361,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3380,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3399,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3418,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3437,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3456,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3475,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3494,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3513,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3532,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3551,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3570,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3589,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3608,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3627,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3646,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3665,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3684,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3703,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3722,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3741,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3760,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "OceanidProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
+      "ContentRoot": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\",
       "BasePath": "_content/OceanidProjeto",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

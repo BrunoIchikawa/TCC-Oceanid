@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\TCM\\TCC-Oceanid\\",
+  "WorkspaceRootPath": "C:\\TCM2\\TCC-Oceanid\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm\\tcc-oceanid\\oceanidprojeto\\wwwroot\\css\\painel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\wwwroot\\css\\painel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm2\\tcc-oceanid\\oceanidprojeto\\views\\produtoes\\perfume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\produtoes\\perfume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm\\tcc-oceanid\\oceanidprojeto\\views\\adms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\adms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm2\\tcc-oceanid\\oceanidprojeto\\views\\produtoes\\cabelo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\produtoes\\cabelo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm\\tcc-oceanid\\oceanidprojeto\\views\\clientes\\painel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\clientes\\painel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm2\\tcc-oceanid\\oceanidprojeto\\views\\produtoes\\skincare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\produtoes\\skincare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm2\\tcc-oceanid\\oceanidprojeto\\controllers\\produtoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\controllers\\produtoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm2\\tcc-oceanid\\oceanidprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|c:\\tcm2\\tcc-oceanid\\oceanidprojeto\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0064D42D-0E64-4C14-BD0C-A10675EAE1A6}|OceanidProjeto\\OceanidProjeto.csproj|solutionrelative:oceanidprojeto\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Skincare.cshtml",
+              "DocumentMoniker": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Produtoes\\Skincare.cshtml",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Produtoes\\Skincare.cshtml",
+              "ToolTip": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Produtoes\\Skincare.cshtml",
+              "RelativeToolTip": "OceanidProjeto\\Views\\Produtoes\\Skincare.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T23:36:56.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Painel.css",
-              "DocumentMoniker": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Painel.css",
-              "RelativeDocumentMoniker": "OceanidProjeto\\wwwroot\\css\\Painel.css",
-              "ToolTip": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\Painel.css",
-              "RelativeToolTip": "OceanidProjeto\\wwwroot\\css\\Painel.css",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAAAJMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-08T17:34:35.688Z",
-              "IsPinned": true,
+              "Title": "Perfume.cshtml",
+              "DocumentMoniker": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Produtoes\\Perfume.cshtml",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Produtoes\\Perfume.cshtml",
+              "ToolTip": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Produtoes\\Perfume.cshtml",
+              "RelativeToolTip": "OceanidProjeto\\Views\\Produtoes\\Perfume.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAjwJYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T23:35:32.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Adms\\Index.cshtml",
-              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Adms\\Index.cshtml",
-              "ToolTip": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Adms\\Index.cshtml",
-              "RelativeToolTip": "OceanidProjeto\\Views\\Adms\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAD8AAAArAAAA",
+              "Title": "Cabelo.cshtml",
+              "DocumentMoniker": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Produtoes\\Cabelo.cshtml",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Produtoes\\Cabelo.cshtml",
+              "ToolTip": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Produtoes\\Cabelo.cshtml",
+              "RelativeToolTip": "OceanidProjeto\\Views\\Produtoes\\Cabelo.cshtml",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAgwJMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T17:32:06.555Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-06-13T23:34:38.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Painel.cshtml",
-              "DocumentMoniker": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Clientes\\Painel.cshtml",
-              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Clientes\\Painel.cshtml",
-              "ToolTip": "C:\\TCM\\TCC-Oceanid\\OceanidProjeto\\Views\\Clientes\\Painel.cshtml",
-              "RelativeToolTip": "OceanidProjeto\\Views\\Clientes\\Painel.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "ProdutoesController.cs",
+              "DocumentMoniker": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Controllers\\ProdutoesController.cs",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Controllers\\ProdutoesController.cs",
+              "ToolTip": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Controllers\\ProdutoesController.cs",
+              "RelativeToolTip": "OceanidProjeto\\Controllers\\ProdutoesController.cs",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAIwM4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:17:20.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "OceanidProjeto\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "OceanidProjeto\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAFIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-13T23:09:55.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OceanidProjeto\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\TCM2\\TCC-Oceanid\\OceanidProjeto\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OceanidProjeto\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-08T17:36:37.75Z",
+              "WhenOpened": "2025-06-13T23:09:29.879Z",
               "EditorCaption": ""
             }
           ]

@@ -197,20 +197,6 @@ namespace OceanidProjeto.Controllers
 
         public IActionResult Skincare()
         {
-            var categoria = _context.Categorias.FirstOrDefault(c => c.idCategoria == 2);
-
-            if (categoria != null)
-            {
-                categoria.Produtos = _context.Produtos
-                    .Where(p => p.idCategoria == categoria.idCategoria)
-                    .ToList();
-
-                ViewBag.CategoriaProdutos = new List<Categoria> { categoria };
-            }
-            else
-            {
-                ViewBag.CategoriaProdutos = new List<Categoria>();
-            }
 
             return View();
         }
@@ -218,22 +204,7 @@ namespace OceanidProjeto.Controllers
 
         public IActionResult Cabelo()
         {
-            var categoria = _context.Categorias
-                .Where(c => c.idCategoria == 3)
-                .FirstOrDefault();
-
-            if (categoria != null)
-            {
-                categoria.Produtos = _context.Produtos
-                    .Where(p => p.idCategoria == categoria.idCategoria)
-                    .ToList();
-
-                ViewBag.CategoriaProdutos = new List<Categoria> { categoria };
-            }
-            else
-            {
-                ViewBag.CategoriaProdutos = new List<Categoria>();
-            }
+            
 
             return View();
         }

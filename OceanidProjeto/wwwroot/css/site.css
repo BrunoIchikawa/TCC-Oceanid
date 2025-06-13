@@ -79,7 +79,9 @@ html {
 }
 
 
-
+.fundo-home {
+    background-color: var(--bs-fundodest-color)
+}
 .ipesq {
     color: var(--bs-ipesq-color);
 }
